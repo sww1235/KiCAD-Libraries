@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM833-N
+D Audio Operational Amplifier
+K LM833 audio op amp
+F http://www.ti.com/lit/ds/symlink/lm833-n.pdf
+$ENDCMP
+#
+#End Doc Library
