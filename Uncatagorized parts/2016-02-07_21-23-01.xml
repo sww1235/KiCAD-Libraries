@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ul_xml_library>
+<creater name="Ultra Librarian Lite" major="5" minor="3" revision="409"/>
+<textstyle name="H50s3" height="50" strokewidth="3" charwidth="25"/>
+<textstyle name="H25s3" height="25" strokewidth="1" charwidth="0"/>
+<textstyle name="H82s5" height="82" strokewidth="5" charwidth="85"/>
+<textstyle name="Default" height="100" strokewidth="10" charwidth="30"/>
+<textstyle name="H100S10" height="100" strokewidth="10" charwidth="30"/>
+<textstyle name="h100s3" height="100" strokewidth="3" charwidth="85"/>
+<textstyle name="h100s5" height="100" strokewidth="5" charwidth="80"/>
+<textstyle name="H10S1" height="10" strokewidth="1" charwidth="3"/>
+<textstyle name="h125s6" height="125" strokewidth="6" charwidth="0"/>
+<textstyle name="h150s6" height="150" strokewidth="6" charwidth="120"/>
+<textstyle name="h151s6" height="150" strokewidth="6" charwidth="120"/>
+<textstyle name="H160S0" height="160" strokewidth="0" charwidth="100"/>
+<textstyle name="H30s3" height="30" strokewidth="3" charwidth="0"/>
+<textstyle name="H40S2" height="40" strokewidth="2" charwidth="25"/>
+<textstyle name="H50S0" height="50" strokewidth="0" charwidth="25"/>
+<textstyle name="H51S3" height="51" strokewidth="3" charwidth="13"/>
+<textstyle name="H60S7" height="60" strokewidth="7" charwidth="60"/>
+<textstyle name="H70s4" height="70" strokewidth="4" charwidth="0"/>
+<textstyle name="H80s4" height="80" strokewidth="4" charwidth="0"/>
+<textstyle name="H82S8" height="82" strokewidth="8" charwidth="0"/>
+<padstyle name="RX54Y18D0TSM2" surface="true" plated="false" isvia="false" nopaste="false" nomask="false" complex="false">
+<padshape layer="TOP" shape="rectangle" width="54" height="18"/>
+<padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="62" height="28"/>
+</padstyle>
+<padstyle name="RX54Y18D0T" surface="true" plated="false" isvia="false" nopaste="false" nomask="false" complex="false">
+<padshape layer="TOP" shape="rectangle" width="54" height="18"/>
+<padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="62" height="28"/>
+</padstyle>
+<padstyle name="RX66Y20D0TSM2" surface="true" plated="false" isvia="false" nopaste="false" nomask="false" complex="false">
+<padshape layer="TOP" shape="rectangle" width="66" height="20"/>
+<padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="74" height="30"/>
+</padstyle>
+<padstyle name="RX66Y20D0T" surface="true" plated="false" isvia="false" nopaste="false" nomask="false" complex="false">
+<padshape layer="TOP" shape="rectangle" width="66" height="20"/>
+<padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="74" height="30"/>
+</padstyle>
+<padstyle name="RX42Y16D0TSM2" surface="true" plated="false" isvia="false" nopaste="false" nomask="false" complex="false">
+<padshape layer="TOP" shape="rectangle" width="42" height="16"/>
+<padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="50" height="26"/>
+</padstyle>
+<padstyle name="RX42Y16D0T" surface="true" plated="false" isvia="false" nopaste="false" nomask="false" complex="false">
+<padshape layer="TOP" shape="rectangle" width="42" height="16"/>
+<padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="50" height="26"/>
+</padstyle>
+<footprint name="MUA08A" renamedpins="false" originx="0" originy="0" pickpointx="0" pickpointy="0">
+<pcbpin number="1" name="1" style="RX54Y18D0TSM2" originalstyle="RX54Y18D0TSM2" originx="-86.5" originy="38.3858" rotation="0" originalpinnumber="1"/>
+<pcbpin number="2" name="2" style="RX54Y18D0T" originalstyle="RX54Y18D0T" originx="-86.5" originy="12.7953" rotation="0" originalpinnumber="2"/>
+<pcbpin number="3" name="3" style="RX54Y18D0T" originalstyle="RX54Y18D0T" originx="-86.5" originy="-12.7953" rotation="0" originalpinnumber="3"/>
+<pcbpin number="4" name="4" style="RX54Y18D0T" originalstyle="RX54Y18D0T" originx="-86.5" originy="-38.3858" rotation="0" originalpinnumber="4"/>
+<pcbpin number="5" name="5" style="RX54Y18D0T" originalstyle="RX54Y18D0T" originx="86.5" originy="-38.3858" rotation="0" originalpinnumber="5"/>
+<pcbpin number="6" name="6" style="RX54Y18D0T" originalstyle="RX54Y18D0T" originx="86.5" originy="-12.7953" rotation="0" originalpinnumber="6"/>
+<pcbpin number="7" name="7" style="RX54Y18D0T" originalstyle="RX54Y18D0T" originx="86.5" originy="12.7953" rotation="0" originalpinnumber="7"/>
+<pcbpin number="8" name="8" style="RX54Y18D0T" originalstyle="RX54Y18D0T" originx="86.5" originy="38.3858" rotation="0" originalpinnumber="8"/>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="46.3858"/>
+<point x="-99.5" y="30.3858"/>
+<point x="-73.5" y="30.3858"/>
+<point x="-73.5" y="46.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="20.7953"/>
+<point x="-99.5" y="4.7953"/>
+<point x="-73.5" y="4.7953"/>
+<point x="-73.5" y="20.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="-4.7953"/>
+<point x="-99.5" y="-20.7953"/>
+<point x="-73.5" y="-20.7953"/>
+<point x="-73.5" y="-4.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="-30.3858"/>
+<point x="-99.5" y="-46.3858"/>
+<point x="-73.5" y="-46.3858"/>
+<point x="-73.5" y="-30.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="-30.3858"/>
+<point x="73.5" y="-46.3858"/>
+<point x="99.5" y="-46.3858"/>
+<point x="99.5" y="-30.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="-4.7953"/>
+<point x="73.5" y="-20.7953"/>
+<point x="99.5" y="-20.7953"/>
+<point x="99.5" y="-4.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="20.7953"/>
+<point x="73.5" y="4.7953"/>
+<point x="99.5" y="4.7953"/>
+<point x="99.5" y="20.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="46.3858"/>
+<point x="73.5" y="30.3858"/>
+<point x="99.5" y="30.3858"/>
+<point x="99.5" y="46.3858"/>
+</polygon>
+<line layer="TOP_PLACE_BOUND" originx="-123.5" originy="-71" endx="-123.5" endy="71" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="-123.5" originy="71" endx="123.5" endy="71" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="123.5" originy="71" endx="123.5" endy="-71" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="123.5" originy="-71" endx="-123.5" endy="-71" width="6"/>
+<polygon layer="TOP_PLACE_BOUND" type="polygon" width="6">
+<point x="-123.5" y="-71"/>
+<point x="-123.5" y="71"/>
+<point x="123.5" y="71"/>
+<point x="123.5" y="-71"/>
+</polygon>
+<polygon layer="TOP_VALOR" type="polygon" width="6">
+<point x="-138.5" y="-71"/>
+<point x="-138.5" y="71"/>
+<point x="138.5" y="71"/>
+<point x="138.5" y="-71"/>
+</polygon>
+<polygon layer="TOP_NO-PROBE" type="polygon" width="6">
+<point x="-138.5" y="-86"/>
+<point x="-138.5" y="86"/>
+<point x="138.5" y="86"/>
+<point x="138.5" y="-86"/>
+</polygon>
+<text name="Height" layer="PRO_E" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="43"/>
+<text name="MINHEIGHT" layer="PRO_E" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="2"/>
+<line layer="PRO_E" originx="-61" originy="61" endx="-61" endy="-61" width="6"/>
+<line layer="PRO_E" originx="-61" originy="-61" endx="61" endy="-61" width="6"/>
+<line layer="PRO_E" originx="61" originy="-61" endx="61" endy="61" width="6"/>
+<line layer="PRO_E" originx="61" originy="61" endx="-61" endy="61" width="6"/>
+<arc layer="PRO_E" originx="0" originy="61" startangle="180" sweepangle="180" radius="10.1666698455811" width="6"/>
+<text layer="DIMENSION" originx="0" originy="-211" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="Default Padstyle&#58; RX54Y18D0T"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="0" endx="-61" endy="151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="0" endx="61" endy="151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-111" endy="136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="111" endy="136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-71" endy="141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-71" originy="141" endx="-71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="71" endy="141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="71" originy="141" endx="71" endy="131" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="0" originy="156" style="H50S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data="BODY_W"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="0" endx="-99.5" endy="226" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="0" endx="99.5" endy="226" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="99.5" endy="211" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="-89.5" endy="216" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="-89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-89.5" originy="216" endx="-89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="211" endx="89.5" endy="216" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="211" endx="89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="89.5" originy="216" endx="89.5" endy="206" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="0" originy="231" style="H50S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data="LX"/>
+<line layer="INPUTDIMENSIONS" originx="0" originy="61" endx="176" endy="61" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="0" originy="-61" endx="176" endy="-61" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="161" endy="111" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="161" endy="-111" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="156" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="166" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="156" originy="71" endx="166" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="156" endy="-71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="166" endy="-71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="156" originy="-71" endx="166" endy="-71" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="181" originy="0" style="H50S3" rotation="0" justify="left" flipped="false" hidden="false" data="BODY_H"/>
+<line layer="INPUTDIMENSIONS" originx="-86.5" originy="38.3858261108398" endx="-201.5" endy="38.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-86.5" originy="12.7952747344971" endx="-201.5" endy="12.7952747344971" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-186.5" originy="38.3858261108398" endx="-186.5" endy="88.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-186.5" originy="12.7952747344971" endx="-186.5" endy="-37.2047252655029" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-186.5" originy="38.3858261108398" endx="-191.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-186.5" originy="38.3858261108398" endx="-181.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-191.5" originy="48.3858261108398" endx="-181.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-186.5" originy="12.7952747344971" endx="-191.5" endy="2.79527473449707" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-186.5" originy="12.7952747344971" endx="-181.5" endy="2.79527473449707" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-191.5" originy="2.79527473449707" endx="-181.5" endy="2.79527473449707" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="-206.5" originy="25.5905494689941" style="H50S3" rotation="0" justify="right" flipped="false" hidden="false" data="RP"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="0" endx="-99.5" endy="-151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="0" endx="-73.5" endy="-151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-149.5" endy="-136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-23.5" endy="-136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-109.5" endy="-131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-109.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-109.5" originy="-131" endx="-109.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-63.5" endy="-131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-63.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-63.5" originy="-131" endx="-63.5" endy="-141" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="-86.5" originy="-156" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="FOOT_L"/>
+<line layer="PAD_DIMENSIONS" originx="-86.5" originy="38.3858261108398" endx="-201.5" endy="38.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-86.5" originy="12.7952747344971" endx="-201.5" endy="12.7952747344971" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-186.5" originy="38.3858261108398" endx="-186.5" endy="88.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-186.5" originy="12.7952747344971" endx="-186.5" endy="-37.2047252655029" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-186.5" originy="38.3858261108398" endx="-191.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-186.5" originy="38.3858261108398" endx="-181.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-191.5" originy="48.3858261108398" endx="-181.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-186.5" originy="12.7952747344971" endx="-191.5" endy="2.79527473449707" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-186.5" originy="12.7952747344971" endx="-181.5" endy="2.79527473449707" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-191.5" originy="2.79527473449707" endx="-181.5" endy="2.79527473449707" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="-206.5" originy="25.5905494689941" style="H25S3" rotation="0" justify="right" flipped="false" hidden="false" data="2.559055E-02in/.65mm"/>
+<line layer="PAD_DIMENSIONS" originx="86.5" originy="47.3858261108398" endx="201.5" endy="47.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="86.5" originy="29.3858242034912" endx="201.5" endy="29.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="186.5" originy="47.3858261108398" endx="186.5" endy="97.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="186.5" originy="29.3858242034912" endx="186.5" endy="-20.6141757965088" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="186.5" originy="47.3858261108398" endx="181.5" endy="57.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="186.5" originy="47.3858261108398" endx="191.5" endy="57.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="181.5" originy="57.3858261108398" endx="191.5" endy="57.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="186.5" originy="29.3858242034912" endx="181.5" endy="19.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="186.5" originy="29.3858242034912" endx="191.5" endy="19.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="181.5" originy="19.3858242034912" endx="191.5" endy="19.3858242034912" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="206.5" originy="38.3858261108398" style="H25S3" rotation="0" justify="left" flipped="false" hidden="false" data=".018in/.457mm"/>
+<line layer="PAD_DIMENSIONS" originx="-86.5" originy="0" endx="-86.5" endy="151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="86.5" originy="0" endx="86.5" endy="151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-86.5" originy="136" endx="86.5" endy="136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-86.5" originy="136" endx="-76.5" endy="141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-86.5" originy="136" endx="-76.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-76.5" originy="141" endx="-76.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="86.5" originy="136" endx="76.5" endy="141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="86.5" originy="136" endx="76.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="76.5" originy="141" endx="76.5" endy="131" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="0" originy="156" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".173in/4.394mm"/>
+<line layer="PAD_DIMENSIONS" originx="-113.5" originy="0" endx="-113.5" endy="-151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-59.5" originy="0" endx="-59.5" endy="-151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-113.5" originy="-136" endx="-163.5" endy="-136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-59.5" originy="-136" endx="-9.5" endy="-136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-113.5" originy="-136" endx="-123.5" endy="-131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-113.5" originy="-136" endx="-123.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-123.5" originy="-131" endx="-123.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-59.5" originy="-136" endx="-49.5" endy="-131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-59.5" originy="-136" endx="-49.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-49.5" originy="-131" endx="-49.5" endy="-141" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="-86.5" originy="-156" style="H25S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data=".054in/1.372mm"/>
+<line layer="DIMENSION" originx="-61" originy="0" endx="-61" endy="151" width="0"/>
+<line layer="DIMENSION" originx="61" originy="0" endx="61" endy="151" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-111" endy="136" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="111" endy="136" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-71" endy="141" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="-71" originy="141" endx="-71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="71" endy="141" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="71" originy="141" endx="71" endy="131" width="0"/>
+<text layer="DIMENSION" originx="0" originy="156" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".122in/3.099mm"/>
+<line layer="DIMENSION" originx="-99.5" originy="0" endx="-99.5" endy="226" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="0" endx="99.5" endy="226" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="99.5" endy="211" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="-89.5" endy="216" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="-89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="-89.5" originy="216" endx="-89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="211" endx="89.5" endy="216" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="211" endx="89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="89.5" originy="216" endx="89.5" endy="206" width="0"/>
+<text layer="DIMENSION" originx="0" originy="231" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".199in/5.055mm"/>
+<line layer="DIMENSION" originx="0" originy="61" endx="176" endy="61" width="0"/>
+<line layer="DIMENSION" originx="0" originy="-61" endx="176" endy="-61" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="161" endy="111" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="161" endy="-111" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="156" endy="71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="166" endy="71" width="0"/>
+<line layer="DIMENSION" originx="156" originy="71" endx="166" endy="71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="156" endy="-71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="166" endy="-71" width="0"/>
+<line layer="DIMENSION" originx="156" originy="-71" endx="166" endy="-71" width="0"/>
+<text layer="DIMENSION" originx="181" originy="0" style="H25S3" rotation="0" justify="left" flipped="false" hidden="false" data=".122in/3.099mm"/>
+<line layer="DIMENSION" originx="-86.5" originy="38.3858261108398" endx="-201.5" endy="38.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-86.5" originy="12.7952747344971" endx="-201.5" endy="12.7952747344971" width="0"/>
+<line layer="DIMENSION" originx="-186.5" originy="38.3858261108398" endx="-186.5" endy="88.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-186.5" originy="12.7952747344971" endx="-186.5" endy="-37.2047252655029" width="0"/>
+<line layer="DIMENSION" originx="-186.5" originy="38.3858261108398" endx="-191.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-186.5" originy="38.3858261108398" endx="-181.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-191.5" originy="48.3858261108398" endx="-181.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-186.5" originy="12.7952747344971" endx="-191.5" endy="2.79527473449707" width="0"/>
+<line layer="DIMENSION" originx="-186.5" originy="12.7952747344971" endx="-181.5" endy="2.79527473449707" width="0"/>
+<line layer="DIMENSION" originx="-191.5" originy="2.79527473449707" endx="-181.5" endy="2.79527473449707" width="0"/>
+<text layer="DIMENSION" originx="-206.5" originy="25.5905494689941" style="H25S3" rotation="0" justify="right" flipped="false" hidden="false" data="2.559055E-02in/.65mm"/>
+<line layer="DIMENSION" originx="-99.5" originy="0" endx="-99.5" endy="-151" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="0" endx="-73.5" endy="-151" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-149.5" endy="-136" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-23.5" endy="-136" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-109.5" endy="-131" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-109.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-109.5" originy="-131" endx="-109.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-63.5" endy="-131" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-63.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-63.5" originy="-131" endx="-63.5" endy="-141" width="0"/>
+<text layer="DIMENSION" originx="-86.5" originy="-156" style="H25S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data=".026in/.66mm"/>
+<text name="RefDes" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="false" data="RefDes"/>
+<text name="Type" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="DEV"/>
+<text name="PN" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="PN"/>
+<text name="DEV" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="DEV"/>
+<text name="VAL" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="VAL"/>
+<text name="TOL" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="TOL"/>
+<text name="RefDes2" layer="TOP_ASSEMBLY" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="false" data="RefDes2"/>
+<line layer="PIN_DETAIL" originx="366" originy="651" endx="266" endy="651" width="0"/>
+<line layer="PIN_DETAIL" originx="266" originy="651" endx="216" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="216" originy="551" endx="266" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="266" originy="451" endx="366" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="216" originy="551" endx="166" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="166" originy="551" endx="136" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="411" endx="180" endy="531" width="0"/>
+<line layer="PIN_DETAIL" originx="180" originy="531" endx="226" endy="531" width="0"/>
+<line layer="PIN_DETAIL" originx="363" originy="424" endx="394" endy="560" width="0"/>
+<line layer="PIN_DETAIL" originx="394" originy="560" endx="350" endy="591" width="0"/>
+<line layer="PIN_DETAIL" originx="350" originy="591" endx="383" endy="689" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="411" endx="98" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="411" endx="98" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="136" originy="431" endx="98" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="178" originy="411" endx="70" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="70" originy="411" endx="70" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="70" originy="401" endx="178" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="178" originy="401" endx="178" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="401" endx="150" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="178" originy="401" endx="178" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="386" endx="178" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="164" originy="376" style="H50s3" rotation="0" justify="upperleft" flipped="false" hidden="false" data="14"/>
+<line layer="PIN_DETAIL" originx="150" originy="386" endx="160" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="160" originy="381" endx="160" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="160" originy="391" endx="150" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="178" originy="386" endx="168" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="168" originy="391" endx="168" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="168" originy="381" endx="178" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="70" originy="401" endx="70" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="401" endx="98" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="70" originy="386" endx="98" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="84" originy="376" style="H50s3" rotation="0" justify="upperright" flipped="false" hidden="false" data="14"/>
+<line layer="PIN_DETAIL" originx="70" originy="386" endx="80" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="80" originy="391" endx="80" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="80" originy="381" endx="70" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="386" endx="88" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="88" originy="381" endx="88" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="88" originy="391" endx="98" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="366" endx="98" endy="366" width="0"/>
+<text layer="PIN_DETAIL" originx="124" originy="361" style="H50s3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="26"/>
+<line layer="PIN_DETAIL" originx="98" originy="366" endx="108" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="108" originy="361" endx="108" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="108" originy="371" endx="98" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="366" endx="140" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="140" originy="371" endx="140" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="140" originy="361" endx="150" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="411" endx="-234" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="411" endx="-234" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="411" endx="-266" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="431" endx="-234" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="-296" originy="551" endx="-204" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="451" endx="-296" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="451" endx="-204" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="-296" originy="651" endx="-204" endy="651" width="0"/>
+<line layer="PIN_DETAIL" originx="-194" originy="681" endx="-224" endy="581" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="581" endx="-184" endy="521" width="0"/>
+<line layer="PIN_DETAIL" originx="-184" originy="521" endx="-211" endy="422" width="0"/>
+<line layer="PIN_DETAIL" originx="-286" originy="681" endx="-316" endy="581" width="0"/>
+<line layer="PIN_DETAIL" originx="-316" originy="581" endx="-276" endy="521" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="521" endx="-303" endy="422" width="0"/>
+<line layer="PIN_DETAIL" originx="-267" originy="411" endx="-233" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="-267" originy="401" endx="-233" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-267" originy="411" endx="-267" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-233" originy="411" endx="-233" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-267" originy="381" endx="-267" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-233" originy="381" endx="-233" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-267" originy="386" endx="-297" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-267" originy="386" endx="-277" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="-277" originy="391" endx="-277" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="-277" originy="381" endx="-267" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-233" originy="386" endx="-203" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-233" originy="386" endx="-223" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="-223" originy="391" endx="-223" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="-223" originy="381" endx="-233" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="-193" originy="366" style="H50s3" rotation="0" justify="lowerleft" flipped="false" hidden="false" data="18"/>
+<line layer="PIN_DETAIL" originx="-266" originy="361" endx="-266" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="361" endx="-234" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="366" endx="-296" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="366" endx="-276" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="371" endx="-276" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="361" endx="-266" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="366" endx="-204" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="366" endx="-224" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="371" endx="-224" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="361" endx="-234" endy="366" width="0"/>
+<text layer="PIN_DETAIL" originx="-194" originy="366" style="H50s3" rotation="0" justify="upperleft" flipped="false" hidden="false" data="16"/>
+<text layer="PIN_DETAIL" originx="-50" originy="551" style="H50s3" rotation="0" justify="center" flipped="false" hidden="false" data="&#40;2x Scale&#41;"/>
+<text layer="TOP_ASSEMBLY" originx="-96.5" originy="82.3858261108398" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="&#42;"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="30.3858261108398" endx="-61" endy="46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="46.3858261108398" endx="-99.5" endy="46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="46.3858261108398" endx="-99.5" endy="30.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="30.3858261108398" endx="-61" endy="30.3858261108398" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="30.3858261108398"/>
+<point x="-61" y="46.3858261108398"/>
+<point x="-99.5" y="46.3858261108398"/>
+<point x="-99.5" y="30.3858261108398"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="4.79527473449707" endx="-61" endy="20.7952747344971" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="20.7952747344971" endx="-99.5" endy="20.795274734497" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="20.795274734497" endx="-99.5" endy="4.79527473449698" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="4.79527473449698" endx="-61" endy="4.79527473449707" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="4.79527473449707"/>
+<point x="-61" y="20.7952747344971"/>
+<point x="-99.5" y="20.795274734497"/>
+<point x="-99.5" y="4.79527473449698"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-20.7952747344971" endx="-61" endy="-4.79527473449707" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-4.79527473449707" endx="-99.5" endy="-4.79527473449716" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-4.79527473449716" endx="-99.5" endy="-20.7952747344972" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-20.7952747344972" endx="-61" endy="-20.7952747344971" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="-20.7952747344971"/>
+<point x="-61" y="-4.79527473449707"/>
+<point x="-99.5" y="-4.79527473449716"/>
+<point x="-99.5" y="-20.7952747344972"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-60.9999999999999" originy="-46.3858242034912" endx="-61" endy="-30.3858242034912" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-30.3858242034912" endx="-99.5" endy="-30.3858242034913" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-30.3858242034913" endx="-99.4999999999999" endy="-46.3858242034913" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.4999999999999" originy="-46.3858242034913" endx="-60.9999999999999" endy="-46.3858242034912" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-60.9999999999999" y="-46.3858242034912"/>
+<point x="-61" y="-30.3858242034912"/>
+<point x="-99.5" y="-30.3858242034913"/>
+<point x="-99.4999999999999" y="-46.3858242034913"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-30.3858261108398" endx="61" endy="-46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-46.3858261108398" endx="99.5" endy="-46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-46.3858261108398" endx="99.5" endy="-30.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-30.3858261108398" endx="61" endy="-30.3858261108398" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="-30.3858261108398"/>
+<point x="61" y="-46.3858261108398"/>
+<point x="99.5" y="-46.3858261108398"/>
+<point x="99.5" y="-30.3858261108398"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-4.7952766418457" endx="61" endy="-20.7952766418457" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-20.7952766418457" endx="99.5" endy="-20.7952766418457" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-20.7952766418457" endx="99.5" endy="-4.79527664184561" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-4.79527664184561" endx="61" endy="-4.7952766418457" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="-4.7952766418457"/>
+<point x="61" y="-20.7952766418457"/>
+<point x="99.5" y="-20.7952766418457"/>
+<point x="99.5" y="-4.79527664184561"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="20.7952728271484" endx="61" endy="4.79527282714844" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="4.79527282714844" endx="99.5" endy="4.79527282714846" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="4.79527282714846" endx="99.5" endy="20.7952728271485" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="20.7952728271485" endx="61" endy="20.7952728271484" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="20.7952728271484"/>
+<point x="61" y="4.79527282714844"/>
+<point x="99.5" y="4.79527282714846"/>
+<point x="99.5" y="20.7952728271485"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="46.3858222961426" endx="61" endy="30.3858222961426" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="30.3858222961426" endx="99.5" endy="30.3858222961426" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="30.3858222961426" endx="99.5" endy="46.3858222961427" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="46.3858222961427" endx="61" endy="46.3858222961426" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="46.3858222961426"/>
+<point x="61" y="30.3858222961426"/>
+<point x="99.5" y="30.3858222961426"/>
+<point x="99.5" y="46.3858222961427"/>
+</polygon>
+<text layer="TOP_SILKSCREEN" originx="-96.5" originy="82.3858261108398" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="&#42;"/>
+<line layer="TOP_SILKSCREEN" originx="-61" originy="-61" endx="61" endy="-61" width="6"/>
+<line layer="TOP_SILKSCREEN" originx="61" originy="61" endx="-61" endy="61" width="6"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;2&#44;43">
+<point x="-61" y="61"/>
+<point x="-61" y="-61"/>
+<point x="61" y="-61"/>
+<point x="61" y="61"/>
+</polygon>
+<arc layer="TOP_SILKSCREEN" originx="0" originy="61" startangle="180" sweepangle="180" radius="12" width="6"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="61" endx="-61" endy="-61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-61" endx="61" endy="-61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-61" endx="61" endy="61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="61" endx="-61" endy="61" width="0"/>
+<arc layer="TOP_ASSEMBLY" originx="0" originy="61" startangle="180" sweepangle="180" radius="12" width="0"/>
+</footprint>
+<footprint name="MUA08A-M" renamedpins="false" originx="0" originy="0" pickpointx="0" pickpointy="0">
+<pcbpin number="1" name="1" style="RX66Y20D0TSM2" originalstyle="RX66Y20D0TSM2" originx="-88.5" originy="38.3858" rotation="0" originalpinnumber="1"/>
+<pcbpin number="2" name="2" style="RX66Y20D0T" originalstyle="RX66Y20D0T" originx="-88.5" originy="12.7953" rotation="0" originalpinnumber="2"/>
+<pcbpin number="3" name="3" style="RX66Y20D0T" originalstyle="RX66Y20D0T" originx="-88.5" originy="-12.7953" rotation="0" originalpinnumber="3"/>
+<pcbpin number="4" name="4" style="RX66Y20D0T" originalstyle="RX66Y20D0T" originx="-88.5" originy="-38.3858" rotation="0" originalpinnumber="4"/>
+<pcbpin number="5" name="5" style="RX66Y20D0T" originalstyle="RX66Y20D0T" originx="88.5" originy="-38.3858" rotation="0" originalpinnumber="5"/>
+<pcbpin number="6" name="6" style="RX66Y20D0T" originalstyle="RX66Y20D0T" originx="88.5" originy="-12.7953" rotation="0" originalpinnumber="6"/>
+<pcbpin number="7" name="7" style="RX66Y20D0T" originalstyle="RX66Y20D0T" originx="88.5" originy="12.7953" rotation="0" originalpinnumber="7"/>
+<pcbpin number="8" name="8" style="RX66Y20D0T" originalstyle="RX66Y20D0T" originx="88.5" originy="38.3858" rotation="0" originalpinnumber="8"/>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="46.3858"/>
+<point x="-99.5" y="30.3858"/>
+<point x="-73.5" y="30.3858"/>
+<point x="-73.5" y="46.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="20.7953"/>
+<point x="-99.5" y="4.7953"/>
+<point x="-73.5" y="4.7953"/>
+<point x="-73.5" y="20.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="-4.7953"/>
+<point x="-99.5" y="-20.7953"/>
+<point x="-73.5" y="-20.7953"/>
+<point x="-73.5" y="-4.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="-30.3858"/>
+<point x="-99.5" y="-46.3858"/>
+<point x="-73.5" y="-46.3858"/>
+<point x="-73.5" y="-30.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="-30.3858"/>
+<point x="73.5" y="-46.3858"/>
+<point x="99.5" y="-46.3858"/>
+<point x="99.5" y="-30.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="-4.7953"/>
+<point x="73.5" y="-20.7953"/>
+<point x="99.5" y="-20.7953"/>
+<point x="99.5" y="-4.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="20.7953"/>
+<point x="73.5" y="4.7953"/>
+<point x="99.5" y="4.7953"/>
+<point x="99.5" y="20.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="46.3858"/>
+<point x="73.5" y="30.3858"/>
+<point x="99.5" y="30.3858"/>
+<point x="99.5" y="46.3858"/>
+</polygon>
+<line layer="TOP_PLACE_BOUND" originx="-141.5" originy="-81" endx="-141.5" endy="81" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="-141.5" originy="81" endx="141.5" endy="81" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="141.5" originy="81" endx="141.5" endy="-81" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="141.5" originy="-81" endx="-141.5" endy="-81" width="6"/>
+<polygon layer="TOP_PLACE_BOUND" type="polygon" width="6">
+<point x="-141.5" y="-81"/>
+<point x="-141.5" y="81"/>
+<point x="141.5" y="81"/>
+<point x="141.5" y="-81"/>
+</polygon>
+<polygon layer="TOP_VALOR" type="polygon" width="6">
+<point x="-146.5" y="-71"/>
+<point x="-146.5" y="71"/>
+<point x="146.5" y="71"/>
+<point x="146.5" y="-71"/>
+</polygon>
+<polygon layer="TOP_NO-PROBE" type="polygon" width="6">
+<point x="-156.5" y="-96"/>
+<point x="-156.5" y="96"/>
+<point x="156.5" y="96"/>
+<point x="156.5" y="-96"/>
+</polygon>
+<text name="Height" layer="PRO_E" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="43"/>
+<text name="MINHEIGHT" layer="PRO_E" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="2"/>
+<line layer="PRO_E" originx="-61" originy="61" endx="-61" endy="-61" width="6"/>
+<line layer="PRO_E" originx="-61" originy="-61" endx="61" endy="-61" width="6"/>
+<line layer="PRO_E" originx="61" originy="-61" endx="61" endy="61" width="6"/>
+<line layer="PRO_E" originx="61" originy="61" endx="-61" endy="61" width="6"/>
+<arc layer="PRO_E" originx="0" originy="61" startangle="180" sweepangle="180" radius="10.1666698455811" width="6"/>
+<text layer="DIMENSION" originx="0" originy="-211" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="Default Padstyle&#58; RX66Y20D0T"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="0" endx="-61" endy="151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="0" endx="61" endy="151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-111" endy="136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="111" endy="136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-71" endy="141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-71" originy="141" endx="-71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="71" endy="141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="71" originy="141" endx="71" endy="131" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="0" originy="156" style="H50S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data="BODY_W"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="0" endx="-99.5" endy="226" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="0" endx="99.5" endy="226" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="99.5" endy="211" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="-89.5" endy="216" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="-89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-89.5" originy="216" endx="-89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="211" endx="89.5" endy="216" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="211" endx="89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="89.5" originy="216" endx="89.5" endy="206" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="0" originy="231" style="H50S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data="LX"/>
+<line layer="INPUTDIMENSIONS" originx="0" originy="61" endx="176" endy="61" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="0" originy="-61" endx="176" endy="-61" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="161" endy="111" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="161" endy="-111" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="156" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="166" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="156" originy="71" endx="166" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="156" endy="-71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="166" endy="-71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="156" originy="-71" endx="166" endy="-71" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="181" originy="0" style="H50S3" rotation="0" justify="left" flipped="false" hidden="false" data="BODY_H"/>
+<line layer="INPUTDIMENSIONS" originx="-88.5" originy="38.3858261108398" endx="-203.5" endy="38.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-88.5" originy="12.7952747344971" endx="-203.5" endy="12.7952747344971" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-188.5" originy="38.3858261108398" endx="-188.5" endy="88.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-188.5" originy="12.7952747344971" endx="-188.5" endy="-37.2047252655029" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-188.5" originy="38.3858261108398" endx="-193.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-188.5" originy="38.3858261108398" endx="-183.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-193.5" originy="48.3858261108398" endx="-183.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-188.5" originy="12.7952747344971" endx="-193.5" endy="2.79527473449707" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-188.5" originy="12.7952747344971" endx="-183.5" endy="2.79527473449707" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-193.5" originy="2.79527473449707" endx="-183.5" endy="2.79527473449707" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="-208.5" originy="25.5905494689941" style="H50S3" rotation="0" justify="right" flipped="false" hidden="false" data="RP"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="0" endx="-99.5" endy="-151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="0" endx="-73.5" endy="-151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-149.5" endy="-136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-23.5" endy="-136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-109.5" endy="-131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-109.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-109.5" originy="-131" endx="-109.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-63.5" endy="-131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-63.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-63.5" originy="-131" endx="-63.5" endy="-141" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="-86.5" originy="-156" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="FOOT_L"/>
+<line layer="PAD_DIMENSIONS" originx="-88.5" originy="38.3858261108398" endx="-203.5" endy="38.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-88.5" originy="12.7952747344971" endx="-203.5" endy="12.7952747344971" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-188.5" originy="38.3858261108398" endx="-188.5" endy="88.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-188.5" originy="12.7952747344971" endx="-188.5" endy="-37.2047252655029" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-188.5" originy="38.3858261108398" endx="-193.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-188.5" originy="38.3858261108398" endx="-183.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-193.5" originy="48.3858261108398" endx="-183.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-188.5" originy="12.7952747344971" endx="-193.5" endy="2.79527473449707" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-188.5" originy="12.7952747344971" endx="-183.5" endy="2.79527473449707" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-193.5" originy="2.79527473449707" endx="-183.5" endy="2.79527473449707" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="-208.5" originy="25.5905494689941" style="H25S3" rotation="0" justify="right" flipped="false" hidden="false" data="2.559055E-02in/.65mm"/>
+<line layer="PAD_DIMENSIONS" originx="88.5" originy="48.3858261108398" endx="203.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="88.5" originy="28.3858242034912" endx="203.5" endy="28.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="188.5" originy="48.3858261108398" endx="188.5" endy="98.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="188.5" originy="28.3858242034912" endx="188.5" endy="-21.6141757965088" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="188.5" originy="48.3858261108398" endx="183.5" endy="58.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="188.5" originy="48.3858261108398" endx="193.5" endy="58.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="183.5" originy="58.3858261108398" endx="193.5" endy="58.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="188.5" originy="28.3858242034912" endx="183.5" endy="18.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="188.5" originy="28.3858242034912" endx="193.5" endy="18.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="183.5" originy="18.3858242034912" endx="193.5" endy="18.3858242034912" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="208.5" originy="38.3858261108398" style="H25S3" rotation="0" justify="left" flipped="false" hidden="false" data=".02in/.508mm"/>
+<line layer="PAD_DIMENSIONS" originx="-88.5" originy="0" endx="-88.5" endy="151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="88.5" originy="0" endx="88.5" endy="151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-88.5" originy="136" endx="88.5" endy="136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-88.5" originy="136" endx="-78.5" endy="141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-88.5" originy="136" endx="-78.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-78.5" originy="141" endx="-78.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="88.5" originy="136" endx="78.5" endy="141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="88.5" originy="136" endx="78.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="78.5" originy="141" endx="78.5" endy="131" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="0" originy="156" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".177in/4.496mm"/>
+<line layer="PAD_DIMENSIONS" originx="-121.5" originy="0" endx="-121.5" endy="-151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-55.5" originy="0" endx="-55.5" endy="-151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-121.5" originy="-136" endx="-171.5" endy="-136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-55.5" originy="-136" endx="-5.5" endy="-136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-121.5" originy="-136" endx="-131.5" endy="-131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-121.5" originy="-136" endx="-131.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-131.5" originy="-131" endx="-131.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-55.5" originy="-136" endx="-45.5" endy="-131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-55.5" originy="-136" endx="-45.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-45.5" originy="-131" endx="-45.5" endy="-141" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="-88.5" originy="-156" style="H25S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data=".066in/1.676mm"/>
+<line layer="DIMENSION" originx="-61" originy="0" endx="-61" endy="151" width="0"/>
+<line layer="DIMENSION" originx="61" originy="0" endx="61" endy="151" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-111" endy="136" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="111" endy="136" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-71" endy="141" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="-71" originy="141" endx="-71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="71" endy="141" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="71" originy="141" endx="71" endy="131" width="0"/>
+<text layer="DIMENSION" originx="0" originy="156" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".122in/3.099mm"/>
+<line layer="DIMENSION" originx="-99.5" originy="0" endx="-99.5" endy="226" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="0" endx="99.5" endy="226" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="99.5" endy="211" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="-89.5" endy="216" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="-89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="-89.5" originy="216" endx="-89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="211" endx="89.5" endy="216" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="211" endx="89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="89.5" originy="216" endx="89.5" endy="206" width="0"/>
+<text layer="DIMENSION" originx="0" originy="231" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".199in/5.055mm"/>
+<line layer="DIMENSION" originx="0" originy="61" endx="176" endy="61" width="0"/>
+<line layer="DIMENSION" originx="0" originy="-61" endx="176" endy="-61" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="161" endy="111" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="161" endy="-111" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="156" endy="71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="166" endy="71" width="0"/>
+<line layer="DIMENSION" originx="156" originy="71" endx="166" endy="71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="156" endy="-71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="166" endy="-71" width="0"/>
+<line layer="DIMENSION" originx="156" originy="-71" endx="166" endy="-71" width="0"/>
+<text layer="DIMENSION" originx="181" originy="0" style="H25S3" rotation="0" justify="left" flipped="false" hidden="false" data=".122in/3.099mm"/>
+<line layer="DIMENSION" originx="-88.5" originy="38.3858261108398" endx="-203.5" endy="38.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-88.5" originy="12.7952747344971" endx="-203.5" endy="12.7952747344971" width="0"/>
+<line layer="DIMENSION" originx="-188.5" originy="38.3858261108398" endx="-188.5" endy="88.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-188.5" originy="12.7952747344971" endx="-188.5" endy="-37.2047252655029" width="0"/>
+<line layer="DIMENSION" originx="-188.5" originy="38.3858261108398" endx="-193.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-188.5" originy="38.3858261108398" endx="-183.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-193.5" originy="48.3858261108398" endx="-183.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-188.5" originy="12.7952747344971" endx="-193.5" endy="2.79527473449707" width="0"/>
+<line layer="DIMENSION" originx="-188.5" originy="12.7952747344971" endx="-183.5" endy="2.79527473449707" width="0"/>
+<line layer="DIMENSION" originx="-193.5" originy="2.79527473449707" endx="-183.5" endy="2.79527473449707" width="0"/>
+<text layer="DIMENSION" originx="-208.5" originy="25.5905494689941" style="H25S3" rotation="0" justify="right" flipped="false" hidden="false" data="2.559055E-02in/.65mm"/>
+<line layer="DIMENSION" originx="-99.5" originy="0" endx="-99.5" endy="-151" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="0" endx="-73.5" endy="-151" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-149.5" endy="-136" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-23.5" endy="-136" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-109.5" endy="-131" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-109.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-109.5" originy="-131" endx="-109.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-63.5" endy="-131" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-63.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-63.5" originy="-131" endx="-63.5" endy="-141" width="0"/>
+<text layer="DIMENSION" originx="-86.5" originy="-156" style="H25S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data=".026in/.66mm"/>
+<text name="RefDes" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="false" data="RefDes"/>
+<text name="Type" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="DEV"/>
+<text name="PN" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="PN"/>
+<text name="DEV" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="DEV"/>
+<text name="VAL" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="VAL"/>
+<text name="TOL" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="TOL"/>
+<text name="RefDes2" layer="TOP_ASSEMBLY" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="false" data="RefDes2"/>
+<line layer="PIN_DETAIL" originx="366" originy="651" endx="266" endy="651" width="0"/>
+<line layer="PIN_DETAIL" originx="266" originy="651" endx="216" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="216" originy="551" endx="266" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="266" originy="451" endx="366" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="216" originy="551" endx="166" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="166" originy="551" endx="136" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="411" endx="180" endy="531" width="0"/>
+<line layer="PIN_DETAIL" originx="180" originy="531" endx="226" endy="531" width="0"/>
+<line layer="PIN_DETAIL" originx="363" originy="424" endx="394" endy="560" width="0"/>
+<line layer="PIN_DETAIL" originx="394" originy="560" endx="350" endy="591" width="0"/>
+<line layer="PIN_DETAIL" originx="350" originy="591" endx="383" endy="689" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="411" endx="98" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="411" endx="98" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="136" originy="431" endx="98" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="186" originy="411" endx="54" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="54" originy="411" endx="54" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="54" originy="401" endx="186" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="186" originy="401" endx="186" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="401" endx="150" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="186" originy="401" endx="186" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="386" endx="186" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="168" originy="376" style="H50s3" rotation="0" justify="upperleft" flipped="false" hidden="false" data="18"/>
+<line layer="PIN_DETAIL" originx="150" originy="386" endx="160" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="160" originy="381" endx="160" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="160" originy="391" endx="150" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="186" originy="386" endx="176" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="176" originy="391" endx="176" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="176" originy="381" endx="186" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="54" originy="401" endx="54" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="401" endx="98" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="54" originy="386" endx="98" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="76" originy="376" style="H50s3" rotation="0" justify="upperright" flipped="false" hidden="false" data="22"/>
+<line layer="PIN_DETAIL" originx="54" originy="386" endx="64" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="64" originy="391" endx="64" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="64" originy="381" endx="54" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="386" endx="88" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="88" originy="381" endx="88" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="88" originy="391" endx="98" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="366" endx="98" endy="366" width="0"/>
+<text layer="PIN_DETAIL" originx="124" originy="361" style="H50s3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="26"/>
+<line layer="PIN_DETAIL" originx="98" originy="366" endx="108" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="108" originy="361" endx="108" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="108" originy="371" endx="98" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="366" endx="140" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="140" originy="371" endx="140" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="140" originy="361" endx="150" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="411" endx="-234" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="411" endx="-234" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="411" endx="-266" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="431" endx="-234" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="-296" originy="551" endx="-204" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="451" endx="-296" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="451" endx="-204" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="-296" originy="651" endx="-204" endy="651" width="0"/>
+<line layer="PIN_DETAIL" originx="-194" originy="681" endx="-224" endy="581" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="581" endx="-184" endy="521" width="0"/>
+<line layer="PIN_DETAIL" originx="-184" originy="521" endx="-211" endy="422" width="0"/>
+<line layer="PIN_DETAIL" originx="-286" originy="681" endx="-316" endy="581" width="0"/>
+<line layer="PIN_DETAIL" originx="-316" originy="581" endx="-276" endy="521" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="521" endx="-303" endy="422" width="0"/>
+<line layer="PIN_DETAIL" originx="-268" originy="411" endx="-232" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="-268" originy="401" endx="-232" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-268" originy="411" endx="-268" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-232" originy="411" endx="-232" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-268" originy="381" endx="-268" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-232" originy="381" endx="-232" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-268" originy="386" endx="-298" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-268" originy="386" endx="-278" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="-278" originy="391" endx="-278" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="-278" originy="381" endx="-268" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-232" originy="386" endx="-202" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-232" originy="386" endx="-222" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="-222" originy="391" endx="-222" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="-222" originy="381" endx="-232" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="-192" originy="366" style="H50s3" rotation="0" justify="lowerleft" flipped="false" hidden="false" data="20"/>
+<line layer="PIN_DETAIL" originx="-266" originy="361" endx="-266" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="361" endx="-234" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="366" endx="-296" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="366" endx="-276" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="371" endx="-276" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="361" endx="-266" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="366" endx="-204" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="366" endx="-224" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="371" endx="-224" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="361" endx="-234" endy="366" width="0"/>
+<text layer="PIN_DETAIL" originx="-194" originy="366" style="H50s3" rotation="0" justify="upperleft" flipped="false" hidden="false" data="16"/>
+<text layer="PIN_DETAIL" originx="-50" originy="551" style="H50s3" rotation="0" justify="center" flipped="false" hidden="false" data="&#40;2x Scale&#41;"/>
+<text layer="TOP_ASSEMBLY" originx="-98.5" originy="83.3858261108398" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="&#42;"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="30.3858261108398" endx="-61" endy="46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="46.3858261108398" endx="-99.5" endy="46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="46.3858261108398" endx="-99.5" endy="30.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="30.3858261108398" endx="-61" endy="30.3858261108398" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="30.3858261108398"/>
+<point x="-61" y="46.3858261108398"/>
+<point x="-99.5" y="46.3858261108398"/>
+<point x="-99.5" y="30.3858261108398"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="4.79527473449707" endx="-61" endy="20.7952747344971" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="20.7952747344971" endx="-99.5" endy="20.795274734497" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="20.795274734497" endx="-99.5" endy="4.79527473449698" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="4.79527473449698" endx="-61" endy="4.79527473449707" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="4.79527473449707"/>
+<point x="-61" y="20.7952747344971"/>
+<point x="-99.5" y="20.795274734497"/>
+<point x="-99.5" y="4.79527473449698"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-20.7952747344971" endx="-61" endy="-4.79527473449707" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-4.79527473449707" endx="-99.5" endy="-4.79527473449716" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-4.79527473449716" endx="-99.5" endy="-20.7952747344972" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-20.7952747344972" endx="-61" endy="-20.7952747344971" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="-20.7952747344971"/>
+<point x="-61" y="-4.79527473449707"/>
+<point x="-99.5" y="-4.79527473449716"/>
+<point x="-99.5" y="-20.7952747344972"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-60.9999999999999" originy="-46.3858242034912" endx="-61" endy="-30.3858242034912" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-30.3858242034912" endx="-99.5" endy="-30.3858242034913" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-30.3858242034913" endx="-99.4999999999999" endy="-46.3858242034913" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.4999999999999" originy="-46.3858242034913" endx="-60.9999999999999" endy="-46.3858242034912" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-60.9999999999999" y="-46.3858242034912"/>
+<point x="-61" y="-30.3858242034912"/>
+<point x="-99.5" y="-30.3858242034913"/>
+<point x="-99.4999999999999" y="-46.3858242034913"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-30.3858261108398" endx="61" endy="-46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-46.3858261108398" endx="99.5" endy="-46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-46.3858261108398" endx="99.5" endy="-30.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-30.3858261108398" endx="61" endy="-30.3858261108398" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="-30.3858261108398"/>
+<point x="61" y="-46.3858261108398"/>
+<point x="99.5" y="-46.3858261108398"/>
+<point x="99.5" y="-30.3858261108398"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-4.7952766418457" endx="61" endy="-20.7952766418457" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-20.7952766418457" endx="99.5" endy="-20.7952766418457" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-20.7952766418457" endx="99.5" endy="-4.79527664184561" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-4.79527664184561" endx="61" endy="-4.7952766418457" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="-4.7952766418457"/>
+<point x="61" y="-20.7952766418457"/>
+<point x="99.5" y="-20.7952766418457"/>
+<point x="99.5" y="-4.79527664184561"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="20.7952728271484" endx="61" endy="4.79527282714844" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="4.79527282714844" endx="99.5" endy="4.79527282714846" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="4.79527282714846" endx="99.5" endy="20.7952728271485" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="20.7952728271485" endx="61" endy="20.7952728271484" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="20.7952728271484"/>
+<point x="61" y="4.79527282714844"/>
+<point x="99.5" y="4.79527282714846"/>
+<point x="99.5" y="20.7952728271485"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="46.3858222961426" endx="61" endy="30.3858222961426" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="30.3858222961426" endx="99.5" endy="30.3858222961426" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="30.3858222961426" endx="99.5" endy="46.3858222961427" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="46.3858222961427" endx="61" endy="46.3858222961426" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="46.3858222961426"/>
+<point x="61" y="30.3858222961426"/>
+<point x="99.5" y="30.3858222961426"/>
+<point x="99.5" y="46.3858222961427"/>
+</polygon>
+<text layer="TOP_SILKSCREEN" originx="-98.5" originy="83.3858261108398" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="&#42;"/>
+<line layer="TOP_SILKSCREEN" originx="-51.9656021227787" originy="-61" endx="51.9656021227787" endy="-61" width="6"/>
+<line layer="TOP_SILKSCREEN" originx="51.9656021227787" originy="61" endx="-51.9656021227787" endy="61" width="6"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;2&#44;43">
+<point x="-61" y="61"/>
+<point x="-61" y="-61"/>
+<point x="61" y="-61"/>
+<point x="61" y="61"/>
+</polygon>
+<arc layer="TOP_SILKSCREEN" originx="0" originy="61" startangle="180" sweepangle="180" radius="12" width="6"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="61" endx="-61" endy="-61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-61" endx="61" endy="-61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-61" endx="61" endy="61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="61" endx="-61" endy="61" width="0"/>
+<arc layer="TOP_ASSEMBLY" originx="0" originy="61" startangle="180" sweepangle="180" radius="12" width="0"/>
+</footprint>
+<footprint name="MUA08A-L" renamedpins="false" originx="0" originy="0" pickpointx="0" pickpointy="0">
+<pcbpin number="1" name="1" style="RX42Y16D0TSM2" originalstyle="RX42Y16D0TSM2" originx="-84.5" originy="38.3858" rotation="0" originalpinnumber="1"/>
+<pcbpin number="2" name="2" style="RX42Y16D0T" originalstyle="RX42Y16D0T" originx="-84.5" originy="12.7953" rotation="0" originalpinnumber="2"/>
+<pcbpin number="3" name="3" style="RX42Y16D0T" originalstyle="RX42Y16D0T" originx="-84.5" originy="-12.7953" rotation="0" originalpinnumber="3"/>
+<pcbpin number="4" name="4" style="RX42Y16D0T" originalstyle="RX42Y16D0T" originx="-84.5" originy="-38.3858" rotation="0" originalpinnumber="4"/>
+<pcbpin number="5" name="5" style="RX42Y16D0T" originalstyle="RX42Y16D0T" originx="84.5" originy="-38.3858" rotation="0" originalpinnumber="5"/>
+<pcbpin number="6" name="6" style="RX42Y16D0T" originalstyle="RX42Y16D0T" originx="84.5" originy="-12.7953" rotation="0" originalpinnumber="6"/>
+<pcbpin number="7" name="7" style="RX42Y16D0T" originalstyle="RX42Y16D0T" originx="84.5" originy="12.7953" rotation="0" originalpinnumber="7"/>
+<pcbpin number="8" name="8" style="RX42Y16D0T" originalstyle="RX42Y16D0T" originx="84.5" originy="38.3858" rotation="0" originalpinnumber="8"/>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="46.3858"/>
+<point x="-99.5" y="30.3858"/>
+<point x="-73.5" y="30.3858"/>
+<point x="-73.5" y="46.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="20.7953"/>
+<point x="-99.5" y="4.7953"/>
+<point x="-73.5" y="4.7953"/>
+<point x="-73.5" y="20.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="-4.7953"/>
+<point x="-99.5" y="-20.7953"/>
+<point x="-73.5" y="-20.7953"/>
+<point x="-73.5" y="-4.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="-99.5" y="-30.3858"/>
+<point x="-99.5" y="-46.3858"/>
+<point x="-73.5" y="-46.3858"/>
+<point x="-73.5" y="-30.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="-30.3858"/>
+<point x="73.5" y="-46.3858"/>
+<point x="99.5" y="-46.3858"/>
+<point x="99.5" y="-30.3858"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="-4.7953"/>
+<point x="73.5" y="-20.7953"/>
+<point x="99.5" y="-20.7953"/>
+<point x="99.5" y="-4.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="20.7953"/>
+<point x="73.5" y="4.7953"/>
+<point x="99.5" y="4.7953"/>
+<point x="99.5" y="20.7953"/>
+</polygon>
+<polygon layer="CONTACT_AREA" type="polygon">
+<point x="73.5" y="46.3858"/>
+<point x="73.5" y="30.3858"/>
+<point x="99.5" y="30.3858"/>
+<point x="99.5" y="46.3858"/>
+</polygon>
+<line layer="TOP_PLACE_BOUND" originx="-109.5" originy="-65" endx="-109.5" endy="65" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="-109.5" originy="65" endx="109.5" endy="65" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="109.5" originy="65" endx="109.5" endy="-65" width="6"/>
+<line layer="TOP_PLACE_BOUND" originx="109.5" originy="-65" endx="-109.5" endy="-65" width="6"/>
+<polygon layer="TOP_PLACE_BOUND" type="polygon" width="6">
+<point x="-109.5" y="-65"/>
+<point x="-109.5" y="65"/>
+<point x="109.5" y="65"/>
+<point x="109.5" y="-65"/>
+</polygon>
+<polygon layer="TOP_VALOR" type="polygon" width="6">
+<point x="-130.5" y="-71"/>
+<point x="-130.5" y="71"/>
+<point x="130.5" y="71"/>
+<point x="130.5" y="-71"/>
+</polygon>
+<polygon layer="TOP_NO-PROBE" type="polygon" width="6">
+<point x="-124.5" y="-80"/>
+<point x="-124.5" y="80"/>
+<point x="124.5" y="80"/>
+<point x="124.5" y="-80"/>
+</polygon>
+<text name="Height" layer="PRO_E" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="43"/>
+<text name="MINHEIGHT" layer="PRO_E" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="2"/>
+<line layer="PRO_E" originx="-61" originy="61" endx="-61" endy="-61" width="6"/>
+<line layer="PRO_E" originx="-61" originy="-61" endx="61" endy="-61" width="6"/>
+<line layer="PRO_E" originx="61" originy="-61" endx="61" endy="61" width="6"/>
+<line layer="PRO_E" originx="61" originy="61" endx="-61" endy="61" width="6"/>
+<arc layer="PRO_E" originx="0" originy="61" startangle="180" sweepangle="180" radius="10.1666698455811" width="6"/>
+<text layer="DIMENSION" originx="0" originy="-211" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="Default Padstyle&#58; RX42Y16D0T"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="0" endx="-61" endy="151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="0" endx="61" endy="151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-111" endy="136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="111" endy="136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-71" endy="141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-61" originy="136" endx="-71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-71" originy="141" endx="-71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="71" endy="141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="61" originy="136" endx="71" endy="131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="71" originy="141" endx="71" endy="131" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="0" originy="156" style="H50S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data="BODY_W"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="0" endx="-99.5" endy="226" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="0" endx="99.5" endy="226" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="99.5" endy="211" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="-89.5" endy="216" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="211" endx="-89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-89.5" originy="216" endx="-89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="211" endx="89.5" endy="216" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="99.5" originy="211" endx="89.5" endy="206" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="89.5" originy="216" endx="89.5" endy="206" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="0" originy="231" style="H50S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data="LX"/>
+<line layer="INPUTDIMENSIONS" originx="0" originy="61" endx="176" endy="61" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="0" originy="-61" endx="176" endy="-61" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="161" endy="111" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="161" endy="-111" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="156" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="61" endx="166" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="156" originy="71" endx="166" endy="71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="156" endy="-71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="161" originy="-61" endx="166" endy="-71" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="156" originy="-71" endx="166" endy="-71" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="181" originy="0" style="H50S3" rotation="0" justify="left" flipped="false" hidden="false" data="BODY_H"/>
+<line layer="INPUTDIMENSIONS" originx="-84.5" originy="38.3858261108398" endx="-199.5" endy="38.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-84.5" originy="12.7952747344971" endx="-199.5" endy="12.7952747344971" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-184.5" originy="38.3858261108398" endx="-184.5" endy="88.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-184.5" originy="12.7952747344971" endx="-184.5" endy="-37.2047252655029" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-184.5" originy="38.3858261108398" endx="-189.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-184.5" originy="38.3858261108398" endx="-179.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-189.5" originy="48.3858261108398" endx="-179.5" endy="48.3858261108398" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-184.5" originy="12.7952747344971" endx="-189.5" endy="2.79527473449707" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-184.5" originy="12.7952747344971" endx="-179.5" endy="2.79527473449707" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-189.5" originy="2.79527473449707" endx="-179.5" endy="2.79527473449707" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="-204.5" originy="25.5905494689941" style="H50S3" rotation="0" justify="right" flipped="false" hidden="false" data="RP"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="0" endx="-99.5" endy="-151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="0" endx="-73.5" endy="-151" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-149.5" endy="-136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-23.5" endy="-136" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-109.5" endy="-131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-99.5" originy="-136" endx="-109.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-109.5" originy="-131" endx="-109.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-63.5" endy="-131" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-73.5" originy="-136" endx="-63.5" endy="-141" width="0"/>
+<line layer="INPUTDIMENSIONS" originx="-63.5" originy="-131" endx="-63.5" endy="-141" width="0"/>
+<text layer="INPUTDIMENSIONS" originx="-86.5" originy="-156" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="FOOT_L"/>
+<line layer="PAD_DIMENSIONS" originx="-84.5" originy="38.3858261108398" endx="-199.5" endy="38.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-84.5" originy="12.7952747344971" endx="-199.5" endy="12.7952747344971" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-184.5" originy="38.3858261108398" endx="-184.5" endy="88.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-184.5" originy="12.7952747344971" endx="-184.5" endy="-37.2047252655029" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-184.5" originy="38.3858261108398" endx="-189.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-184.5" originy="38.3858261108398" endx="-179.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-189.5" originy="48.3858261108398" endx="-179.5" endy="48.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-184.5" originy="12.7952747344971" endx="-189.5" endy="2.79527473449707" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-184.5" originy="12.7952747344971" endx="-179.5" endy="2.79527473449707" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-189.5" originy="2.79527473449707" endx="-179.5" endy="2.79527473449707" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="-204.5" originy="25.5905494689941" style="H25S3" rotation="0" justify="right" flipped="false" hidden="false" data="2.559055E-02in/.65mm"/>
+<line layer="PAD_DIMENSIONS" originx="84.5" originy="46.3858261108398" endx="199.5" endy="46.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="84.5" originy="30.3858242034912" endx="199.5" endy="30.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="184.5" originy="46.3858261108398" endx="184.5" endy="96.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="184.5" originy="30.3858242034912" endx="184.5" endy="-19.6141757965088" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="184.5" originy="46.3858261108398" endx="179.5" endy="56.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="184.5" originy="46.3858261108398" endx="189.5" endy="56.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="179.5" originy="56.3858261108398" endx="189.5" endy="56.3858261108398" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="184.5" originy="30.3858242034912" endx="179.5" endy="20.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="184.5" originy="30.3858242034912" endx="189.5" endy="20.3858242034912" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="179.5" originy="20.3858242034912" endx="189.5" endy="20.3858242034912" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="204.5" originy="38.3858261108398" style="H25S3" rotation="0" justify="left" flipped="false" hidden="false" data=".016in/.406mm"/>
+<line layer="PAD_DIMENSIONS" originx="-84.5" originy="0" endx="-84.5" endy="151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="84.5" originy="0" endx="84.5" endy="151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-84.5" originy="136" endx="84.5" endy="136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-84.5" originy="136" endx="-74.5" endy="141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-84.5" originy="136" endx="-74.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-74.5" originy="141" endx="-74.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="84.5" originy="136" endx="74.5" endy="141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="84.5" originy="136" endx="74.5" endy="131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="74.5" originy="141" endx="74.5" endy="131" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="0" originy="156" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".169in/4.293mm"/>
+<line layer="PAD_DIMENSIONS" originx="-105.5" originy="0" endx="-105.5" endy="-151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-63.5" originy="0" endx="-63.5" endy="-151" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-105.5" originy="-136" endx="-155.5" endy="-136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-63.5" originy="-136" endx="-13.5" endy="-136" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-105.5" originy="-136" endx="-115.5" endy="-131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-105.5" originy="-136" endx="-115.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-115.5" originy="-131" endx="-115.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-63.5" originy="-136" endx="-53.5" endy="-131" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-63.5" originy="-136" endx="-53.5" endy="-141" width="0"/>
+<line layer="PAD_DIMENSIONS" originx="-53.5" originy="-131" endx="-53.5" endy="-141" width="0"/>
+<text layer="PAD_DIMENSIONS" originx="-84.5" originy="-156" style="H25S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data=".042in/1.067mm"/>
+<line layer="DIMENSION" originx="-61" originy="0" endx="-61" endy="151" width="0"/>
+<line layer="DIMENSION" originx="61" originy="0" endx="61" endy="151" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-111" endy="136" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="111" endy="136" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-71" endy="141" width="0"/>
+<line layer="DIMENSION" originx="-61" originy="136" endx="-71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="-71" originy="141" endx="-71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="71" endy="141" width="0"/>
+<line layer="DIMENSION" originx="61" originy="136" endx="71" endy="131" width="0"/>
+<line layer="DIMENSION" originx="71" originy="141" endx="71" endy="131" width="0"/>
+<text layer="DIMENSION" originx="0" originy="156" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".122in/3.099mm"/>
+<line layer="DIMENSION" originx="-99.5" originy="0" endx="-99.5" endy="226" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="0" endx="99.5" endy="226" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="99.5" endy="211" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="-89.5" endy="216" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="211" endx="-89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="-89.5" originy="216" endx="-89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="211" endx="89.5" endy="216" width="0"/>
+<line layer="DIMENSION" originx="99.5" originy="211" endx="89.5" endy="206" width="0"/>
+<line layer="DIMENSION" originx="89.5" originy="216" endx="89.5" endy="206" width="0"/>
+<text layer="DIMENSION" originx="0" originy="231" style="H25S3" rotation="0" justify="lowercenter" flipped="false" hidden="false" data=".199in/5.055mm"/>
+<line layer="DIMENSION" originx="0" originy="61" endx="176" endy="61" width="0"/>
+<line layer="DIMENSION" originx="0" originy="-61" endx="176" endy="-61" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="161" endy="111" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="161" endy="-111" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="156" endy="71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="61" endx="166" endy="71" width="0"/>
+<line layer="DIMENSION" originx="156" originy="71" endx="166" endy="71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="156" endy="-71" width="0"/>
+<line layer="DIMENSION" originx="161" originy="-61" endx="166" endy="-71" width="0"/>
+<line layer="DIMENSION" originx="156" originy="-71" endx="166" endy="-71" width="0"/>
+<text layer="DIMENSION" originx="181" originy="0" style="H25S3" rotation="0" justify="left" flipped="false" hidden="false" data=".122in/3.099mm"/>
+<line layer="DIMENSION" originx="-84.5" originy="38.3858261108398" endx="-199.5" endy="38.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-84.5" originy="12.7952747344971" endx="-199.5" endy="12.7952747344971" width="0"/>
+<line layer="DIMENSION" originx="-184.5" originy="38.3858261108398" endx="-184.5" endy="88.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-184.5" originy="12.7952747344971" endx="-184.5" endy="-37.2047252655029" width="0"/>
+<line layer="DIMENSION" originx="-184.5" originy="38.3858261108398" endx="-189.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-184.5" originy="38.3858261108398" endx="-179.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-189.5" originy="48.3858261108398" endx="-179.5" endy="48.3858261108398" width="0"/>
+<line layer="DIMENSION" originx="-184.5" originy="12.7952747344971" endx="-189.5" endy="2.79527473449707" width="0"/>
+<line layer="DIMENSION" originx="-184.5" originy="12.7952747344971" endx="-179.5" endy="2.79527473449707" width="0"/>
+<line layer="DIMENSION" originx="-189.5" originy="2.79527473449707" endx="-179.5" endy="2.79527473449707" width="0"/>
+<text layer="DIMENSION" originx="-204.5" originy="25.5905494689941" style="H25S3" rotation="0" justify="right" flipped="false" hidden="false" data="2.559055E-02in/.65mm"/>
+<line layer="DIMENSION" originx="-99.5" originy="0" endx="-99.5" endy="-151" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="0" endx="-73.5" endy="-151" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-149.5" endy="-136" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-23.5" endy="-136" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-109.5" endy="-131" width="0"/>
+<line layer="DIMENSION" originx="-99.5" originy="-136" endx="-109.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-109.5" originy="-131" endx="-109.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-63.5" endy="-131" width="0"/>
+<line layer="DIMENSION" originx="-73.5" originy="-136" endx="-63.5" endy="-141" width="0"/>
+<line layer="DIMENSION" originx="-63.5" originy="-131" endx="-63.5" endy="-141" width="0"/>
+<text layer="DIMENSION" originx="-86.5" originy="-156" style="H25S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data=".026in/.66mm"/>
+<text name="RefDes" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="false" data="RefDes"/>
+<text name="Type" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="DEV"/>
+<text name="PN" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="PN"/>
+<text name="DEV" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="DEV"/>
+<text name="VAL" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="VAL"/>
+<text name="TOL" layer="TOP_SILKSCREEN" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="TOL"/>
+<text name="RefDes2" layer="TOP_ASSEMBLY" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="false" data="RefDes2"/>
+<line layer="PIN_DETAIL" originx="366" originy="651" endx="266" endy="651" width="0"/>
+<line layer="PIN_DETAIL" originx="266" originy="651" endx="216" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="216" originy="551" endx="266" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="266" originy="451" endx="366" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="216" originy="551" endx="166" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="166" originy="551" endx="136" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="411" endx="180" endy="531" width="0"/>
+<line layer="PIN_DETAIL" originx="180" originy="531" endx="226" endy="531" width="0"/>
+<line layer="PIN_DETAIL" originx="363" originy="424" endx="394" endy="560" width="0"/>
+<line layer="PIN_DETAIL" originx="394" originy="560" endx="350" endy="591" width="0"/>
+<line layer="PIN_DETAIL" originx="350" originy="591" endx="383" endy="689" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="411" endx="98" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="411" endx="98" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="136" originy="431" endx="98" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="170" originy="411" endx="86" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="86" originy="411" endx="86" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="86" originy="401" endx="170" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="170" originy="401" endx="170" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="401" endx="150" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="170" originy="401" endx="170" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="386" endx="170" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="160" originy="376" style="H50s3" rotation="0" justify="upperleft" flipped="false" hidden="false" data="10"/>
+<line layer="PIN_DETAIL" originx="150" originy="386" endx="160" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="160" originy="381" endx="160" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="160" originy="391" endx="150" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="170" originy="386" endx="160" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="160" originy="391" endx="160" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="160" originy="381" endx="170" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="86" originy="401" endx="86" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="401" endx="98" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="86" originy="386" endx="98" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="92" originy="376" style="H50s3" rotation="0" justify="upperright" flipped="false" hidden="false" data="6"/>
+<line layer="PIN_DETAIL" originx="86" originy="386" endx="96" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="96" originy="391" endx="96" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="96" originy="381" endx="86" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="98" originy="386" endx="88" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="88" originy="381" endx="88" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="88" originy="391" endx="98" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="366" endx="98" endy="366" width="0"/>
+<text layer="PIN_DETAIL" originx="124" originy="361" style="H50s3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="26"/>
+<line layer="PIN_DETAIL" originx="98" originy="366" endx="108" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="108" originy="361" endx="108" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="108" originy="371" endx="98" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="150" originy="366" endx="140" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="140" originy="371" endx="140" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="140" originy="361" endx="150" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="411" endx="-234" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="411" endx="-234" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="411" endx="-266" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="431" endx="-234" endy="431" width="0"/>
+<line layer="PIN_DETAIL" originx="-296" originy="551" endx="-204" endy="551" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="451" endx="-296" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="451" endx="-204" endy="451" width="0"/>
+<line layer="PIN_DETAIL" originx="-296" originy="651" endx="-204" endy="651" width="0"/>
+<line layer="PIN_DETAIL" originx="-194" originy="681" endx="-224" endy="581" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="581" endx="-184" endy="521" width="0"/>
+<line layer="PIN_DETAIL" originx="-184" originy="521" endx="-211" endy="422" width="0"/>
+<line layer="PIN_DETAIL" originx="-286" originy="681" endx="-316" endy="581" width="0"/>
+<line layer="PIN_DETAIL" originx="-316" originy="581" endx="-276" endy="521" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="521" endx="-303" endy="422" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="411" endx="-234" endy="411" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="401" endx="-234" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="411" endx="-266" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="411" endx="-234" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="381" endx="-266" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="381" endx="-234" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="386" endx="-296" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="386" endx="-276" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="391" endx="-276" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="381" endx="-266" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="386" endx="-204" endy="386" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="386" endx="-224" endy="391" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="391" endx="-224" endy="381" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="381" endx="-234" endy="386" width="0"/>
+<text layer="PIN_DETAIL" originx="-194" originy="366" style="H50s3" rotation="0" justify="lowerleft" flipped="false" hidden="false" data="16"/>
+<line layer="PIN_DETAIL" originx="-266" originy="361" endx="-266" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="361" endx="-234" endy="401" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="366" endx="-296" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-266" originy="366" endx="-276" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="371" endx="-276" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="-276" originy="361" endx="-266" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="366" endx="-204" endy="366" width="0"/>
+<line layer="PIN_DETAIL" originx="-234" originy="366" endx="-224" endy="371" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="371" endx="-224" endy="361" width="0"/>
+<line layer="PIN_DETAIL" originx="-224" originy="361" endx="-234" endy="366" width="0"/>
+<text layer="PIN_DETAIL" originx="-194" originy="366" style="H50s3" rotation="0" justify="upperleft" flipped="false" hidden="false" data="16"/>
+<text layer="PIN_DETAIL" originx="-50" originy="551" style="H50s3" rotation="0" justify="center" flipped="false" hidden="false" data="&#40;2x Scale&#41;"/>
+<text layer="TOP_ASSEMBLY" originx="-94.5" originy="81.3858261108398" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="&#42;"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="30.3858261108398" endx="-61" endy="46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="46.3858261108398" endx="-99.5" endy="46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="46.3858261108398" endx="-99.5" endy="30.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="30.3858261108398" endx="-61" endy="30.3858261108398" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="30.3858261108398"/>
+<point x="-61" y="46.3858261108398"/>
+<point x="-99.5" y="46.3858261108398"/>
+<point x="-99.5" y="30.3858261108398"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="4.79527473449707" endx="-61" endy="20.7952747344971" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="20.7952747344971" endx="-99.5" endy="20.795274734497" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="20.795274734497" endx="-99.5" endy="4.79527473449698" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="4.79527473449698" endx="-61" endy="4.79527473449707" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="4.79527473449707"/>
+<point x="-61" y="20.7952747344971"/>
+<point x="-99.5" y="20.795274734497"/>
+<point x="-99.5" y="4.79527473449698"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-20.7952747344971" endx="-61" endy="-4.79527473449707" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-4.79527473449707" endx="-99.5" endy="-4.79527473449716" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-4.79527473449716" endx="-99.5" endy="-20.7952747344972" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-20.7952747344972" endx="-61" endy="-20.7952747344971" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-61" y="-20.7952747344971"/>
+<point x="-61" y="-4.79527473449707"/>
+<point x="-99.5" y="-4.79527473449716"/>
+<point x="-99.5" y="-20.7952747344972"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="-60.9999999999999" originy="-46.3858242034912" endx="-61" endy="-30.3858242034912" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-30.3858242034912" endx="-99.5" endy="-30.3858242034913" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.5" originy="-30.3858242034913" endx="-99.4999999999999" endy="-46.3858242034913" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-99.4999999999999" originy="-46.3858242034913" endx="-60.9999999999999" endy="-46.3858242034912" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="-60.9999999999999" y="-46.3858242034912"/>
+<point x="-61" y="-30.3858242034912"/>
+<point x="-99.5" y="-30.3858242034913"/>
+<point x="-99.4999999999999" y="-46.3858242034913"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-30.3858261108398" endx="61" endy="-46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-46.3858261108398" endx="99.5" endy="-46.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-46.3858261108398" endx="99.5" endy="-30.3858261108398" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-30.3858261108398" endx="61" endy="-30.3858261108398" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="-30.3858261108398"/>
+<point x="61" y="-46.3858261108398"/>
+<point x="99.5" y="-46.3858261108398"/>
+<point x="99.5" y="-30.3858261108398"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-4.7952766418457" endx="61" endy="-20.7952766418457" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-20.7952766418457" endx="99.5" endy="-20.7952766418457" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-20.7952766418457" endx="99.5" endy="-4.79527664184561" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="-4.79527664184561" endx="61" endy="-4.7952766418457" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="-4.7952766418457"/>
+<point x="61" y="-20.7952766418457"/>
+<point x="99.5" y="-20.7952766418457"/>
+<point x="99.5" y="-4.79527664184561"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="20.7952728271484" endx="61" endy="4.79527282714844" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="4.79527282714844" endx="99.5" endy="4.79527282714846" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="4.79527282714846" endx="99.5" endy="20.7952728271485" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="20.7952728271485" endx="61" endy="20.7952728271484" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="20.7952728271484"/>
+<point x="61" y="4.79527282714844"/>
+<point x="99.5" y="4.79527282714846"/>
+<point x="99.5" y="20.7952728271485"/>
+</polygon>
+<line layer="TOP_ASSEMBLY" originx="61" originy="46.3858222961426" endx="61" endy="30.3858222961426" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="30.3858222961426" endx="99.5" endy="30.3858222961426" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="30.3858222961426" endx="99.5" endy="46.3858222961427" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="99.5" originy="46.3858222961427" endx="61" endy="46.3858222961426" width="0"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;0&#44;10.75">
+<point x="61" y="46.3858222961426"/>
+<point x="61" y="30.3858222961426"/>
+<point x="99.5" y="30.3858222961426"/>
+<point x="99.5" y="46.3858222961427"/>
+</polygon>
+<text layer="TOP_SILKSCREEN" originx="-94.5" originy="81.3858261108398" style="H50S3" rotation="0" justify="uppercenter" flipped="false" hidden="false" data="&#42;"/>
+<line layer="TOP_SILKSCREEN" originx="-61" originy="-61" endx="61" endy="-61" width="6"/>
+<line layer="TOP_SILKSCREEN" originx="61" originy="61" endx="-61" endy="61" width="6"/>
+<polygon layer="3D_DXF" type="polygon" width="6" property="HEIGHTRANGE&#61;2&#44;43">
+<point x="-61" y="61"/>
+<point x="-61" y="-61"/>
+<point x="61" y="-61"/>
+<point x="61" y="61"/>
+</polygon>
+<arc layer="TOP_SILKSCREEN" originx="0" originy="61" startangle="180" sweepangle="180" radius="12" width="6"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="61" endx="-61" endy="-61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="-61" originy="-61" endx="61" endy="-61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="-61" endx="61" endy="61" width="0"/>
+<line layer="TOP_ASSEMBLY" originx="61" originy="61" endx="-61" endy="61" width="0"/>
+<arc layer="TOP_ASSEMBLY" originx="0" originy="61" startangle="180" sweepangle="180" radius="12" width="0"/>
+</footprint>
+<symbol name="LM2698MM-ADJ" originx="0" originy="0">
+<sympin number="1" originx="300" originy="0" rotation="180" length="300" flipped="false">
+<text name="pindes" originx="100" originy="0" style="H82s5" rotation="0" justify="lowerright" flipped="false" hidden="false" data="1"/>
+<text name="pinname" originx="310" originy="0" style="H82s5" rotation="0" justify="left" flipped="false" hidden="false" data="VC"/>
+</sympin>
+<sympin number="2" originx="300" originy="-100" rotation="180" length="300" flipped="false">
+<text name="pindes" originx="100" originy="-100" style="H82s5" rotation="0" justify="lowerright" flipped="false" hidden="false" data="2"/>
+<text name="pinname" originx="310" originy="-100" style="H82s5" rotation="0" justify="left" flipped="false" hidden="false" data="FB"/>
+</sympin>
+<sympin number="3" originx="300" originy="-200" rotation="180" length="300" flipped="false">
+<text name="pindes" originx="100" originy="-200" style="H82s5" rotation="0" justify="lowerright" flipped="false" hidden="false" data="3"/>
+<text name="pinname" originx="310" originy="-200" style="H82s5" rotation="0" justify="left" flipped="false" hidden="false" data="&#126;SHDN"/>
+</sympin>
+<sympin number="4" originx="300" originy="-300" rotation="180" length="300" flipped="false">
+<text name="pindes" originx="100" originy="-300" style="H82s5" rotation="0" justify="lowerright" flipped="false" hidden="false" data="4"/>
+<text name="pinname" originx="310" originy="-300" style="H82s5" rotation="0" justify="left" flipped="false" hidden="false" data="GND"/>
+</sympin>
+<sympin number="5" originx="2300" originy="-300" rotation="0" length="300" flipped="false">
+<text name="pindes" originx="2500" originy="-300" style="H82s5" rotation="0" justify="lowerleft" flipped="false" hidden="false" data="5"/>
+<text name="pinname" originx="2290" originy="-300" style="H82s5" rotation="0" justify="right" flipped="false" hidden="false" data="VSW"/>
+</sympin>
+<sympin number="6" originx="2300" originy="-200" rotation="0" length="300" flipped="false">
+<text name="pindes" originx="2500" originy="-200" style="H82s5" rotation="0" justify="lowerleft" flipped="false" hidden="false" data="6"/>
+<text name="pinname" originx="2290" originy="-200" style="H82s5" rotation="0" justify="right" flipped="false" hidden="false" data="VIN"/>
+</sympin>
+<sympin number="7" originx="2300" originy="-100" rotation="0" length="300" flipped="false">
+<text name="pindes" originx="2500" originy="-100" style="H82s5" rotation="0" justify="lowerleft" flipped="false" hidden="false" data="7"/>
+<text name="pinname" originx="2290" originy="-100" style="H82s5" rotation="0" justify="right" flipped="false" hidden="false" data="FSLCT"/>
+</sympin>
+<sympin number="8" originx="2300" originy="0" rotation="0" length="300" flipped="false">
+<text name="pindes" originx="2500" originy="0" style="H82s5" rotation="0" justify="lowerleft" flipped="false" hidden="false" data="8"/>
+<text name="pinname" originx="2290" originy="0" style="H82s5" rotation="0" justify="right" flipped="false" hidden="false" data="NC"/>
+</sympin>
+<line originx="300" originy="200" endx="300" endy="-500" width="5"/>
+<line originx="300" originy="-500" endx="2300" endy="-500" width="5"/>
+<line originx="2300" originy="-500" endx="2300" endy="200" width="5"/>
+<line originx="2300" originy="200" endx="300" endy="200" width="5"/>
+<text name="RefDes" originx="1300" originy="400" style="H82s5" rotation="0" justify="center" flipped="false" hidden="false" data="RefDes"/>
+<text name="Type" originx="1300" originy="300" style="H82s5" rotation="0" justify="center" flipped="false" hidden="false" data="Type"/>
+<text name="Value" originx="1300" originy="300" style="H82s5" rotation="0" justify="center" flipped="false" hidden="true" data="Value"/>
+</symbol>
+<component name="LM2698_DGK_8" designatorprefix="U" footprint="MUA08A">
+<alt_footprint name="MUA08A-M"/>
+<alt_footprint name="MUA08A-L"/>
+<comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="Left" type="Passive" name="VC"/>
+<comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="Left" type="Passive" name="FB"/>
+<comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="Left" type="Passive" name="&#126;SD"/>
+<comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="Left" type="Passive" name="GND"/>
+<comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="Right" type="Output" name="SW"/>
+<comppin designator="6" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="Right" type="Input" name="VIN"/>
+<comppin designator="7" sympin="7" pinswap="0" gateswap="0" gate="1" group="1" side="Right" type="Passive" name="FSLCT"/>
+<comppin designator="8" sympin="8" pinswap="0" gateswap="0" gate="1" group="1" side="Right" type="Passive" name="NC"/>
+<pinmap designator="1" footprintpin="1"/>
+<pinmap designator="2" footprintpin="2"/>
+<pinmap designator="3" footprintpin="3"/>
+<pinmap designator="4" footprintpin="4"/>
+<pinmap designator="5" footprintpin="5"/>
+<pinmap designator="6" footprintpin="6"/>
+<pinmap designator="7" footprintpin="7"/>
+<pinmap designator="8" footprintpin="8"/>
+<attached_symbol gate="1" name="LM2698MM-ADJ"/>
+<text name="Type" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="LM2698MM-ADJ"/>
+<text name="CompType" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="Switcher"/>
+<text name="PartNumber" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="LM2698MM-ADJ"/>
+<text name="Vendor" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="NationalSemiconductor"/>
+<text name="Version" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="05/02/2007"/>
+<text name="base_pn" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="LM2698"/>
+<text name="Symbol" originx="0" originy="0" style="H50S3" rotation="0" justify="center" flipped="false" hidden="true" data="NameLM2698MM-ADJ"/>
+</component>
+</ul_xml_library>
