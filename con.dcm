@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP JACK-TRS
-D TRS Stereo Jack - no switches
-K TRS Stereo Jack
-F http://www.switchcraft.com/Drawings/35rapc__hn2_cd.pdf
-$ENDCMP
-#
-#End Doc Library
