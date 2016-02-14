@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 300P14-U
+D Low-Noise Matched Transistor Array ICs NPN
+K Low-Noise Matched Transistor Array ICs NPN
+F http://www.mouser.com/ds/2/407/300data-180007.pdf
+$ENDCMP
+#
+#End Doc Library

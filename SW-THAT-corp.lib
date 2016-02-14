@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 300P14-U
+#
+DEF 300P14-U U 0 0 Y Y 4 F N
+F0 "U" 150 0 60 V V C CNN
+F1 "300P14-U" 50 0 60 V V C CNN
+F2 "" 0 50 60 H V C CNN
+F3 "" 0 50 60 H V C CNN
+$FPLIST
+ *DIP*
+ *SO*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -150 200  -200 200 N
+P 3 0 1 0  -50 -150  -50 -200  -100 -200 N
+P 4 0 1 0  -150 50  -150 100  -150 -100  -150 -150 N
+P 6 0 1 0  -150 200  0 200  -150 50  -150 -100  0 -250  -200 -250 N
+X Collector 1 -350 200 200 R 50 50 1 1 P
+X Base 2 -350 0 200 R 50 50 1 1 P
+X Emitter 3 -350 -250 200 R 50 50 1 1 P
+X Emitter 5 -350 -250 200 R 50 50 2 1 P
+X Base 6 -350 0 200 R 50 50 2 1 P
+X Collector 7 -350 200 200 R 50 50 2 1 P
+X Collector 8 -350 200 200 R 50 50 3 1 P
+X Base 9 -350 0 200 R 50 50 3 1 P
+X Emitter 10 -350 -250 200 R 50 50 3 1 P
+X Emitter 12 -350 -250 200 R 50 50 4 1 P
+X Base 13 -350 0 200 R 50 50 4 1 P
+X Collector 14 -350 200 200 R 50 50 4 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
