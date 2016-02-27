@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N5485
+D silicon N-Channel JFET 2N5485
+K Silicon N-Channel JFET
+F http://www.mouser.com/ds/2/68/2n5484-5486-51207.pdf
+$ENDCMP
+#
+#End Doc Library

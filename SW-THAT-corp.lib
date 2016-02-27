@@ -7,7 +7,14 @@ DEF 300P14-U U 0 0 Y Y 4 F N
 F0 "U" 150 0 60 V V C CNN
 F1 "300P14-U" 50 0 60 V V C CNN
 F2 "" 0 50 60 H V C CNN
-F3 "" 0 50 60 H V C CNN
+F3 "http://www.mouser.com/ds/2/407/300data-180007.pdf" 0 50 60 H I C CNN
+F4 "300P14-U" 550 400 60 V I C CNN "MF part number"
+F5 "Any" 0 0 60 H I C CNN "Source"
+F6 "DIP14" 650 500 60 V I C CNN "Package ID"
+F7 "Low-Noise Matched Transistor Array ICs" 350 200 60 V I C CNN "Description"
+F8 "No" 0 0 60 H I C CNN "Critical"
+F9 "o 300 typical hfe of 100o 300A minimum hfe of 150o 300B minimum hfe of 300" 250 100 60 V I C CNN "Characteristics"
+F10 "THAT Corperation" 450 300 60 H I C CNN "Manufacturer"
 $FPLIST
  *DIP*
  *SO*

@@ -12,6 +12,11 @@ K RC4560 audio op amp
 F http://www.ti.com/lit/ds/symlink/rc4560.pdf
 $ENDCMP
 #
+$CMP TL072
+D TL084 JFET-Input Operational Amplifier
+F http://www.ti.com/lit/ds/symlink/tl084.pdf
+$ENDCMP
+#
 $CMP TL084
 D TL084 JFET-Input Operational Amplifier
 F http://www.ti.com/lit/ds/symlink/tl084.pdf

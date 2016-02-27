@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 2N5485
+#
+DEF 2N5485 Q 0 0 Y Y 1 F N
+F0 "Q" 200 -150 60 H V C CNN
+F1 "2N5485" 0 200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "http://www.mouser.com/ds/2/68/2n5484-5486-51207.pdf" 200 -150 60 H I C CNN
+F4 "2N5485" 600 250 60 H I C CNN "MF part number"
+F5 "Any" 0 0 60 H I C CNN "Source"
+F6 "Central Semiconductor" 500 150 60 H I C CNN "Manufacturer"
+F7 "No" 0 0 60 H I C CNN "Critical"
+F8 "Silicon N-Channel JFETs designed for RF amplifier and mixer applications." 400 50 60 H I C CNN "Description"
+F9 "TO-92" 700 350 60 H I C CNN "Package ID"
+$FPLIST
+ TO*
+$ENDFPLIST
+DRAW
+C 0 0 158 0 1 0 N
+P 2 0 1 0  -100 0  100 0 N
+P 2 0 1 0  -100 100  -125 100 N
+P 2 0 1 0  0 0  0 -150 N
+P 2 0 1 0  100 100  125 100 N
+P 3 0 1 0  -100 100  -50 100  -50 0 N
+P 3 0 1 0  100 100  50 100  50 0 N
+P 4 0 1 0  0 0  -50 -50  50 -50  0 0 F
+X Drain 1 -300 100 200 R 50 50 1 1 P
+X Source 2 300 100 200 L 50 50 1 1 P
+X Gate 3 0 -350 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
