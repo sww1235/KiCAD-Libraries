@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LT1085
+D 3A Low Dropout Positive Fixed Regulator
+K 3A Low Dropout Positive Fixed Regulator
+F http://cds.linear.com/docs/en/datasheet/1083ffe.pdf
+$ENDCMP
+#
 $CMP LT3580
 D Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization
 K Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization LT3580
