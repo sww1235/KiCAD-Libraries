@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CG0603MLC-05E
+D ESD Suppressors Chip Guard 0603 5 Volts
+K ESD Suppressors Chip Guard 0603 5 Volts
+F http://bourns.com/pdfs/MLC.pdf
+$ENDCMP
+#
+$CMP MF-MSMF050-2
+D PTC Resettable Fuses
+K PTC Resettable Fuses
+F https://www.bourns.com/PDFs/MFMSMF.pdf
+$ENDCMP
+#
+$CMP MH2029
+D Ferrite Beads
+K Ferrite Beads
+F http://www.mouser.com/ds/2/54/h-777565.pdf
+$ENDCMP
+#
+$CMP PEC11-4215F-S24
+D 12 mm Incremental Encoder
+K Incremental Encoder PEC
+F http://www.bourns.com/docs/Product-Datasheets/pec11R.pdf
+$ENDCMP
+#
+#End Doc Library

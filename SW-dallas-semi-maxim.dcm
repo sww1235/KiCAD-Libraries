@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS1882
+D Dual Log Audio Digital Potentiometer
+K Dual Log Audio Digital Potentiometer DS1882
+F DS1882.pdf
+$ENDCMP
+#
+#End Doc Library

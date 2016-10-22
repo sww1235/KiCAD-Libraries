@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3580
+D Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization
+K Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization LT3580
+F http://cds.linear.com/docs/en/datasheet/3580fg.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CFPX-180
+D Standard 3.2 x 2.5mm SMD crystal in a ceramic package with a seam sealed metal lid, hermetically sealed.
+K Quartz Crystal 16MHz
+F http://www.mouser.com/ds/2/741/LFXTAL056036Reel-999733.pdf
+$ENDCMP
+#
+$CMP MF-MSMF050-2
+D PTC Resettable Fuses
+K PTC Resettable Fuses
+F https://www.bourns.com/PDFs/MFMSMF.pdf
+$ENDCMP
+#
+#End Doc Library

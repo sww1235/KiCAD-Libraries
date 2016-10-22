@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# LT3580
+#
+DEF LT3580 U 0 40 Y Y 1 F N
+F0 "U" 0 -350 60 H V C CNN
+F1 "LT3580" 0 350 60 H V C CNN
+F2 "" 550 300 60 H I C CNN
+F3 "http://cds.linear.com/docs/en/datasheet/3580fg.pdf" 250 -700 60 H I C CNN
+F4 "0.00@0" 250 -800 60 H I C CNN "Pricing"
+F5 "Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronization" 500 -600 60 H I C CNN "Description"
+F6 "Linear Technologies" 50 -500 60 H I C CNN "Manufacturer"
+$FPLIST
+ *DFN*8
+ *MSOP*8
+$ENDFPLIST
+DRAW
+S -250 250 250 -250 0 1 0 N
+X FB 1 -350 150 100 R 50 50 1 1 B
+X VC 2 -350 50 100 R 50 50 1 1 B
+X SW 4 -350 -150 100 R 50 50 1 1 B
+X ~SHDN 5 350 -150 100 L 50 50 1 1 B
+X RT 6 350 -50 100 L 50 50 1 1 B
+X SS 7 350 50 100 L 50 50 1 1 B
+X SYNC 8 350 150 100 L 50 50 1 1 B
+X GND 9 0 350 100 D 50 50 1 1 W
+X VIN ~ -350 -50 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# MH2029-300Y
+#
+DEF MH2029-300Y L 0 0 Y N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "MH2029-300Y" 0 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -100 50 100 -50 0 1 0 F
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
