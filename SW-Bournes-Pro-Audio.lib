@@ -27,7 +27,7 @@ ENDDEF
 DEF MF-MSMF050-2 F 0 0 Y N 1 F N
 F0 "F" 0 0 60 H V C CNN
 F1 "MF-MSMF050-2" 0 100 60 H V C CNN
-F2 "" -100 -100 60 H I C CNN
+F2 "Resistors_SMD:R_1218_HandSoldering" -100 -100 60 H I C CNN
 F3 "https://www.bourns.com/PDFs/MFMSMF.pdf" -50 -300 60 H I C CNN
 F4 "0.00@0" 200 -200 60 H I C CNN "Pricing"
 F5 "1812 mils" 0 400 60 H I C CNN "Package ID"
@@ -49,7 +49,7 @@ ENDDEF
 DEF MH2029 L 0 0 Y N 1 F N
 F0 "L" 0 100 60 H V C CNN
 F1 "MH2029" 0 -100 60 H V C CNN
-F2 "" -100 0 60 H I C CNN
+F2 "Resistors_SMD:R_0805_HandSoldering" -100 0 60 H I C CNN
 F3 "http://www.mouser.com/ds/2/54/h-777565.pdf" 150 150 60 H I C CNN
 F4 "0.00@0" -250 250 60 H I C CNN "Pricing"
 F5 "Bournes" 200 300 60 H I C CNN "Manufacturer"
