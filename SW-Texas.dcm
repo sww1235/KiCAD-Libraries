@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ2947
+D Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries withExternal DelayCapacitor
+K Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries withExternal DelayCapacitor
+F http://www.ti.com/lit/ds/symlink/bq2947.pdf
+$ENDCMP
+#
+$CMP BQ40Z60R
+D Programmable Battery Management Unit
+K Programmable Battery Management Unit
+F http://www.ti.com/lit/ds/symlink/bq40z60.pdf
+$ENDCMP
+#
+$CMP LP2951-33DRG4
+D Adjustable Micropower Voltage Regulators with Shutdown
+K Adjustable Micropower Voltage Regulators with Shutdown 100mA
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+#End Doc Library
