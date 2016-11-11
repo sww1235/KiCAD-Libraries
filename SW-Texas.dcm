@@ -12,10 +12,38 @@ K Programmable Battery Management Unit
 F http://www.ti.com/lit/ds/symlink/bq40z60.pdf
 $ENDCMP
 #
+$CMP LM2698
+D LM2698 1.35A Boost Regulator
+K LM2698 Boost Regulator
+F http://www.ti.com/lit/ds/symlink/lm2698.pdf
+$ENDCMP
+#
+$CMP LM833-N
+D Audio Operational Amplifier
+K LM833 audio op amp
+F http://www.ti.com/lit/ds/symlink/lm833-n.pdf
+$ENDCMP
+#
 $CMP LP2951-33DRG4
 D Adjustable Micropower Voltage Regulators with Shutdown
 K Adjustable Micropower Voltage Regulators with Shutdown 100mA
 F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP RC4560
+D Audio Operational Amplifier
+K RC4560 audio op amp
+F http://www.ti.com/lit/ds/symlink/rc4560.pdf
+$ENDCMP
+#
+$CMP TL072
+D TL084 JFET-Input Operational Amplifier
+F http://www.ti.com/lit/ds/symlink/tl084.pdf
+$ENDCMP
+#
+$CMP TL084
+D TL084 JFET-Input Operational Amplifier
+F http://www.ti.com/lit/ds/symlink/tl084.pdf
 $ENDCMP
 #
 #End Doc Library
