@@ -6,6 +6,11 @@ K Dual Log Audio Digital Potentiometer DS1882
 F DS1882.pdf
 $ENDCMP
 #
+$CMP DS2788
+D Stand-Alone Fuel-Gauge IC with LED Display Drivers
+K Stand-Alone Fuel-Gauge IC with LED Display Drivers
+$ENDCMP
+#
 $CMP MAX1719
 D Switched-Capacitor Voltage Inverters with Shutdown SOT23
 K Switched-Capacitor Voltage Inverters with Shutdown SOT23
@@ -22,6 +27,11 @@ $CMP MAX1721
 D Switched-Capacitor Voltage Inverters with Shutdown SOT23
 K Switched-Capacitor Voltage Inverters with Shutdown SOT23
 F https://datasheets.maximintegrated.com/en/ds/MAX1719-MAX1721.pdf
+$ENDCMP
+#
+$CMP MAX6765
+D Automotive Micropower Linear Regulators with Supervisor
+K Automotive Micropower Linear Regulators with Supervisor Low Quiescent Current
 $ENDCMP
 #
 $CMP MAX6819

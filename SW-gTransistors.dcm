@@ -15,4 +15,9 @@ D Transistor N-MOSFET (general)
 K nmos n-mos n-mosfet transistor
 $ENDCMP
 #
+$CMP NMOS_GSD_Body-Diode
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 #End Doc Library
