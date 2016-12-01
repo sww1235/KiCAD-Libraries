@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISL94203
+D 3 to 8 Cell Li-ion Battery Pack Monitor
+K Li-ion Battery Pack Monitor
+F http://www.intersil.com/content/dam/Intersil/documents/isl9/isl94203.pdf
+$ENDCMP
+#
+#End Doc Library
