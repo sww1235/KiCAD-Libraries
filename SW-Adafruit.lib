@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Trinket
+#
+DEF Trinket U 0 40 Y Y 1 F N
+F0 "U" 200 -300 60 H V C CNN
+F1 "Trinket" -150 300 60 H V C CNN
+F2 "" 200 150 60 H I C CNN
+F3 "" 200 150 60 H I C CNN
+F4 "0.00@0" 250 450 60 H I C CNN "Pricing"
+F5 "Adafruit" 0 -450 60 H I C CNN "Manufacturer"
+F6 "Adafruit Trinket - Mini Microcontroller - 5V Logic" 100 -600 60 H I C CNN "Description"
+DRAW
+S -300 250 300 -250 0 1 0 N
+X BATT+ 1 500 0 200 L 50 50 1 1 W
+X GND 2 500 -200 200 L 50 50 1 1 W
+X GPIO4 3 -500 -200 200 R 50 50 1 1 B
+X GPIO3 4 -500 -100 200 R 50 50 1 1 B
+X RST 5 500 -100 200 L 50 50 1 1 I
+X 5V 6 500 100 200 L 50 50 1 1 w
+X GPIO2 7 -500 0 200 R 50 50 1 1 B
+X GPIO1 8 -500 100 200 R 50 50 1 1 B
+X GPIO0 9 -500 200 200 R 50 50 1 1 B
+X +USB 10 500 200 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
