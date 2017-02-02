@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SPST_Relay
+#
+DEF SPST_Relay K 0 0 Y N 1 F N
+F0 "K" -150 -150 60 H V C CNN
+F1 "SPST_Relay" -100 200 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "0.00@0" 0 -300 60 H I C CNN "Pricing"
+F5 "Generic SPST Relay" -50 350 60 H I C CNN "Description"
+DRAW
+A -75 12 12 -899 899 0 1 0 N -75 0 -75 25
+A -75 37 12 -899 899 0 1 0 N -75 25 -75 50
+A -75 62 12 -899 899 0 1 0 N -75 50 -75 75
+A -75 87 12 -899 899 0 1 0 N -75 75 -75 100
+P 2 0 1 0 -100 100 -75 100 N
+P 2 0 1 0 -75 0 -100 0 N
+P 2 0 1 0 -25 100 -25 0 N
+P 2 0 1 0 -24 46 12 46 N
+P 2 0 1 0 0 75 25 25 N
+P 2 0 1 0 25 0 50 0 N
+P 3 0 1 0 0 25 0 0 25 0 N
+P 4 0 1 0 0 75 0 100 25 100 50 100 N
+X Coil_1 1 -200 100 100 R 50 50 1 1 P
+X Coil_2 2 -200 0 100 R 50 50 1 1 P
+X Contact_A 3 150 0 100 L 50 50 1 1 P
+X Contact_B 4 150 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

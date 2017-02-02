@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SPST_Relay
+D Generic SPST Relay
+K Generic SPST Relay
+$ENDCMP
+#
+#End Doc Library
