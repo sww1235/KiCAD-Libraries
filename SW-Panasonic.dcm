@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 18650
+D NCR 18650 cell
+K NCR 18650 cell battery
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 18650
+#
+DEF 18650 BT 0 0 N Y 1 F N
+F0 "BT" 100 40 50 H V L CNN
+F1 "18650" 100 -40 50 H V L CNN
+F2 "" 0 10 50 V V C CNN
+F3 "" 0 10 50 V V C CNN
+F4 "0.00@0" -25 475 60 H I C CNN "Pricing"
+F5 "NCR 18650 cell battery" -25 325 60 H I C CNN "Description"
+F6 "Panasonic" -25 225 60 H I C CNN "Manufacturer"
+DRAW
+S -90 20 90 10 0 1 0 F
+S -62 -10 58 -30 0 1 0 F
+P 2 0 1 10 20 75 60 75 N
+P 2 0 1 10 40 95 40 55 N
+X + 1 0 100 80 D 50 50 1 1 P
+X - 2 0 -100 70 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
