@@ -29,6 +29,12 @@ K Switched-Capacitor Voltage Inverters with Shutdown SOT23
 F https://datasheets.maximintegrated.com/en/ds/MAX1719-MAX1721.pdf
 $ENDCMP
 #
+$CMP MAX1908
+D Low-Cost Multichemistry Battery Chargers
+K Low-Cost Multichemistry Battery Chargers
+F https://datasheets.maximintegrated.com/en/ds/MAX1908-MAX8765A.pdf
+$ENDCMP
+#
 $CMP MAX6765
 D Automotive Micropower Linear Regulators with Supervisor
 K Automotive Micropower Linear Regulators with Supervisor Low Quiescent Current
