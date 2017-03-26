@@ -25,6 +25,11 @@ D Transistor P-MOSFET (general)
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
+$CMP Q_PMOS_GSD_Body_Diode
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP Q_PMOS_SGD
 D Transistor P-MOSFET (general)
 K pmos p-mos p-mosfet transistor
