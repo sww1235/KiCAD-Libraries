@@ -1,8 +1,8 @@
 # KiCAD-Libraries
 
 
-These are KiCAD libraries taht I have created during various projects.
+These are KiCAD libraries that I have created during various projects. Feel free
+to use them under the repo license.
 
-Anyone is free to use them but the footprints may not be completely accurate. 
-
-Please file github issues if you find an error.
+I try to be completely accurate but some erros may have crept in. Please file a
+github issue if you find an error.
