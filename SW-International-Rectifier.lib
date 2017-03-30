@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# IRF1010E
+#
+DEF IRF1010E Q 0 0 Y Y 1 F N
+F0 "Q" -260 -190 60 H V C CNN
+F1 "IRF1010E" -290 250 60 H V C CNN
+F2 "TO_SOT_Packages_THT:TO-220_Horizontal" 50 1750 60 H I C CNN
+F3 "http://www.irf.com/product-info/datasheets/data/irf1010e.pdf" 100 1650 60 H I C CNN
+F4 "60V 75A" 10 590 60 H I C CNN "Characteristics"
+F5 "0.00@0" 0 1800 60 H I C CNN "Pricing"
+F6 "IRF" 0 1350 60 H I C CNN "Manufacturer"
+F7 "TO-220" 0 1550 60 H I C CNN "Package ID"
+DRAW
+C 0 0 206 0 1 0 N
+P 2 0 1 0 -120 -70 50 -70 N
+P 2 0 1 0 -120 -50 -120 -90 N
+P 2 0 1 0 -120 20 -120 -20 N
+P 2 0 1 0 -120 50 -120 90 N
+P 2 0 1 0 -120 70 50 70 N
+P 2 0 1 0 30 30 20 20 N
+P 2 0 1 0 50 200 50 -200 N
+P 3 0 1 0 -200 -50 -160 -50 -160 100 N
+P 3 0 1 0 -120 0 0 0 0 -70 N
+P 3 0 1 0 30 30 70 30 80 40 N
+P 4 0 1 0 -80 0 -50 20 -50 -20 -80 0 F
+P 4 0 1 0 50 30 30 -15 70 -15 50 30 F
+X G 1 -300 -50 100 R 50 50 1 1 P
+X D 2 50 300 100 D 50 50 1 1 P
+X S 3 50 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

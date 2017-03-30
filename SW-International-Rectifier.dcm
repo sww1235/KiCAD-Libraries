@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IRF1010E
+D HEXFET Power MOSFET
+K HEXFET Power MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf1010e.pdf
+$ENDCMP
+#
+#End Doc Library
