@@ -33,4 +33,64 @@ X ~ 3 200 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# SI1970
+#
+DEF SI1970 U 0 0 Y Y 2 F N
+F0 "U" -400 150 60 H V C CNN
+F1 "SI1970" -100 -300 60 H V C CNN
+F2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" 200 1100 60 H I C CNN
+F3 "http://www.vishay.com/docs/74343/SI1970DH.pdf" 200 1000 60 H I C CNN
+F4 "0.00@0" 50 1200 60 H I C CNN "Pricing"
+F5 "Dual N-Channel 30 V (D-S) MOSFET" -100 600 60 H I C CNN "Description"
+F6 "SOT-363" 0 700 60 H I C CNN "Package ID"
+F7 "Vishay" -200 500 60 H I C CNN "Manufacturer"
+DRAW
+S -290 20 -50 -220 0 1 0 N
+P 2 0 1 0 -250 -110 -210 -110 N
+P 2 0 1 0 -230 -110 -230 -40 N
+P 2 0 1 0 -230 -40 -170 -40 N
+P 2 0 1 0 -230 0 -300 0 N
+P 2 0 1 0 -190 -110 -150 -110 N
+P 2 0 1 0 -170 -110 -170 -40 N
+P 2 0 1 0 -150 -20 -150 20 N
+P 2 0 1 0 -130 -110 -90 -110 N
+P 2 0 1 0 -110 -110 -110 -40 N
+P 2 0 1 0 -110 0 10 0 N
+P 4 0 1 0 -230 -40 -230 0 -110 0 -110 -40 N
+P 4 0 1 0 -170 -110 -180 -90 -160 -90 -170 -110 F
+P 4 0 1 0 -90 -140 -250 -140 -250 -200 -300 -200 N
+P 5 0 1 0 -180 0 -180 20 -150 0 -180 -20 -180 0 F
+X S2 1 -400 0 100 R 50 50 1 1 P
+X G2 2 -400 -200 100 R 50 50 1 1 P
+X D2 6 100 0 100 L 50 50 1 1 P
+X D2 3 100 0 100 L 50 50 2 1 P
+X S2 4 -400 0 100 R 50 50 2 1 P
+X G2 5 -400 -200 100 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# V10P10
+#
+DEF V10P10 D 0 0 Y N 1 F N
+F0 "D" -130 100 60 H V C CNN
+F1 "V10P10" 40 -150 60 H V C CNN
+F2 "TO_SOT_Packages_SMD:TO-277A" 70 -620 60 H I C CNN
+F3 "http://www.vishay.com/docs/89006/v10p10.pdf" 190 -750 60 H I C CNN
+F4 "0.00@0" 0 -1050 60 H I C CNN "Pricing"
+F5 "High Current Density Surface Mount MOS Barrier Schottky Rectifier Ultra Low" 100 -460 60 H I C CNN "Description"
+F6 "TO-277A" 1060 -620 60 H I C CNN "Package ID"
+F7 "VF = 0.453 V at IF = 5 A" 60 -860 60 H I C CNN "Characteristics"
+F8 "Vishay" -10 -550 60 H I C CNN "Manufacturer"
+DRAW
+S -50 70 120 -70 0 1 0 N
+P 2 0 1 0 -20 20 -20 -20 N
+P 2 0 1 0 100 0 0 0 N
+P 2 0 1 0 100 50 100 -50 N
+P 4 0 1 0 -20 0 30 20 30 -20 -20 0 F
+X A 1 200 50 100 L 50 50 1 1 P
+X A 2 200 -50 100 L 50 50 1 1 P
+X K 3 -150 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

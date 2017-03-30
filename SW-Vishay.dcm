@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SI1970
+D Dual N-Channel 30 V (D-S) MOSFET
+K Dual N-Channel 30 V (D-S) MOSFET
+F http://www.vishay.com/docs/74343/SI1970DH.pdf
+$ENDCMP
+#
+$CMP V10P10
+D High Current Density Surface Mount MOS Barrier Schottky Rectifier Ultra Low
+K High Current Density Surface Mount MOS Barrier Schottky Rectifier Ultra Low
+F http://www.vishay.com/docs/89006/v10p10.pdf
+$ENDCMP
+#
 #End Doc Library
