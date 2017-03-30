@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RaspberryPi-GPIO-header-HAT-#ordered
+D Raspberry Pi GPIO Header - HAT
+K Raspberry Pi GPIO Header
+F http://pinout.xyz/pinout/pijack
+$ENDCMP
+#
+$CMP RaspberryPi-GPIO-header-HAT-logical
+D Raspberry Pi GPIO Header HAT
+K Raspberry Pi GPIO Header HAT
+F http://pinout.xyz/pinout/pijack
+$ENDCMP
+#
+#End Doc Library
