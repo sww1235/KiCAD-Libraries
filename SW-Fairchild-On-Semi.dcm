@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDD8451
+D N Channel Power Trench MOSFET
+K N Channel Power Trench MOSFET
+F https://www.fairchildsemi.com/datasheets/FD/FDD8451.pdf
+$ENDCMP
+#
+#End Doc Library
