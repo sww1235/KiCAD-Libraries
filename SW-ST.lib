@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# USBLC6-2
+#
+DEF USBLC6-2 U 0 40 Y Y 1 F N
+F0 "U" -200 200 60 H V C CNN
+F1 "USBLC6-2" 0 -200 60 H V C CNN
+F2 "TO_SOT_Packages_SMD:SOT-666" -50 1050 60 H I C CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" 750 1150 60 H I C CNN
+F4 "0.00@0" 0 900 60 H I C CNN "Pricing"
+F5 "SOT-666, SOT23-6L" 0 1350 60 H I C CNN "Package ID"
+F6 "ST" 0 1450 60 H I C CNN "Manufacturer"
+F7 "Very low capacitance ESD protection" -50 1250 60 H I C CNN "Description"
+DRAW
+S -250 150 250 -150 0 1 0 N
+X I/O1 1 -450 100 200 R 50 50 1 1 B
+X GND 2 -450 0 200 R 50 50 1 1 W
+X I/O2 3 -450 -100 200 R 50 50 1 1 B
+X I/O1 4 450 100 200 L 50 50 1 1 B
+X VBUS 5 450 0 200 L 50 50 1 1 W
+X I/O2 6 450 -100 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

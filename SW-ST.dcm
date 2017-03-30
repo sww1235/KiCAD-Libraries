@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USBLC6-2
+D Very low capacitance ESD protection
+K Very low capacitance ESD protection
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf
+$ENDCMP
+#
+#End Doc Library
