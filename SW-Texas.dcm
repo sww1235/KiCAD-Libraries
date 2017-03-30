@@ -46,4 +46,8 @@ D TL084 JFET-Input Operational Amplifier
 F http://www.ti.com/lit/ds/symlink/tl084.pdf
 $ENDCMP
 #
+$CMP TPS65982
+F http://www.ti.com/lit/ds/symlink/tps65982.pdf
+$ENDCMP
+#
 #End Doc Library
