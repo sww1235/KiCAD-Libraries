@@ -47,6 +47,8 @@ F http://www.ti.com/lit/ds/symlink/tl084.pdf
 $ENDCMP
 #
 $CMP TPS65982
+D TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
+K TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
 F http://www.ti.com/lit/ds/symlink/tps65982.pdf
 $ENDCMP
 #
