@@ -6,4 +6,9 @@ K TRS Stereo Jack
 F http://www.switchcraft.com/Drawings/35rapc__hn2_cd.pdf
 $ENDCMP
 #
+$CMP USB-Type-C-female
+D USB Type C Female Jack
+K USB Type C Female Jack
+$ENDCMP
+#
 #End Doc Library
