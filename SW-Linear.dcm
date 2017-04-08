@@ -12,4 +12,9 @@ K Boost/Inverting DC/DC Converter with 2A Switch, Soft-Start, and Synchronizatio
 F http://cds.linear.com/docs/en/datasheet/3580fg.pdf
 $ENDCMP
 #
+$CMP LTC1391
+D 8-Channel Analog Multiplexer with Cascadable Serial Interface
+K 8-Channel Analog Multiplexer with Cascadable Serial Interface
+$ENDCMP
+#
 #End Doc Library
