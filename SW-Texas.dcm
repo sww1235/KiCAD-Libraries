@@ -52,4 +52,9 @@ K TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multip
 F http://www.ti.com/lit/ds/symlink/tps65982.pdf
 $ENDCMP
 #
+$CMP TS12A44514
+D Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch
+K Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch
+$ENDCMP
+#
 #End Doc Library

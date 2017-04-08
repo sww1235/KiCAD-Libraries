@@ -464,4 +464,39 @@ X USB_RP_P L5 -400 -50 200 R 50 50 6 1 B
 ENDDRAW
 ENDDEF
 #
+# TS12A44514
+#
+DEF TS12A44514 U 0 0 Y Y 4 F N
+F0 "U" -250 250 60 H V C CNN
+F1 "TS12A44514" 400 200 60 H V C CNN
+F2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" 500 1300 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 "0.00@0" 50 1000 60 H I C CNN "Pricing"
+F5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" 350 1550 60 H I C CNN "Characteristics"
+F6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" 300 1100 60 H I C CNN "Description"
+F7 "Texas Instruments" 400 1450 60 H I C CNN "Manufacturer"
+F8 "TSSOP14" 300 1200 60 H I C CNN "Package ID"
+DRAW
+S -100 100 100 -200 0 1 0 N
+P 2 0 1 0 50 0 30 0 N
+P 2 0 1 0 100 0 50 0 N
+P 3 0 1 0 -100 -150 0 -150 0 20 N
+P 3 0 1 0 -100 0 -50 0 50 50 N
+X GND 7 0 -350 150 U 50 50 0 1 W
+X VCC 14 0 250 150 D 50 50 0 1 W
+X NO 1 -300 0 200 R 50 50 1 1 B
+X COM 2 300 0 200 L 50 50 1 1 B
+X IN 13 -300 -150 200 R 50 50 1 1 I
+X NO 3 -300 0 200 R 50 50 2 1 B
+X COM 4 300 0 200 L 50 50 2 1 B
+X IN 5 -300 -150 200 R 50 50 2 1 I
+X IN 6 -300 -150 200 R 50 50 3 1 I
+X NO 8 -300 0 200 R 50 50 3 1 B
+X COM 9 300 0 200 L 50 50 3 1 B
+X COM 10 300 0 200 L 50 50 4 1 B
+X NO 11 -300 0 200 R 50 50 4 1 B
+X IN 12 -300 -150 200 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
