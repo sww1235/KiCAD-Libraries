@@ -35,6 +35,12 @@ K Low-Cost Multichemistry Battery Chargers
 F https://datasheets.maximintegrated.com/en/ds/MAX1908-MAX8765A.pdf
 $ENDCMP
 #
+$CMP MAX4533
+D Quad, Rail-to-Rail, Fault-Protected, SPDT Analog Switch
+K Quad, Rail-to-Rail, Fault-Protected, SPDT Analog Switch
+F https://datasheets.maximintegrated.com/en/ds/MAX4533.pdf
+$ENDCMP
+#
 $CMP MAX6765
 D Automotive Micropower Linear Regulators with Supervisor
 K Automotive Micropower Linear Regulators with Supervisor Low Quiescent Current
