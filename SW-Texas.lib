@@ -408,7 +408,7 @@ F1 "TCA9534(A)" 0 -450 60 H V C CNN
 F2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" -100 800 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tca9534.pdf" 0 900 60 H I C CNN
 F4 "0.00@0" 50 1550 60 H I C CNN "Pricing"
-F5 "http://www.ti.com/lit/ds/symlink/tca9534.pdf" 300 1200 60 H I C CNN "Description"
+F5 "Low Voltage 8-Bit I2C and SMBUS Low-Power I/O Expander With Interrupt Output and Configuration Registers" 300 1200 60 H I C CNN "Description"
 F6 "Texas Instruments" 200 1100 60 H I C CNN "Manufacturer"
 F7 "TSSOP, SOIC" 400 1300 60 H I C CNN "Package ID"
 ALIAS TCA9534 TCA9534A
