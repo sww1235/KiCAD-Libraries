@@ -12,6 +12,24 @@ K Programmable Battery Management Unit
 F http://www.ti.com/lit/ds/symlink/bq40z60.pdf
 $ENDCMP
 #
+$CMP CSD17309Q3
+D 30-V N-Channel NexFET Power MOSFET
+K 30-V N-Channel NexFET Power MOSFET
+F http://www.ti.com/lit/ds/symlink/csd17309q3.pdf
+$ENDCMP
+#
+$CMP CSD25404Q3
+D –20 V P-Channel NexFET Power MOSFET
+K –20 V P-Channel NexFET Power MOSFET
+F http://www.ti.com/lit/ds/symlink/csd25404q3.pdf
+$ENDCMP
+#
+$CMP CSD87501L
+D 30 V Dual Common Drain N-Channel NexFET Power MOSFET
+K 30 V Dual Common Drain N-Channel NexFET Power MOSFET
+F http://www.ti.com/lit/ds/symlink/csd87501l.pdf
+$ENDCMP
+#
 $CMP LM2698
 D LM2698 1.35A Boost Regulator
 K LM2698 Boost Regulator
@@ -36,6 +54,12 @@ K RC4560 audio op amp
 F http://www.ti.com/lit/ds/symlink/rc4560.pdf
 $ENDCMP
 #
+$CMP TCA9534(A)
+D Low Voltage 8-Bit I2C and SMBUS Low-Power I/O Expander With Interrupt Output and Configuration Registers
+K Low Voltage 8-Bit I2C and SMBUS Low-Power I/O Expander With Interrupt Output and Configuration Registers
+F http://www.ti.com/lit/ds/symlink/tca9534.pdf
+$ENDCMP
+#
 $CMP TL072
 D TL084 JFET-Input Operational Amplifier
 F http://www.ti.com/lit/ds/symlink/tl084.pdf
@@ -44,6 +68,17 @@ $ENDCMP
 $CMP TL084
 D TL084 JFET-Input Operational Amplifier
 F http://www.ti.com/lit/ds/symlink/tl084.pdf
+$ENDCMP
+#
+$CMP TPD4E05U06
+D 1, 4, 6 Channel ESD Protection Device for Super-Speed (Up to 6 Gbps) Interface
+K 1, 4, 6 Channel ESD Protection Device for Super-Speed (Up to 6 Gbps) Interface
+$ENDCMP
+#
+$CMP TPD8S300
+D SBType-CTMPort Protector: Short-to-VBUSOvervoltageandIECESD Protection
+K SBType-CTMPort Protector: Short-to-VBUSOvervoltageandIECESD Protection
+F http://www.ti.com/lit/ds/symlink/tpd6s300.pdf
 $ENDCMP
 #
 $CMP TPS65982
@@ -55,6 +90,12 @@ $ENDCMP
 $CMP TS12A44514
 D Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch
 K Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch
+$ENDCMP
+#
+$CMP TUSB4041I
+D Four-Port USB 2.0 Hub
+K Four-Port USB 2.0 Hub
+F http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
 $ENDCMP
 #
 #End Doc Library
