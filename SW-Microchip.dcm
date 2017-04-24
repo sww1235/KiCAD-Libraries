@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LAN9514
+D USB 2.0 Hub and 10/100 Ethernet Controller
+K USB 2.0 Hub and 10/100 Ethernet Controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
+$ENDCMP
+#
 $CMP MCP23017
 D 16-Bit I/O Expander with Serial Interface
 K 16-Bit I/O Expander with Serial Interface
