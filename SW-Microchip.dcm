@@ -12,4 +12,10 @@ K 16-Bit I/O Expander with Serial Interface
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21952b.pdf
 $ENDCMP
 #
+$CMP MIC2026-1BM
+D Dual-Channel Power Distribution Switch
+K Dual-Channel Power Distribution Switch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
+$ENDCMP
+#
 #End Doc Library
