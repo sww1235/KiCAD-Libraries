@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# TG110-RPE5N5xx
+#
+DEF TG110-RPE5N5xx U 0 0 Y N 1 F N
+F0 "U" -50 350 60 H V C CNN
+F1 "TG110-RPE5N5xx" 0 -400 60 H V C CNN
+F2 "" -500 200 60 H I C CNN
+F3 "http://www.mouser.com/ds/2/706/discrete-ultrapoe-100baset-523855.pdf" 0 800 60 H I C CNN
+F4 "0.00@0" 0 950 60 H I C CNN "Pricing"
+F5 "Halo Electronics" -200 500 60 H I C CNN "Manufacturer"
+F6 "SMD Single Port 10/100BASE-TX PoE/PoE+ Isolation Modules" -100 600 60 H I C CNN "Description"
+F7 "SMD-16" 0 700 60 H I C CNN "Package ID"
+DRAW
+T 900 50 0 30 0 0 0 Line~Side Normal 0 C C
+T 900 0 -150 50 0 0 0 XFMR Normal 0 C C
+T 900 0 150 50 0 0 0 XFMR Normal 0 C C
+S -100 300 100 -350 0 1 0 N
+P 2 0 1 0 -100 0 100 0 N
+X 1 1 -200 -250 100 R 50 50 1 1 B
+X ~ 2 -200 -150 100 R 50 50 1 1 B
+X ~ 3 -200 -50 100 R 50 50 1 1 B
+X ~ 4 -50 -200 100 R 50 50 1 1 N N
+X ~ 5 -50 -250 100 R 50 50 1 1 N N
+X ~ 6 -200 50 100 R 50 50 1 1 B
+X ~ 7 -200 150 100 R 50 50 1 1 B
+X ~ 8 -200 250 100 R 50 50 1 1 B
+X ~ 9 200 250 100 L 50 50 1 1 B
+X ~ 10 200 150 100 L 50 50 1 1 B
+X ~ 11 200 50 100 L 50 50 1 1 B
+X ~ 12 50 -100 100 L 50 50 1 1 N N
+X ~ 13 50 -150 100 L 50 50 1 1 N N
+X ~ 14 200 -50 100 L 50 50 1 1 B
+X ~ 15 200 -150 100 L 50 50 1 1 B
+X ~ 16 200 -250 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

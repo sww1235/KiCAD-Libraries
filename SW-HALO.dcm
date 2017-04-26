@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TG110-RPE5N5xx
+D SMD Single Port 10/100BASE-TX PoE/PoE+ Isolation Modules
+K SMD Single Port 10/100BASE-TX PoE/PoE+ Isolation Modules Ethernet Magnetics
+F http://www.mouser.com/ds/2/706/discrete-ultrapoe-100baset-523855.pdf
+$ENDCMP
+#
+#End Doc Library
