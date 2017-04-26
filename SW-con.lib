@@ -19,6 +19,35 @@ X 3 3 250 250 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# NE8FBH-C5-LED1-S
+#
+DEF NE8FBH-C5-LED1-S J 0 40 Y Y 1 F N
+F0 "J" -250 450 60 H V C CNN
+F1 "NE8FBH-C5-LED1-S" 350 -50 60 V V C CNN
+F2 "" -100 -100 60 H I C CNN
+F3 "http://www.neutrik.us/zoolu-website/media/download/13417/Drawing+NE8FBH-C5-LED1-S" 0 1150 60 H I C CNN
+F4 "0.00@0" 0 1700 60 H I C CNN "Pricing"
+F5 "Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm" -200 1300 60 H I C CNN "Characteristics"
+F6 "Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm" 0 1500 60 H I C CNN "Description"
+F7 "Neutrik" -100 1400 60 H I C CNN "Manufacturer"
+DRAW
+S -300 350 300 -450 0 1 0 N
+X 1 1 -500 300 200 R 50 50 1 1 B
+X 2 2 -500 200 200 R 50 50 1 1 B
+X 3 3 -500 100 200 R 50 50 1 1 B
+X 4 4 -500 0 200 R 50 50 1 1 B
+X 5 5 -500 -100 200 R 50 50 1 1 B
+X 6 6 -500 -200 200 R 50 50 1 1 B
+X 7 7 -500 -300 200 R 50 50 1 1 B
+X 8 8 -500 -400 200 R 50 50 1 1 B
+X S 9 -150 -550 100 U 50 50 1 1 B
+X S 10 -50 -550 100 U 50 50 1 1 B
+X S 11 50 -550 100 U 50 50 1 1 B
+X S 12 150 -550 100 U 50 50 1 1 B
+X G 13 250 -550 100 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # USB-Type-C-female
 #
 DEF USB-Type-C-female J 0 40 Y Y 1 F N

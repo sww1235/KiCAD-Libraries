@@ -6,6 +6,12 @@ K TRS Stereo Jack
 F http://www.switchcraft.com/Drawings/35rapc__hn2_cd.pdf
 $ENDCMP
 #
+$CMP NE8FBH-C5-LED1-S
+D Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm
+K Horizontal PCB mount RJ45 receptacle, CAT5e, shielded, two light pipes for SMD-LEDs, B-Series cutout with latch lock, max. panel thickness 3 mm
+F http://www.neutrik.us/zoolu-website/media/download/13417/Drawing+NE8FBH-C5-LED1-S
+$ENDCMP
+#
 $CMP USB-Type-C-female
 D USB Type C Female Jack
 K USB Type C Female Jack
