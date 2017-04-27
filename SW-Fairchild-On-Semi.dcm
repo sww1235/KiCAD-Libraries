@@ -6,6 +6,12 @@ K 5-Line HDMI Control Line ESD Protection
 F http://www.onsemi.com/pub/Collateral/ESD5384-D.PDF
 $ENDCMP
 #
+$CMP ESD7484
+D 4-Line Ultra-Large Bandwidth ESD Protection
+K 4-Line Ultra-Large Bandwidth ESD Protection HDMI
+F http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF
+$ENDCMP
+#
 $CMP FDD8451
 D N Channel Power Trench MOSFET
 K N Channel Power Trench MOSFET
