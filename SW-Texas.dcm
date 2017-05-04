@@ -30,6 +30,12 @@ K 30 V Dual Common Drain N-Channel NexFET Power MOSFET
 F http://www.ti.com/lit/ds/symlink/csd87501l.pdf
 $ENDCMP
 #
+$CMP LM1085
+D LM1085 3A LowDropout Positive Regulators
+K LM1085 3A Low Dropout Positive Regulators
+F http://www.ti.com/lit/ds/symlink/lm1085.pdf
+$ENDCMP
+#
 $CMP LM2698
 D LM2698 1.35A Boost Regulator
 K LM2698 Boost Regulator
@@ -37,13 +43,13 @@ F http://www.ti.com/lit/ds/symlink/lm2698.pdf
 $ENDCMP
 #
 $CMP LM2937
-D LM2937 500-mA Low Dropout RegulatorLM2937 500-mA Low Dropout Regulator
-K LM2937 500-mA Low Dropout RegulatorLM2937 500-mA Low Dropout Regulator
+D LM2937 500-mA Low Dropout Regulator
+K LM2937 500-mA Low Dropout Regulator
 F http://www.ti.com/lit/ds/symlink/lm2937.pdf
 $ENDCMP
 #
 $CMP LM2937-3V3
-D LM2937 2.5-V and 3.3-V 400-mA and 500-mA Voltage RegulatorsLM2937 500-mA Low Dropout Regulator
+D LM2937 2.5-V and 3.3-V 400-mA and 500-mA Voltage Regulators
 K LM2937 2.5-V and 3.3-V 400-mA and 500-mA Voltage Regulators
 F http://www.ti.com/lit/ds/symlink/lm2937-3.3.pdf
 $ENDCMP
@@ -97,6 +103,12 @@ $CMP TPS65982
 D TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
 K TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
 F http://www.ti.com/lit/ds/symlink/tps65982.pdf
+$ENDCMP
+#
+$CMP TPS74801DRC
+D TPS748 1.5-A Low-Dropout Linear Regulator With Programmable Soft-Start
+K TPS748 1.5-A Low-Dropout Linear Regulator With Programmable Soft-Start
+F http://www.ti.com/lit/ds/symlink/tps74801.pdf
 $ENDCMP
 #
 $CMP TS12A44514
