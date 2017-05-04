@@ -30,6 +30,12 @@ K 30 V Dual Common Drain N-Channel NexFET Power MOSFET
 F http://www.ti.com/lit/ds/symlink/csd87501l.pdf
 $ENDCMP
 #
+$CMP LM1084
+D LM1084 5A Low Dropout Positive Regulators
+K LM1084 5A Low Dropout Positive Regulators
+F http://www.ti.com/lit/ds/symlink/lm1084.pdf
+$ENDCMP
+#
 $CMP LM1085
 D LM1085 3A LowDropout Positive Regulators
 K LM1085 3A Low Dropout Positive Regulators
