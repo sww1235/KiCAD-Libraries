@@ -296,6 +296,48 @@ X NC_(GND) 8 500 -150 200 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# LM2937
+#
+DEF LM2937 U 0 40 Y Y 1 F N
+F0 "U" -150 200 60 H V C CNN
+F1 "LM2937" 0 -200 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm2937.pdf" 150 1050 60 H I C CNN
+F4 "0.00@0" 0 900 60 H I C CNN "Pricing"
+F5 "500mA, Vin=6-26V, Vout=5,8,10,12,15" -50 1200 60 H I C CNN "Characteristics"
+F6 "LM2937 500-mA Low Dropout Regulator" 150 1400 60 H I C CNN "Description"
+F7 "Texas Instruments" 50 1300 60 H I C CNN "Manufacturer"
+F8 "TO-220, SOT-223, TO-263" 250 1500 60 H I C CNN "Package ID"
+DRAW
+S -200 150 200 -150 0 1 0 N
+X IN 1 -400 100 200 R 50 50 1 1 W
+X GND 2 -400 -100 200 R 50 50 1 1 W
+X OUT 3 400 100 200 L 50 50 1 1 w
+X TAB 4 400 -100 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# LM2937-3V3
+#
+DEF LM2937-3V3 U 0 40 Y Y 1 F N
+F0 "U" -150 200 60 H V C CNN
+F1 "LM2937-3V3" 0 -200 60 H V C CNN
+F2 "" -250 100 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm2937-3.3.pdf" 150 1050 60 H I C CNN
+F4 "0.00@0" 0 900 60 H I C CNN "Pricing"
+F5 "500mA 3V3 out, Vin=4.75-26V" -50 1200 60 H I C CNN "Characteristics"
+F6 "LM2937 2.5-V and 3.3-V 400-mA and 500-mA Voltage Regulators" 150 1400 60 H I C CNN "Description"
+F7 "Texas Instruments" 50 1300 60 H I C CNN "Manufacturer"
+F8 "TO-220, SOT-223, TO-263" 250 1500 60 H I C CNN "Package ID"
+DRAW
+S -200 150 200 -150 0 1 0 N
+X IN 1 -400 100 200 R 50 50 1 1 W
+X GND 2 -400 -100 200 R 50 50 1 1 W
+X OUT 3 400 100 200 L 50 50 1 1 w
+X TAB 4 400 -100 200 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # LM833-N
 #
 DEF LM833-N U 0 0 Y Y 2 F N

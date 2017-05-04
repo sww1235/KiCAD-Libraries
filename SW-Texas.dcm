@@ -36,6 +36,18 @@ K LM2698 Boost Regulator
 F http://www.ti.com/lit/ds/symlink/lm2698.pdf
 $ENDCMP
 #
+$CMP LM2937
+D LM2937 500-mA Low Dropout RegulatorLM2937 500-mA Low Dropout Regulator
+K LM2937 500-mA Low Dropout RegulatorLM2937 500-mA Low Dropout Regulator
+F http://www.ti.com/lit/ds/symlink/lm2937.pdf
+$ENDCMP
+#
+$CMP LM2937-3V3
+D LM2937 2.5-V and 3.3-V 400-mA and 500-mA Voltage RegulatorsLM2937 500-mA Low Dropout Regulator
+K LM2937 2.5-V and 3.3-V 400-mA and 500-mA Voltage Regulators
+F http://www.ti.com/lit/ds/symlink/lm2937-3.3.pdf
+$ENDCMP
+#
 $CMP LM833-N
 D Audio Operational Amplifier
 K LM833 audio op amp
