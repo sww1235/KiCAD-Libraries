@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF ESD5384 U 0 40 Y Y 1 F N
 F0 "U" -150 300 60 H V C CNN
 F1 "ESD5384" 0 -300 60 H V C CNN
-F2 "" 0 50 60 H I C CNN
+F2 "SW-On-Semi:WLCSP9-1.14x1.14mm" 0 950 60 H I C CNN
 F3 "http://www.onsemi.com/pub/Collateral/ESD5384-D.PDF" 200 850 60 H I C CNN
 F4 "0.00@0" 0 550 60 H I C CNN "Pricing"
 F5 "5-Line HDMI Control Line ESD Protection" 250 650 60 H I C CNN "Description"
@@ -30,7 +30,7 @@ ENDDEF
 DEF ESD7484 U 0 40 Y Y 1 F N
 F0 "U" -300 -350 60 H V C CNN
 F1 "ESD7484" -150 250 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
+F2 "SW-On-Semi:WLCSP10-1.6x1.1mm" 200 800 60 H I C CNN
 F3 "http://www.onsemi.com/pub/Collateral/ESD7484-D.PDF" 500 750 60 H I C CNN
 F4 "0.00@0" 100 900 60 H I C CNN "Pricing"
 F5 "4-Line Ultra-Large Bandwidth ESD Protection" 300 550 60 H I C CNN "Description"
