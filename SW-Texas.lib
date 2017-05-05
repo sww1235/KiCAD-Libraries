@@ -176,7 +176,7 @@ ENDDEF
 DEF CSD87501L Q 0 40 Y Y 1 F N
 F0 "Q" -250 300 60 H V C CNN
 F1 "CSD87501L" 0 -300 60 H V C CNN
-F2 "" 200 -450 60 H I C CNN
+F2 "SW-Texas:BGA_10" 200 -450 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/csd87501l.pdf" 150 1500 60 H I C CNN
 F4 "0.00@0" -50 1650 60 H I C CNN "Pricing"
 F5 "30 V Dual Common Drain N-Channel NexFET Power MOSFET" -100 1250 60 H I C CNN "Description"
