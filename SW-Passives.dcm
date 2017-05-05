@@ -5,6 +5,11 @@ D 17 Resistor network, star topology, bussed resistors, small symbol
 K R Network star-topology
 $ENDCMP
 #
+$CMP R_Network17
+D 17 Resistor network, star topology, bussed resistors, small symbol
+K R Network star-topology
+$ENDCMP
+#
 $CMP TVS
 D Transient voltage suppressor diode (bi-directional)
 K DEV TVS TRANSIENT SUPPROESSOR ESD
