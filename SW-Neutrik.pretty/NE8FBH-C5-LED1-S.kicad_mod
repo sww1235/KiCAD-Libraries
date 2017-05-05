@@ -42,4 +42,9 @@
   (pad 13 thru_hole circle (at 5.08 -12.16) (size 2.25 2.25) (drill 1.55) (layers *.Cu *.Mask))
   (pad 13 thru_hole circle (at -5.08 -3.27) (size 2.25 2.25) (drill 1.55) (layers *.Cu *.Mask))
   (pad 13 thru_hole circle (at 6.78 -2.74) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (model /Users/Stephen/Projects/src/github.com/sww1235/KiCAD-Libraries/SW-Neutrik.3dshapes/NE8FBH-C5-LED1-S.wrl
+    (at (xyz -0.025 0.351 0.0254))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
 )
