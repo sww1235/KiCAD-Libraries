@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF TG110-RPE5N5xx U 0 0 Y N 1 F N
 F0 "U" -50 350 60 H V C CNN
 F1 "TG110-RPE5N5xx" 0 -400 60 H V C CNN
-F2 "" -500 200 60 H I C CNN
+F2 "SW-HALO:HALO-Ultra-POE-XFMR" -500 200 60 H I C CNN
 F3 "http://www.mouser.com/ds/2/706/discrete-ultrapoe-100baset-523855.pdf" 0 800 60 H I C CNN
 F4 "0.00@0" 0 950 60 H I C CNN "Pricing"
 F5 "Halo Electronics" -200 500 60 H I C CNN "Manufacturer"
