@@ -5,4 +5,9 @@ D LUXDRIVE 3021/3023 BuckPuckTM Wide Range LED Power Module
 K LUXDRIVE 3021/3023 BuckPuckTM Wide Range LED Power Module
 $ENDCMP
 #
+$CMP MiniPuck
+D MiniPuck LED constant current driver
+K MiniPuck LED constant current driver
+$ENDCMP
+#
 #End Doc Library
