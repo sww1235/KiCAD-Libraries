@@ -13,7 +13,7 @@ F5 "5-Line HDMI Control Line ESD Protection" 250 650 60 H I C CNN "Description"
 F6 "Fairchild/ON Semiconductor" 50 750 60 H I C CNN "Manufacturer"
 DRAW
 S -200 250 200 -250 0 1 0 N
-X 5V A1 400 200 200 L 50 50 1 1 W
+X 5V A1 400 200 200 L 50 50 1 1 P
 X ~ B1 400 0 200 L 50 50 1 1 P
 X 5V C1 400 100 200 L 50 50 1 1 P
 X CEC A2 -400 -150 200 R 50 50 1 1 P
