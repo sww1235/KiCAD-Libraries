@@ -105,6 +105,12 @@ K SBType-CTMPort Protector: Short-to-VBUSOvervoltageandIECESD Protection
 F http://www.ti.com/lit/ds/symlink/tpd6s300.pdf
 $ENDCMP
 #
+$CMP TPS61090
+D SYNCHRONOUS BOOST CONVERTER WITH 2A SWITCH
+K SYNCHRONOUS BOOST CONVERTER WITH 2A SWITCH
+F https://cdn-shop.adafruit.com/datasheets/tps61090.pdf
+$ENDCMP
+#
 $CMP TPS65982
 D TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
 K TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
