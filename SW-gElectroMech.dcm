@@ -1,5 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SPDT
+D SPST switch
+$ENDCMP
+#
+$CMP SPST
+D SPST switch
+$ENDCMP
+#
 $CMP SPST_Relay
 D Generic SPST Relay
 K Generic SPST Relay
