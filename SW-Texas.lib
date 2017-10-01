@@ -853,11 +853,11 @@ F0 "U" -150 200 60 H V C CNN
 F1 "TS12A44514" 300 200 60 H V C CNN
 F2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" 500 1300 60 H I C CNN
 F3 "" 150 -50 60 H I C CNN
-F4 "0.00@0" 50 1000 60 H I C CNN "Pricing"
-F5 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" 350 1550 60 H I C CNN "Characteristics"
+F4 "2-V to 12-V Single-Supply Operation• Specified ON-State Resistance:– 15-Ω Maximum With 12-V Supply– 20-Ω Maximum With 5-V Supply– 50-Ω Maximum With 3.3-V Supply• ΔRON Matching– 2.5-Ω (Max) at 12 V– 3-Ω(Max)at5V– 3.5-Ω (Max) at 3.3 V" 350 1550 60 H I C CNN "Characteristics"
+F5 "Texas Instruments" 400 1450 60 H I C CNN "Manufacturer"
 F6 "Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch" 300 1100 60 H I C CNN "Description"
-F7 "Texas Instruments" 400 1450 60 H I C CNN "Manufacturer"
-F8 "TSSOP14" 300 1200 60 H I C CNN "Package ID"
+F7 "TSSOP14" 300 1200 60 H I C CNN "Package ID"
+F8 "0.00@0" 50 1000 60 H I C CNN "Pricing"
 DRAW
 T 0 450 -50 60 0 5 0 For~SPST~Switch Normal 0 C C
 T 0 350 50 60 0 5 0 Power~Ports Normal 0 C C
