@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0582BQ
+#
+DEF 0582BQ D 0 0 Y Y 1 F N
+F0 "D" -1300 -1000 60 H V C CNN
+F1 "0582BQ" 1400 -850 60 H V C CNN
+F2 "" -1400 -1100 60 H I C CNN
+F3 "http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf" 200 2000 60 H I C CNN
+F4 "IEC 61000-4-2 (ESD) ±30kV (air), ±25kV (contact),IEC 61000-4-4 (EFT) 40A (5/50ns),Qualified to AEC-Q100, Grade 2,Low capacitance (<1.2pF), High surge capability: 15A (tp=8/20us)" -100 2150 60 H I C CNN "Characteristics"
+F5 "Semtech International AG" -50 2050 60 H I C CNN "Manufacturer"
+F6 "Low Capacitance TVS for Automotive Applications" -50 2250 60 H I C CNN "Description"
+F7 "SC75 / SOT 523" -150 2350 60 H I C CNN "Package ID"
+F8 "0.00@0" -150 2450 60 H I C CNN "Pricing"
+DRAW
+S -50 150 50 -150 0 1 0 N
+X D1 1 -150 100 100 R 50 50 1 1 P
+X D2 2 -150 -100 100 R 50 50 1 1 P
+X GND 3 150 0 100 L 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

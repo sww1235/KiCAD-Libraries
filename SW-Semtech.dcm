@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0582BQ
+D Low Capacitance TVS for Automotive Applications
+K Low Capacitance TVS for Automotive Applications
+F http://www.semtech.com/images/datasheet/rclamp0582bq_ag.pdf
+$ENDCMP
+#
+#End Doc Library
