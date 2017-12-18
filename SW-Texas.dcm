@@ -1,8 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP TS12A44514
-D Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch
-K Low ON-State Resistance 4-Channel SPST CMOS AnalogSwitch
+$CMP TCA9555
+D Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers
+K Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
 $ENDCMP
 #
 #End Doc Library
