@@ -437,6 +437,96 @@ X INPUT 8 -500 250 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# OPA1602
+#
+DEF OPA1602 U 0 40 Y N 3 L N
+F0 "U" -900 -700 60 H V C CNN
+F1 "OPA1602" 1100 -450 60 H V C CNN
+F2 "" 0 1400 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" 600 1900 60 H I C CNN
+F4 "Texas Instruments" 200 1600 60 H I C CNN "Manufacturer"
+F5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" 300 1700 60 H I C CNN "Description"
+F6 "SO-8, TSSOP8" 400 1800 60 H I C CNN "Package ID"
+F7 "0.00@0" 200 2100 60 H I C CNN "Pricing"
+$FPLIST
+ *SO*
+ *TSSOP*
+$ENDFPLIST
+DRAW
+T 0 100 100 60 0 1 0 V+ Normal 0 C C
+T 0 100 -100 60 0 1 0 V- Normal 0 C C
+T 0 -50 -100 60 0 2 0 + Normal 0 C C
+T 0 -50 100 60 0 2 0 - Normal 0 C C
+T 0 0 0 60 0 2 0 A Normal 0 C C
+T 0 -50 -100 60 0 3 0 + Normal 0 C C
+T 0 -50 100 60 0 3 0 - Normal 0 C C
+T 0 0 0 60 0 3 0 B Normal 0 C C
+S 0 150 200 -150 1 0 0 N
+P 4 2 1 0 -100 200 -100 -200 250 0 -100 200 N
+P 4 3 1 0 -100 200 -100 -200 250 0 -100 200 N
+X V- 4 -200 -100 200 R 50 50 1 1 W
+X V+ 8 -200 100 200 R 50 50 1 1 W
+X A 1 350 0 100 L 50 50 2 1 O
+X A- 2 -200 100 100 R 50 50 2 1 I
+X A+ 3 -200 -100 100 R 50 50 2 1 I
+X B+ 5 -200 -100 100 R 50 50 3 1 I
+X B- 6 -200 100 100 R 50 50 3 1 I
+X B 7 350 0 100 L 50 50 3 1 O
+ENDDRAW
+ENDDEF
+#
+# OPA1604
+#
+DEF OPA1604 U 0 40 Y N 5 L N
+F0 "U" -900 -700 60 H V C CNN
+F1 "OPA1604" 1100 -450 60 H V C CNN
+F2 "" 0 1400 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" 600 1900 60 H I C CNN
+F4 "0.00@0" 200 2100 60 H I C CNN "Pricing"
+F5 "SO-14, TSSOP14" 400 1800 60 H I C CNN "Package ID"
+F6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" 300 1700 60 H I C CNN "Description"
+F7 "Texas Instruments" 200 1600 60 H I C CNN "Manufacturer"
+$FPLIST
+ *SO*
+ *TSSOP*
+$ENDFPLIST
+DRAW
+T 0 100 100 60 0 1 0 V+ Normal 0 C C
+T 0 100 -100 60 0 1 0 V- Normal 0 C C
+T 0 -50 -100 60 0 2 0 + Normal 0 C C
+T 0 -50 100 60 0 2 0 - Normal 0 C C
+T 0 0 0 60 0 2 0 A Normal 0 C C
+T 0 -50 -100 60 0 3 0 + Normal 0 C C
+T 0 -50 100 60 0 3 0 - Normal 0 C C
+T 0 0 0 60 0 3 0 B Normal 0 C C
+T 0 -50 -100 60 0 4 0 + Normal 0 C C
+T 0 -50 100 60 0 4 0 - Normal 0 C C
+T 0 0 0 60 0 4 0 C Normal 0 C C
+T 0 -50 -100 60 0 5 0 + Normal 0 C C
+T 0 -50 100 60 0 5 0 - Normal 0 C C
+T 0 0 0 60 0 5 0 D Normal 0 C C
+S 0 150 200 -150 1 0 0 N
+P 4 2 1 0 -100 200 -100 -200 250 0 -100 200 N
+P 4 3 1 0 -100 200 -100 -200 250 0 -100 200 N
+P 4 4 1 0 -100 200 -100 -200 250 0 -100 200 N
+P 4 5 1 0 -100 200 -100 -200 250 0 -100 200 N
+X V- 11 -200 -100 200 R 50 50 1 1 W
+X V+ 4 -200 100 200 R 50 50 1 1 W
+X A 1 350 0 100 L 50 50 2 1 O
+X A- 2 -200 100 100 R 50 50 2 1 I
+X A+ 3 -200 -100 100 R 50 50 2 1 I
+X B+ 5 -200 -100 100 R 50 50 3 1 I
+X B- 6 -200 100 100 R 50 50 3 1 I
+X B 7 350 0 100 L 50 50 3 1 O
+X C+ 10 -200 -100 100 R 50 50 4 1 I
+X C 8 350 0 100 L 50 50 4 1 O
+X C- 9 -200 100 100 R 50 50 4 1 I
+X D+ 12 -200 -100 100 R 50 50 5 1 I
+X D- 13 -200 100 100 R 50 50 5 1 I
+X D 14 350 0 100 L 50 50 5 1 O
+ENDDRAW
+ENDDEF
+#
 # PCM1865
 #
 DEF PCM1865 U 0 40 Y Y 1 F N

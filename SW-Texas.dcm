@@ -1,9 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP TCA9555
-D Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers
-K Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers
-F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$CMP OPA1602
+D Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
+K Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
+F http://www.ti.com/lit/ds/symlink/opa1602.pdf
+$ENDCMP
+#
+$CMP OPA1604
+D Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
+K Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
+F http://www.ti.com/lit/ds/symlink/opa1602.pdf
 $ENDCMP
 #
 #End Doc Library
