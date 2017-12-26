@@ -1,15 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP OPA1602
-D Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
-K Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
-F http://www.ti.com/lit/ds/symlink/opa1602.pdf
-$ENDCMP
-#
-$CMP OPA1604
-D Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
-K Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
-F http://www.ti.com/lit/ds/symlink/opa1602.pdf
+$CMP TCA9548A
+D Low-Voltage 8-Channel I2C Switch with Reset
+K Low-Voltage 8-Channel I2C Switch with Reset
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
 $ENDCMP
 #
 #End Doc Library
