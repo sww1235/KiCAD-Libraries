@@ -1,9 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP TCA9548A
-D Low-Voltage 8-Channel I2C Switch with Reset
-K Low-Voltage 8-Channel I2C Switch with Reset
-F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
-$ENDCMP
-#
 #End Doc Library

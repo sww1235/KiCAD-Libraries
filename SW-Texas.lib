@@ -867,7 +867,16 @@ F6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap
 F7 "Single-Channel ESD Protection Diode" 100 1900 60 H I C CNN "Description"
 F8 "Texas Instruments" 0 1800 60 H I C CNN "Manufacturer"
 DRAW
-S -100 75 100 25 0 1 0 N
+S -100 85 100 15 0 1 0 N
+P 2 0 1 0 -100 50 -40 50 N
+P 2 0 1 0 -15 50 15 50 N
+P 2 0 1 0 45 50 100 50 N
+P 3 0 1 0 -40 50 -40 35 -30 25 N
+P 3 0 1 0 -40 50 -40 65 -50 75 N
+P 3 0 1 0 45 50 45 35 35 25 N
+P 3 0 1 0 45 50 45 65 55 75 N
+P 4 0 1 0 -15 65 -15 35 -40 50 -15 65 N
+P 4 0 1 0 20 65 20 35 45 50 20 65 N
 X ~ 1 -200 50 100 R 50 50 1 1 P
 X ~ 2 200 50 100 L 50 50 1 1 P
 ENDDRAW
