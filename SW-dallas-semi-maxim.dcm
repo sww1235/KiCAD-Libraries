@@ -11,6 +11,12 @@ D Stand-Alone Fuel-Gauge IC with LED Display Drivers
 K Stand-Alone Fuel-Gauge IC with LED Display Drivers
 $ENDCMP
 #
+$CMP ICL7662_SO14
+D CMOS Voltage Converter Inverter Charge Pump
+K CMOS Voltage Converter Inverter Charge Pump
+F https://datasheets.maximintegrated.com/en/ds/ICL7662-Si7661.pdf
+$ENDCMP
+#
 $CMP MAX1719
 D Switched-Capacitor Voltage Inverters with Shutdown SOT23
 K Switched-Capacitor Voltage Inverters with Shutdown SOT23
