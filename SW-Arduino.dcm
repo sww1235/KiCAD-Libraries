@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Nano_Headers
+D Arduino Nano Headers
+K Arduino Nano Headers
+F https://www.arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf
+$ENDCMP
+#
+#End Doc Library
