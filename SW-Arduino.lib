@@ -8,9 +8,9 @@ F0 "XA" -350 -850 60 H V C CNN
 F1 "Nano_Headers" 50 800 60 H V C CNN
 F2 "SW-Arduino:Nano-Header" -250 550 60 H I C CNN
 F3 "https://www.arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf" -100 1700 60 H I C CNN
-F4 "Arduino" -300 1300 60 H I C CNN "Manufacturer"
-F5 "Arduino Nano Headers" -200 1400 60 H I C CNN "Description"
-F6 "0.00@0" -150 1550 60 H I C CNN "Pricing"
+F4 "0.00@0" -150 1550 60 H I C CNN "Pricing"
+F5 "Arduino" -300 1300 60 H I C CNN "Manufacturer"
+F6 "Arduino Nano Headers" -200 1400 60 H I C CNN "Description"
 DRAW
 S -450 750 450 -750 0 0 0 N
 X D1/Tx 1 -650 700 200 R 50 50 1 1 B
