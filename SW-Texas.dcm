@@ -1,9 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP LMZ34002
-D LMZ34002 15-W Negative Output, SIMPLE SWITCHER® Power Module With 4.5-V to 40-V Input
-K LMZ34002 15-W Negative Output, SIMPLE SWITCHER® Power Module With 4.5-V to 40-V Input
-F http://www.ti.com/lit/ds/symlink/lmz34002.pdf
-$ENDCMP
-#
 #End Doc Library
