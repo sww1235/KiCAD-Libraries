@@ -1,4 +1,4 @@
-(module Kemet_CAP_2220_5750Metric_D (layer F.Cu) (tedit 5AB18111)
+(module Kemet_CAP_2220_5750Metric_D (layer F.Cu) (tedit 5AB18A84)
   (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
