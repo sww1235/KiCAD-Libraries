@@ -1,4 +1,4 @@
-(module Nano-Header (layer F.Cu) (tedit 5A644816)
+(module Nano-Header (layer F.Cu) (tedit 5AB1F665)
   (tags "Arduino Nano Header")
   (fp_text reference REF** (at -22.51 0 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -45,7 +45,7 @@
   (pad 16 thru_hole circle (at 17.78 -7.62) (size 1.788 1.788) (drill 0.9144) (layers *.Cu *.Mask))
   (pad 15 thru_hole circle (at 17.78 7.62) (size 1.788 1.788) (drill 0.9144) (layers *.Cu *.Mask))
   (model "${KISWGITHUB}/SW-Arduino.3dshapes/arduino nano.STEP"
-    (at (xyz -0.7 -0.3 0.125))
+    (offset (xyz -17.78 -7.62 2.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
