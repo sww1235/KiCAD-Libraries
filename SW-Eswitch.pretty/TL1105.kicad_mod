@@ -1,4 +1,4 @@
-(module TL1105 (layer F.Cu) (tedit 59D023C8)
+(module TL1105 (layer F.Cu) (tedit 5AB4A242)
   (fp_text reference REF** (at 4.16 0.07 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -18,4 +18,9 @@
   (pad 1 thru_hole circle (at -2.25 3.25) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.25 -3.25) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.25 -3.25) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
+  (model ${KISWGITHUB}/SW-Eswitch.3dshapes/TL1105Fxxxx.stp
+    (offset (xyz 0 0 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
