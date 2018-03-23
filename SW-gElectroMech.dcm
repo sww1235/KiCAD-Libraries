@@ -4,8 +4,19 @@ $CMP SPDT
 D SPST switch
 $ENDCMP
 #
-$CMP SPST
-D SPST switch
+$CMP SPST_GND
+D SPST switch with Ground Pin
+K SPST switch ground
+$ENDCMP
+#
+$CMP SPST_MOM
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+$ENDCMP
+#
+$CMP SPST_MOM_SHLD
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
 $ENDCMP
 #
 $CMP SPST_Relay
