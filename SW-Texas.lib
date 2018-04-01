@@ -740,15 +740,15 @@ DEF RC4560 U 0 0 Y Y 2 F N
 F0 "U" -50 -100 60 H V C CNN
 F1 "RC4560" 50 0 60 H V C CNN
 F2 "" 50 0 60 H V C CNN
-F3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" 50 0 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" 350 2100 60 H I C CNN
 F4 "0.00@0" 0 0 60 H I C CNN "Pricing"
 F5 "Any" 0 0 60 H I C CNN "Source"
 F6 "No" 0 0 60 H I C CNN "Critical"
-F7 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" 50 0 60 H I C CNN "Characteristics"
-F8 "PDIP (8)" 450 400 60 H I C CNN "Package ID"
-F9 "RC4560" 350 300 60 H I C CNN "MF part number"
-F10 "Texas Instruments" 250 200 60 H I C CNN "Manufacturer"
-F11 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" 150 100 60 H I C CNN "Description"
+F7 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" 650 1900 60 H I C CNN "Characteristics"
+F8 "PDIP (8)" 450 1450 60 H I C CNN "Package ID"
+F9 "RC4560" 500 1550 60 H I C CNN "MF part number"
+F10 "Texas Instruments" 400 1700 60 H I C CNN "Manufacturer"
+F11 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" 550 1750 60 H I C CNN "Description"
 $FPLIST
  SS*
  DIP*
