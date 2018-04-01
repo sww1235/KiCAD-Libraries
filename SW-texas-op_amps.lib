@@ -1,181 +1,0 @@
-EESchema-LIBRARY Version 2.3
-#encoding utf-8
-#
-# LM13700N
-#
-DEF LM13700N U 0 0 Y Y 2 F N
-F0 "U" 0 -300 60 H V C CNN
-F1 "LM13700N" 50 300 60 H V C CNN
-F2 "" -100 -400 60 H V C CNN
-F3 "http://www.mouser.com/ds/2/405/lm13700-452966.pdf" 0 -300 60 H I C CNN
-F4 "Any" 0 0 60 H I C CNN "Source"
-F5 "LM13700N/NOPB" 400 100 60 H I C CNN "MF part number"
-F6 "No" 0 0 60 H I C CNN "Critical"
-F7 "PDIP (16)" 500 200 60 H I C CNN "Package ID"
-F8 "Texas Instruments" 300 0 60 H I C CNN "Manufacturer"
-F9 "Transconductance Amplifiers Dual OP Amp Transconductance" 200 -100 60 H I C CNN "Description"
-DRAW
-C 325 0 50 0 1 0 N
-C 400 0 50 0 1 0 N
-P 2 0 1 0  -115 -110  -85 -110 N
-P 2 0 1 0  -115 110  -85 110 N
-P 2 0 1 0  -70 115  -40 115 N
-P 2 0 1 0  -65 -115  -45 -115 N
-P 2 0 1 0  -55 125  -55 100 N
-P 2 0 1 0  -55 125  -55 130 N
-P 2 0 1 0  -45 -115  -40 -115 N
-P 4 0 1 0  -115 -85  -85 -85  -100 -110  -115 -85 F
-P 4 0 1 0  -115 85  -85 85  -100 110  -115 85 F
-P 4 0 1 0  -100 175  -100 -175  275 0  -100 175 N
-X V- ~ 125 -275 200 U 50 50 0 1 W
-X V+ 11 125 275 200 D 50 50 0 1 W
-X Amp_Bias_In 1 362 239 200 D 50 50 1 1 I
-X +Input 3 -300 125 200 R 50 50 1 1 I
-X -Input 4 -300 -125 200 R 50 50 1 1 I
-X Out 5 650 0 200 L 50 50 1 1 O
-X Diode_Bias ~ -300 0 200 R 50 50 1 1 P
-X Out 12 650 0 200 L 50 50 2 1 O
-X -Input 13 -300 -125 200 R 50 50 2 1 I
-X +Input 14 -300 125 200 R 50 50 2 1 I
-X Diode_Bias 15 -300 0 200 R 50 50 2 1 P
-X Amp_Bias_In 16 362 239 200 D 50 50 2 1 I
-ENDDRAW
-ENDDEF
-#
-# LM833-N
-#
-DEF LM833-N U 0 0 Y Y 2 F N
-F0 "U" -50 -100 60 H V C CNN
-F1 "LM833-N" 50 0 60 H V C CNN
-F2 "" 50 0 60 H V C CNN
-F3 "" 50 0 60 H V C CNN
-$FPLIST
- SO*
- DIP*
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -200 -250  400 0 N
-P 2 0 1 0  -200 -150  -200 -250 N
-P 2 0 1 0  -200 -150  -200 150 N
-P 2 0 1 0  -200 150  -200 250 N
-P 2 0 1 0  400 0  -200 250 N
-X VEE 4 50 -350 200 U 50 50 0 1 W N
-X +VCC 8 50 350 200 D 50 50 0 1 W N
-X OUT 1 600 0 200 L 50 50 1 1 I
-X - 2 -400 -150 200 R 50 50 1 1 I
-X + 3 -400 150 200 R 50 50 1 1 I
-X + 5 -400 150 200 R 50 50 2 1 I
-X - 6 -400 -150 200 R 50 50 2 1 I
-X OUT 7 600 0 200 L 50 50 2 1 I
-ENDDRAW
-ENDDEF
-#
-# RC4560
-#
-DEF RC4560 U 0 0 Y Y 2 F N
-F0 "U" -50 -100 60 H V C CNN
-F1 "RC4560" 50 0 60 H V C CNN
-F2 "" 50 0 60 H V C CNN
-F3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" 50 0 60 H I C CNN
-F4 "Any" 0 0 60 H I C CNN "Source"
-F5 "No" 0 0 60 H I C CNN "Critical"
-F6 "OperatingVoltage...±2Vto±18V• Low Noise Voltage . . . 1.2 μVrms (Typ) • WideGBW...15MHz(Typ)• Low THD . . . 0.05% (Typ)• SlewRate...5.5V/μsec(Typ)" 50 0 60 H I C CNN "Characteristics"
-F7 "PDIP (8)" 450 400 60 H I C CNN "Package ID"
-F8 "RC4560" 350 300 60 H I C CNN "MF part number"
-F9 "Texas Instruments" 250 200 60 H I C CNN "Manufacturer"
-F10 "The RC4560 is a high-gain, wide-bandwidth, dual operational amplifier capable of driving 20 V peak-to-peak into 400-Ω loads" 150 100 60 H I C CNN "Description"
-$FPLIST
- SS*
- DIP*
-$ENDFPLIST
-DRAW
-P 2 0 1 0  -200 -250  400 0 N
-P 2 0 1 0  -200 -150  -200 -250 N
-P 2 0 1 0  -200 -150  -200 150 N
-P 2 0 1 0  -200 150  -200 250 N
-P 2 0 1 0  400 0  -200 250 N
-X VEE 4 50 -350 200 U 50 50 0 1 W N
-X VCC 8 50 350 200 D 50 50 0 1 W N
-X OUT 1 600 0 200 L 50 50 1 1 I
-X - 2 -400 -150 200 R 50 50 1 1 I
-X + 3 -400 150 200 R 50 50 1 1 I
-X + 5 -400 150 200 R 50 50 2 1 I
-X - 6 -400 -150 200 R 50 50 2 1 I
-X OUT 7 600 0 200 L 50 50 2 1 I
-ENDDRAW
-ENDDEF
-#
-# TL072
-#
-DEF TL072 U 0 0 Y Y 2 F N
-F0 "U" 0 -150 60 H V C CNN
-F1 "TL072" 0 0 60 H V C CNN
-F2 "" -100 -250 60 H V C CNN
-F3 "http://www.mouser.com/ds/2/405/tl072-557363.pdf" 0 -150 60 H I C CNN
-F4 "1• Low Power Consumption• Wide Common-Mode and Differential VoltageRanges• Low Input Bias and Offset Currents• Output Short-Circuit Protection• Low Total Harmonic Distortion: 0.003% Typical• Low NoiseVn =18nV/√HzTypatf=1kHz• High-Input Impedance: JFET Input Stage• Internal Frequency Compensation• Latch-Up-Free Operation• High Slew Rate: 13 V/μs Typical• Common-Mode Input Voltage Range Includes VCC+" 100 -50 60 H I C CNN "Characteristics"
-F5 "Any" 0 0 60 H I C CNN "Source"
-F6 "DIP8" 500 350 60 H I C CNN "Package ID"
-F7 "No" 0 0 60 H I C CNN "Critical"
-F8 "Texas Instruments" 300 150 60 H I C CNN "Manufacturer"
-F9 "TL072" 400 250 60 H I C CNN "MF part number"
-F10 "TL072 Low-Noise JFET-Input Operational Amplifier" 200 50 60 H I C CNN "Description"
-$FPLIST
- *DIP*
- *SOIC*
- *SO*
- *TSSOP*
- *LCCC*
-$ENDFPLIST
-DRAW
-P 4 0 1 0  -400 500  -400 -500  600 0  -400 500 N
-X VCC 4 0 -500 200 U 50 50 0 1 W
-X VSS 8 0 500 200 D 50 50 0 1 W
-X OUT 1 800 0 200 L 50 50 1 1 I
-X -IN 2 -600 300 200 R 50 50 1 1 I
-X +IN 3 -600 -300 200 R 50 50 1 1 I
-X +IN 5 -600 -300 200 R 50 50 2 1 I
-X -IN 6 -600 300 200 R 50 50 2 1 I
-X OUT 7 800 0 200 L 50 50 2 1 I
-ENDDRAW
-ENDDEF
-#
-# TL084
-#
-DEF TL084 U 0 0 Y Y 4 F N
-F0 "U" 0 -150 60 H V C CNN
-F1 "TL084" 0 0 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "http://www.mouser.com/ds/2/405/tl084-557199.pdf" 0 -150 60 H I C CNN
-F4 "TL084 JFET-Input Operational Amplifier" 200 50 60 H I C CNN "Description"
-F5 "Any" 0 0 60 H I C CNN "Source"
-F6 "No" 0 0 60 H I C CNN "Critical"
-F7 "Texas Instruments" 300 150 60 H I C CNN "Manufacturer"
-F8 "TL084" 400 250 60 H I C CNN "MF part number"
-F9 "• Low Power Consumption: 1.4 mA/ch Typical• Wide Common-Mode and Differential VoltageRanges• Low Input Bias Current: 30 pA Typical• Low Input Offset Current: 5 pA Typical• Output Short-Circuit Protection• Low Total Harmonic Distortion: 0.003% Typical• High Input Impedance: JFET Input Stage• Latch-Up-Free Operation• High Slew Rate: 13 V/μs Typical• Common-Mode Input Voltage Range Includes VCC+" 100 -50 60 H I C CNN "Characteristics"
-$FPLIST
- *DIP*
- *SOIC*
- *SO*
- *TSSOP*
- *LCCC*
-$ENDFPLIST
-DRAW
-P 4 0 1 0  -400 500  -400 -500  600 0  -400 500 N
-X VCC 4 0 -500 200 U 50 50 0 1 W
-X VSS 11 0 500 200 D 50 50 0 1 W
-X OUT 1 800 0 200 L 50 50 1 1 I
-X -IN 2 -600 300 200 R 50 50 1 1 I
-X +IN 3 -600 -300 200 R 50 50 1 1 I
-X +IN 5 -600 -300 200 R 50 50 2 1 I
-X -IN 6 -600 300 200 R 50 50 2 1 I
-X OUT 7 800 0 200 L 50 50 2 1 I
-X OUT 8 800 0 200 L 50 50 3 1 I
-X -IN 9 -600 300 200 R 50 50 3 1 I
-X +IN 10 -600 -300 200 R 50 50 3 1 I
-X +IN 12 -600 -300 200 R 50 50 4 1 I
-X -IN 13 -600 300 200 R 50 50 4 1 I
-X OUT 14 800 0 200 L 50 50 4 1 I
-ENDDRAW
-ENDDEF
-#
-#End Library
