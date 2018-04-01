@@ -17,4 +17,15 @@ D 8-Channel Analog Multiplexer with Cascadable Serial Interface
 K 8-Channel Analog Multiplexer with Cascadable Serial Interface
 $ENDCMP
 #
+$CMP LTC3265
+D Low Noise Dual Supply Charge Pumps with Boost and Inverting LDO
+K Low Noise Dual Supply Charge Pumps with Boost and Inverting LDO
+F http://www.analog.com/media/en/technical-documentation/data-sheets/3265fa.pdf
+$ENDCMP
+#
+$CMP OP482
+D Analog Devices Low Power High Speed JFET Operational Amplifier
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP282_482.pdf
+$ENDCMP
+#
 #End Doc Library

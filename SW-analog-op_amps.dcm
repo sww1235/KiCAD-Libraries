@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP OP482
-D Analog Devices Low Power High Speed JFET Operational Amplifier
-F http://www.analog.com/media/en/technical-documentation/data-sheets/OP282_482.pdf
-$ENDCMP
-#
-#End Doc Library
