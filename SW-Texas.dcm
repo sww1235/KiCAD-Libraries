@@ -4,4 +4,16 @@ $CMP LM2698_DGK_8
 F http://www.ti.com/lit/ds/symlink/lm2698.pdf
 $ENDCMP
 #
+$CMP LMZM23600
+D 36V 0.5A Step-Down DC/DC Power Module in 3.8mm x 3mm package
+K Step-Down DC/DC Power Module 36V 0.5A
+F www.ti.com/lit/ds/symlink/LMZM23600.pdf
+$ENDCMP
+#
+$CMP P82B96
+D I2C Compatible Dual Bidirectional Bus Buffer
+K I2C Compatible Dual Bidirectional Bus Buffer
+F http://www.ti.com/lit/ds/symlink/p82b96.pdf
+$ENDCMP
+#
 #End Doc Library
