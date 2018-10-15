@@ -9,6 +9,12 @@ github issue if you find an error.
 
 If you find them useful, please let me know.
 
+Please be careful of 3d model files included in these repos. In general they
+should be safe to use, but I may have utilized some from manufacturers that
+might have some licensing issues. I will endevour to fix or highlight these
+issues as I come across them. Personally I could not care but I am including
+this as a warning to others who may use these libraries.
+
 ## Description of Libraries
 
 There may be a discrepancy between the library that a schematic part is in and
