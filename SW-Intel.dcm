@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 10CL040YF484I7G
+D Intel Cyclone 10 LP FPGA
+K Altera Intel FPGA Cyclone 10 LP
+F https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html
+$ENDCMP
+#
+#End Doc Library
