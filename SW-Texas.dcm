@@ -16,4 +16,9 @@ K I2C Compatible Dual Bidirectional Bus Buffer
 F http://www.ti.com/lit/ds/symlink/p82b96.pdf
 $ENDCMP
 #
+$CMP TLV320AIC32
+D Low-Power Stereo Audio CODEC for Portable Audio/Telephony
+K Stereo Audio CODEC I2S
+$ENDCMP
+#
 #End Doc Library
