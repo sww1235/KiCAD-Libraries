@@ -21,4 +21,10 @@ D Low-Power Stereo Audio CODEC for Portable Audio/Telephony
 K Stereo Audio CODEC I2S
 $ENDCMP
 #
+$CMP TLV320AIC3206
+D TLV320AIC3206 Ultra Low-Power Stereo Audio Codec
+K Ultra Low Power Stereo Audio Codec I2S
+F https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf
+$ENDCMP
+#
 #End Doc Library
