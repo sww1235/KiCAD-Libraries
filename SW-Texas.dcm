@@ -1,5 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
+#
+$CMP CDCI6214
+D Ultra-Low Power Clock Generator With PCIe Support, Four Programmable Outputs and EEPROM
+K Ultra Low Power Clock Generator Programmable Outputs EEPROM
+F https://www.ti.com/lit/ds/symlink/cdci6214.pdf
+$ENDCMP
+#
 $CMP LM2698_DGK_8
 F http://www.ti.com/lit/ds/symlink/lm2698.pdf
 $ENDCMP
