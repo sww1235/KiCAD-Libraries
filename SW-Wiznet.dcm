@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP W5500
+D Hardwired TCP/IP embedded Ethernet controller
+K Hardwired TCP/IP embedded Ethernet controller TCP UDP IPv4 ICMP ARP IGMP PPPoE
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf
+$ENDCMP
+#
 #End Doc Library
