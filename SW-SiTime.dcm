@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SiT1602B
+D Low Power MEMS Oscillator
+K Low Power MEMS Oscillator Standard Frequencies Drop In Replacement Crystal
+F https://www.sitime.com/datasheet/SiT1602
+$ENDCMP
+#
+#End Doc Library
