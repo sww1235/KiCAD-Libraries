@@ -7,30 +7,30 @@ DEF LAN9514 U 0 40 Y Y 9 L N
 F0 "U" -650 -450 60 H V C CNN
 F1 "LAN9514" 550 -450 60 H V C CNN
 F2 "" 700 500 60 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf" 150 1650 60 H I C CNN
+F3 "" 150 1650 60 H I C CNN
 F4 "0.00@0" -150 1750 60 H I C CNN "Pricing"
 F5 "Microchip Technology" -100 1350 60 H I C CNN "Manufacturer"
 F6 "TQFN 64" 100 1550 60 H I C CNN "Package ID"
 F7 "USB 2.0 Hub and 10/100 Ethernet Controller" 0 1450 60 H I C CNN "Description"
 DRAW
-T 0 50 150 60 0 1 0 USB~UP Normal 0 C C
-T 900 -400 0 60 0 2 0 USB~Downstream Normal 0 C C
+T 0 50 150 60 0 1 0 "USB UP" Normal 0 C C
+T 900 -400 0 60 0 2 0 "USB Downstream" Normal 0 C C
 T 900 200 0 60 0 3 0 EEPROM Normal 0 C C
 T 0 0 400 60 0 4 0 Ethernet Normal 0 C C
 T 0 0 300 60 0 5 0 CLK/Reset Normal 0 C C
 T 0 0 -300 60 0 6 0 GPIO Normal 0 C C
 T 0 0 -100 60 0 7 0 Power Normal 0 C C
 T 0 100 300 60 0 8 0 JTAG Normal 0 C C
-T 0 0 250 60 0 9 0 Power~Control Normal 0 C C
-S -100 200 300 -200 9 0 0 N
-S -150 100 200 -100 1 1 0 N
-S 0 400 -350 -400 2 1 0 N
-S -150 200 150 -200 3 1 0 N
-S -200 350 200 -350 4 1 0 N
-S -200 250 250 -250 5 1 0 N
-S -350 250 300 -250 6 1 0 N
-S -750 350 750 -400 7 1 0 N
-S 0 250 250 -250 8 1 0 N
+T 0 0 250 60 0 9 0 "Power Control" Normal 0 C C
+S -100 200 300 -200 9 0 0 f
+S -150 100 200 -100 1 1 0 f
+S 0 400 -350 -400 2 1 0 f
+S -150 200 150 -200 3 1 0 f
+S -200 350 200 -350 4 1 0 f
+S -200 250 250 -250 5 1 0 f
+S -350 250 300 -250 6 1 0 f
+S -750 350 750 -400 7 1 0 f
+S 0 250 250 -250 8 1 0 f
 X USB0DN 58 -350 50 200 R 50 50 1 1 B
 X USB0DP 59 -350 -50 200 R 50 50 1 1 B
 X USB2DN 1 200 350 200 L 50 50 2 1 B
@@ -105,7 +105,7 @@ DEF MCP23017 U 0 40 Y Y 1 F N
 F0 "U" 250 -1000 60 H V C CNN
 F1 "MCP23017" -300 1050 60 H V C CNN
 F2 "" 100 400 60 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21952b.pdf" 300 -2100 60 H I C CNN
+F3 "" 300 -2100 60 H I C CNN
 F4 "0.00@0" 100 -2550 60 H I C CNN "Pricing"
 F5 "16-Bit I/O Expander with Serial Interface" 150 -1800 60 H I C CNN "Description"
 F6 "DIP, SOP, SOIC" 100 -1950 60 H I C CNN "Package ID"
@@ -116,7 +116,7 @@ $FPLIST
  *SOP*
 $ENDFPLIST
 DRAW
-S -450 900 400 -900 0 1 0 N
+S -450 900 400 -900 0 1 0 f
 X GPB0 1 -650 800 200 R 50 50 1 1 B
 X VSS 10 -150 -1100 200 U 50 50 1 1 W
 X N/C 11 0 -1100 200 U 50 50 1 1 N
@@ -154,7 +154,7 @@ DEF MCP73833 U 0 40 Y Y 1 F N
 F0 "U" -250 -350 60 H V C CNN
 F1 "MCP73833" -50 300 60 H V C CNN
 F2 "" 50 300 60 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" 50 850 60 H I C CNN
+F3 "" 50 850 60 H I C CNN
 F4 "Microchip" 0 950 60 H I C CNN "Manufacturer"
 F5 "Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller" 100 1050 60 H I C CNN "Description"
 F6 "MSOP-10, DFN-10" -50 1150 60 H I C CNN "Package ID"
@@ -164,7 +164,7 @@ $FPLIST
  *DFN*
 $ENDFPLIST
 DRAW
-S -300 250 300 -250 0 1 0 N
+S -300 250 300 -250 0 1 0 f
 X VDD 1 -500 200 200 R 50 50 1 1 W
 X VBAT 10 500 200 200 L 50 50 1 1 w
 X VDD 2 -500 100 200 R 50 50 1 1 W
@@ -184,7 +184,7 @@ DEF MCP73871 U 0 40 Y Y 1 F N
 F0 "U" -250 -600 60 H V C CNN
 F1 "MCP73871" -50 600 60 H V C CNN
 F2 "Housings_DFN_QFN:QFN-20-1EP_4x4mm_Pitch0.5mm" -50 2700 60 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf" -100 2050 60 H I C CNN
+F3 "" -100 2050 60 H I C CNN
 F4 "4.10V, 4.20V, 4.35V or 4.40V charge voltage 50 mA to 1A charge current" -50 2600 60 H I C CNN "Characteristics"
 F5 "Microchip" -150 2150 60 H I C CNN "Manufacturer"
 F6 "Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller" -50 2250 60 H I C CNN "Description"
@@ -194,7 +194,7 @@ $FPLIST
  *QFN*
 $ENDFPLIST
 DRAW
-S -300 550 300 -550 0 1 0 N
+S -300 550 300 -550 0 1 0 f
 X OUT 1 500 500 200 L 50 50 1 1 w
 X VSS 10 500 -300 200 L 50 50 1 1 W
 X VSS 11 500 -400 200 L 50 50 1 1 W
@@ -225,16 +225,16 @@ DEF MIC2026-1BM U 0 40 Y Y 1 F N
 F0 "U" -150 300 60 H V C CNN
 F1 "MIC2026-1BM" 0 -300 60 H V C CNN
 F2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" 0 650 60 H I C CNN
-F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf" -50 750 60 H I C CNN
+F3 "" -50 750 60 H I C CNN
 F4 "0.00@0" -50 550 60 H I C CNN "Pricing"
 F5 "Dual-Channel Power Distribution Switch" 0 950 60 H I C CNN "Description"
 F6 "Microchip/Micrel" -100 850 60 H I C CNN "Manufacturer"
 F7 "SOIC-8" 100 1050 60 H I C CNN "Package ID"
 DRAW
-S -200 250 250 -250 0 1 0 N
+S -200 250 250 -250 0 1 0 f
 X ENA 1 -400 200 200 R 50 50 1 1 I
-X ~FLGA 2 -400 -100 200 R 50 50 1 1 O I
-X ~FLGB 3 -400 -200 200 R 50 50 1 1 O I
+X ~FLGA 2 -400 -100 200 R 50 50 1 1 O
+X ~FLGB 3 -400 -200 200 R 50 50 1 1 O
 X ENB 4 -400 100 200 R 50 50 1 1 I
 X OUTB 5 450 100 200 L 50 50 1 1 w
 X GND 6 450 -200 200 L 50 50 1 1 W

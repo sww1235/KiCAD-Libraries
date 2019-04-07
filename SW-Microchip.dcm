@@ -1,9 +1,33 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LAN9514
+D USB 2.0 Hub and 10/100 Ethernet Controller
+K USB 2.0 Hub and 10/100 Ethernet Controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
+$ENDCMP
+#
+$CMP MCP23017
+D 16-Bit I/O Expander with Serial Interface
+K 16-Bit I/O Expander with Serial Interface
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21952b.pdf
+$ENDCMP
+#
+$CMP MCP73833
+D Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller
+K Stand-Alone Linear Li-Ion / Li-Polymer Charge Management Controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf
+$ENDCMP
+#
 $CMP MCP73871
 D Stand-Alone System Load Sharing and Li-Ion / Li-Polymer Battery Charge Management Controller
 K Stand-Alone System Load Sharing and Li-Ion / Li-Polymer Battery Charge Management Controller
 F https://cdn-shop.adafruit.com/datasheets/MCP73871.pdf
+$ENDCMP
+#
+$CMP MIC2026-1BM
+D Dual-Channel Power Distribution Switch
+K Dual-Channel Power Distribution Switch
+F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
 #End Doc Library
