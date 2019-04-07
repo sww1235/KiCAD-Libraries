@@ -30,4 +30,16 @@ K Dual-Channel Power Distribution Switch
 F http://ww1.microchip.com/downloads/en/DeviceDoc/mic2026.pdf
 $ENDCMP
 #
+$CMP SAMD21JXXAA
+D Low Power 32-bit Cortex-M0+ MCU with Advanced Analog and PWM
+K Low Power Cortex M0+ Microprocessor MCU 32 bit MCU PWM
+F ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf
+$ENDCMP
+#
+$CMP SAMD21JXXAM
+D Low Power 32-bit Cortex-M0+ MCU with Advanced Analog and PWM
+K Low Power Cortex M0+ Microprocessor MCU 32 bit MCU PWM
+F ww1.microchip.com/downloads/en/DeviceDoc/SAMD21-Family-DataSheet-DS40001882D.pdf
+$ENDCMP
+#
 #End Doc Library
