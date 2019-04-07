@@ -7,7 +7,7 @@ DEF BQ2947 U 0 40 Y Y 1 F N
 F0 "U" 0 -100 60 H V C CNN
 F1 "BQ2947" 0 100 60 H V C CNN
 F2 "" -100 -200 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/bq2947.pdf" -150 750 60 H I C CNN
+F3 "" -150 750 60 H I C CNN
 F4 "0.00@0" 0 -950 60 H I C CNN "Pricing"
 F5 "Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries withExternal DelayCapacitor" -650 850 60 H I C CNN "Description"
 F6 "Texas Instruments" 0 -850 60 H I C CNN "Manufacturer"
@@ -32,7 +32,7 @@ DEF BQ40Z60R U 0 40 Y Y 1 F N
 F0 "U" -650 -1250 60 H V C CNN
 F1 "BQ40Z60R" 0 150 60 H V C CNN
 F2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" -50 2300 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/bq40z60.pdf" -50 2150 60 H I C CNN
+F3 "" -50 2150 60 H I C CNN
 F4 "0.00@0" -50 2050 60 H I C CNN "Pricing"
 F5 "Programmable Battery Management Unit" -150 1850 60 H I C CNN "Description"
 F6 "QFN32" -50 1950 60 H I C CNN "Package ID"
@@ -146,7 +146,7 @@ DEF CSD17309Q3 Q 0 40 Y Y 1 F N
 F0 "Q" -200 300 60 H V C CNN
 F1 "CSD17309Q3" -50 -200 60 H V C CNN
 F2 "" 200 -450 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/csd17309q3.pdf" 150 1500 60 H I C CNN
+F3 "" 150 1500 60 H I C CNN
 F4 "0.00@0" -50 1650 60 H I C CNN "Pricing"
 F5 "30-V N-Channel NexFET Power MOSFET" -100 1250 60 H I C CNN "Description"
 F6 "SON 3.3 x 3x3" 0 1350 60 H I C CNN "Package ID"
@@ -194,7 +194,7 @@ DEF CSD25404Q3 Q 0 40 Y Y 1 F N
 F0 "Q" -150 250 60 H V C CNN
 F1 "CSD25404Q3" 0 -250 60 H V C CNN
 F2 "" 200 -450 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/csd25404q3.pdf" 150 1500 60 H I C CNN
+F3 "" 150 1500 60 H I C CNN
 F4 "0.00@0" -50 1650 60 H I C CNN "Pricing"
 F5 "–20 V P-Channel NexFET Power MOSFET" -100 1250 60 H I C CNN "Description"
 F6 "SON 3.3 x 3x3" 0 1350 60 H I C CNN "Package ID"
@@ -242,7 +242,7 @@ DEF CSD87501L Q 0 40 Y Y 1 F N
 F0 "Q" -250 300 60 H V C CNN
 F1 "CSD87501L" 0 -300 60 H V C CNN
 F2 "SW-Texas:BGA_10" 200 -450 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/csd87501l.pdf" 150 1500 60 H I C CNN
+F3 "" 150 1500 60 H I C CNN
 F4 "0.00@0" -50 1650 60 H I C CNN "Pricing"
 F5 "30 V Dual Common Drain N-Channel NexFET Power MOSFET" -100 1250 60 H I C CNN "Description"
 F6 "SON 3.3 x 3x3" 0 1350 60 H I C CNN "Package ID"
@@ -1319,7 +1319,7 @@ DEF TPD8S009 DN 0 40 Y Y 1 F N
 F0 "DN" -150 450 60 H V C CNN
 F1 "TPD8S009" 0 -450 60 H V C CNN
 F2 "" -150 0 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tpd8s009.pdf" 150 750 60 H I C CNN
+F3 "" 150 750 60 H I C CNN
 F4 "IEC 61000-4-2 Level 4, ±8-kV Contact Discharge, IEC 61000-4-5 2.5A (8/20us) I/O Capacitance 0.8pF, Leakage Current 10nA" -100 850 60 H I C CNN "Characteristics"
 F5 "Texas Instruments" 0 950 60 H I C CNN "Manufacturer"
 F6 "8-Channel ESD Protection for DisplayPort and HDMI" 100 1050 60 H I C CNN "Description"
@@ -1351,7 +1351,7 @@ DEF TPD8S300 U 0 40 Y Y 1 F N
 F0 "U" -50 -750 60 H V C CNN
 F1 "TPD8S300" -300 350 60 H V C CNN
 F2 "Housings_DFN_QFN:UQFN-20-1EP_3x3mm_Pitch0.4mm" 150 1350 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tpd6s300.pdf" 100 900 60 H I C CNN
+F3 "" 100 900 60 H I C CNN
 F4 "0.00@0" 50 1550 60 H I C CNN "Pricing"
 F5 "SBType-CTMPort Protector: Short-to-VBUSOvervoltageandIECESD Protection" 0 1100 60 H I C CNN "Description"
 F6 "Texas Instruments" -100 1000 60 H I C CNN "Manufacturer"
@@ -1388,7 +1388,7 @@ DEF TPS61090 U 0 40 Y Y 1 F N
 F0 "U" -200 -550 60 H V C CNN
 F1 "TPS61090" -50 550 60 H V C CNN
 F2 "Housings_DFN_QFN:QFN-16-1EP_4x4mm_Pitch0.65mm" 0 1350 60 H I C CNN
-F3 "https://cdn-shop.adafruit.com/datasheets/tps61090.pdf" -100 1300 60 H I C CNN
+F3 "" -100 1300 60 H I C CNN
 F4 "Texas Instruments" -50 1500 60 H I C CNN "Manufacturer"
 F5 "SYNCHRONOUS BOOST CONVERTER WITH 2A SWITCH" -150 1600 60 H I C CNN "Description"
 F6 "QFN-16 4x4" -50 1700 60 H I C CNN "Package ID"
@@ -1421,10 +1421,10 @@ DEF TPS65982 U 0 40 Y Y 7 L N
 F0 "U" -350 850 60 H V C CNN
 F1 "TPS65982" 250 850 60 H V C CNN
 F2 "SW-Texas:PBGA_96_ZQZ" 100 3400 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tps65982.pdf" 50 3550 60 H I C CNN
+F3 "" 50 3550 60 H I C CNN
 F4 "0.00@0" 0 3050 60 H I C CNN "Pricing"
 F5 "Texas Instruments" 50 3200 60 H I C CNN "Manufacturer"
-F6 "TPS65982 USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" 200 2800 60 H I C CNN "Description"
+F6 "USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer" 200 2800 60 H I C CNN "Description"
 F7 "ZQZ Package 96-Pin BGA MicroStar Junior" 50 2950 60 H I C CNN "Package ID"
 DRAW
 T 0 -1000 -50 60 0 1 0 Power Normal 0 C C

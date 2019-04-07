@@ -1,10 +1,40 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP BQ2947
+D Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries with External Delay Capacitor
+K Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries with External Delay Capacitor
+$ENDCMP
+#
+$CMP BQ40Z60R
+D Programmable Battery Management Unit
+K Programmable Battery Management Unit
+$ENDCMP
 #
 $CMP CDCI6214
 D Ultra-Low Power Clock Generator With PCIe Support, Four Programmable Outputs and EEPROM
 K Ultra Low Power Clock Generator Programmable Outputs EEPROM
 F https://www.ti.com/lit/ds/symlink/cdci6214.pdf
+$ENDCMP
+#
+$CMP CDCLVC1108
+D 3.3-V and 2.5-V LVCMOS High-Performance Clock Buffer
+K LVCMOS  Clock Buffer High Performance Family CDCLVC11xx
+F https://www.ti.com/lit/ds/symlink/cdclvc1108.pdf
+$ENDCMP
+#
+$CMP CSD17309Q3
+D 30-V N-Channel NexFET Power MOSFET
+K 30-V N-Channel NexFET Power MOSFET
+$ENDCMP
+#
+$CMP CSD25404Q3
+D –20 V P-Channel NexFET Power MOSFET
+K Power MOSFET P Channel
+$ENDCMP
+#
+$CMP CSD87501L
+D 30 V Dual Common Drain N-Channel NexFET Power MOSFET
+K Dual Common Drain N-Channel NexFET Power MOSFET
 $ENDCMP
 #
 $CMP LM2698_DGK_8
@@ -32,6 +62,26 @@ $CMP TLV320AIC3206
 D TLV320AIC3206 Ultra Low-Power Stereo Audio Codec
 K Ultra Low Power Stereo Audio Codec I2S
 F https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf
+$ENDCMP
+#
+$CMP TPD8S009
+D 8-Channel ESD Protection for DisplayPort and HDMI
+K 8-Channel ESD Protection for DisplayPort and HDMI
+$ENDCMP
+#
+$CMP TPD8S300
+D SBType-CTMPort Protector: Short-to-VBUS Overvoltage and IEC ESD Protection
+K SBType-CTMPort Protector: Short-to-VBUS Overvoltage and IEC ESD Protection
+$ENDCMP
+#
+$CMP TPS61090
+D SYNCHRONOUS BOOST CONVERTER WITH 2A SWITCH
+K SYNCHRONOUS BOOST CONVERTER WITH 2A SWITCH
+$ENDCMP
+#
+$CMP TPS65982
+D USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
+K USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
 $ENDCMP
 #
 #End Doc Library
