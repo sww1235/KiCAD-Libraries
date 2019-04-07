@@ -13,7 +13,7 @@ F5 "Overvoltage Protection for 2-Series to 4-Series Cell Li-Ion Batteries withEx
 F6 "Texas Instruments" 0 -850 60 H I C CNN "Manufacturer"
 F7 "WSON8" 0 -1050 60 H I C CNN "Package ID"
 DRAW
-S -400 400 400 -400 0 1 0 N
+S -400 400 400 -400 0 1 0 f
 X VDD 1 0 600 200 D 50 50 1 1 W
 X V4 2 -600 150 200 R 50 50 1 1 I
 X V3 3 -600 50 200 R 50 50 1 1 I
@@ -38,7 +38,7 @@ F5 "Programmable Battery Management Unit" -150 1850 60 H I C CNN "Description"
 F6 "QFN32" -50 1950 60 H I C CNN "Package ID"
 F7 "Texas Instruments" -150 1750 60 H I C CNN "Manufacturer"
 DRAW
-S -700 1200 600 -1150 0 1 0 N
+S -700 1200 600 -1150 0 1 0 f
 X BAT 1 -900 1100 200 R 50 50 1 1 W
 X TS1 10 -900 250 200 R 50 50 1 1 I
 X TS2 11 -900 150 200 R 50 50 1 1 I
@@ -87,7 +87,7 @@ F5 "30-V N-Channel NexFET Power MOSFET" -100 1250 60 H I C CNN "Description"
 F6 "SON 3.3 x 3x3" 0 1350 60 H I C CNN "Package ID"
 F7 "Texas Instruments" -200 1150 60 H I C CNN "Manufacturer"
 DRAW
-S -250 250 150 -150 0 1 0 N
+S -250 250 150 -150 0 1 0 f
 P 2 0 1 0 -250 -100 -150 -100 N
 P 2 0 1 0 -250 0 -150 0 N
 P 2 0 1 0 -250 100 -150 100 N
@@ -135,7 +135,7 @@ F5 "–20 V P-Channel NexFET Power MOSFET" -100 1250 60 H I C CNN "Description"
 F6 "SON 3.3 x 3x3" 0 1350 60 H I C CNN "Package ID"
 F7 "Texas Instruments" -200 1150 60 H I C CNN "Manufacturer"
 DRAW
-S -200 200 200 -200 0 1 0 N
+S -200 200 200 -200 0 1 0 f
 P 2 0 1 0 -200 -150 -50 -150 N
 P 2 0 1 0 -200 -50 -100 -50 N
 P 2 0 1 0 -200 50 -100 50 N
@@ -183,7 +183,7 @@ F5 "30 V Dual Common Drain N-Channel NexFET Power MOSFET" -100 1250 60 H I C CNN
 F6 "SON 3.3 x 3x3" 0 1350 60 H I C CNN "Package ID"
 F7 "Texas Instruments" -200 1150 60 H I C CNN "Manufacturer"
 DRAW
-S -300 250 300 -250 0 1 0 N
+S -300 250 300 -250 0 1 0 f
 P 2 0 1 0 -300 -200 -150 -200 N
 P 2 0 1 0 -300 0 -150 0 N
 P 2 0 1 0 -300 100 -150 100 N
@@ -709,7 +709,7 @@ $FPLIST
  *DIP*
 $ENDFPLIST
 DRAW
-S -200 200 200 -200 0 1 0 N
+S -200 200 200 -200 0 1 0 f
 X Sx 1 -400 50 200 R 50 50 1 1 B
 X Rx 2 400 50 200 L 50 50 1 1 I
 X Tx 3 400 150 200 L 50 50 1 1 O
@@ -1261,7 +1261,7 @@ F6 "8-Channel ESD Protection for DisplayPort and HDMI" 100 1050 60 H I C CNN "De
 F7 "SON 15" 200 1150 60 H I C CNN "Package ID"
 F8 "0.00@0" 150 1250 60 H I C CNN "Pricing"
 DRAW
-S -250 400 250 -400 0 1 0 N
+S -250 400 250 -400 0 1 0 f
 X D0+ 1 -450 350 200 R 50 50 1 1 P
 X D3+ 10 -450 -250 200 R 50 50 1 1 P
 X GND 11 450 -50 200 L 50 50 1 1 W
@@ -1292,7 +1292,7 @@ F5 "SBType-CTMPort Protector: Short-to-VBUSOvervoltageandIECESD Protection" 0 11
 F6 "Texas Instruments" -100 1000 60 H I C CNN "Manufacturer"
 F7 "WQFN (20)" 100 1200 60 H I C CNN "Package ID"
 DRAW
-S -600 300 50 -700 0 1 0 N
+S -600 300 50 -700 0 1 0 f
 X C_SBU1 1 -800 250 200 R 50 50 1 1 B
 X VPWR 10 -800 -450 200 R 50 50 1 1 W
 X CC2 11 250 50 200 L 50 50 1 1 B
@@ -1329,7 +1329,7 @@ F5 "SYNCHRONOUS BOOST CONVERTER WITH 2A SWITCH" -150 1600 60 H I C CNN "Descript
 F6 "QFN-16 4x4" -50 1700 60 H I C CNN "Package ID"
 F7 "0.00@0" -50 1800 60 H I C CNN "Pricing"
 DRAW
-S -250 500 250 -500 0 1 0 N
+S -250 500 250 -500 0 1 0 f
 X VOUT 1 450 450 200 L 50 50 1 1 w
 X SYNC 10 -450 -350 200 R 50 50 1 1 I
 X EN 11 -450 50 200 R 50 50 1 1 I
@@ -1369,13 +1369,13 @@ T 0 300 700 60 0 4 0 GPIO Normal 0 C C
 T 0 150 250 60 0 5 0 "Other IO" Normal 0 C C
 T 0 0 -150 60 0 6 0 "Connection to USB host" Normal 0 C C
 T 0 0 -200 60 0 7 0 "SPI Flash" Normal 0 C C
-S 200 600 -250 -600 2 0 0 N
-S -1200 450 1200 -450 1 1 0 N
-S -600 550 650 -350 3 1 0 N
-S -450 800 450 -800 4 1 0 N
-S -500 800 300 300 5 1 0 N
-S -200 100 250 -100 6 1 0 N
-S -250 250 250 -250 7 1 0 N
+S 200 600 -250 -600 2 0 0 f
+S -1200 450 1200 -450 1 1 0 f
+S -600 550 650 -350 3 1 0 f
+S -450 800 450 -800 4 1 0 f
+S -500 800 300 300 5 1 0 f
+S -200 100 250 -100 6 1 0 f
+S -250 250 250 -250 7 1 0 f
 X GND A1 -900 -650 200 U 50 50 1 1 W
 X SENSEN A10 300 650 200 D 50 50 1 1 I
 X PP_5V0 A11 -600 650 200 D 50 50 1 1 W
