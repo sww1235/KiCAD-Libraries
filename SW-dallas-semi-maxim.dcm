@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MAX4910
+D Quad-SPDT, Clickless Audio Switches with Negative Signal Handling
+K Quad SPDT Clickless Audio Switches with Negative Signal Handling
+F https://datasheets.maximintegrated.com/en/ds/MAX4910-MAX4912.pdf
+$ENDCMP
+#
 #End Doc Library
