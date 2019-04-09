@@ -75,6 +75,38 @@ X VSS 9 0 -1350 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# CDCE706
+#
+DEF CDCE706 U 0 40 Y Y 1 F N
+F0 "U" 400 -350 50 H V C CNN
+F1 "CDCE706" -350 350 50 H V C CNN
+F2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" -800 900 50 H I C CNN
+F3 "" 500 750 50 H I C CNN
+DRAW
+S -500 300 500 -300 0 1 0 f
+X S0/A0 1 -700 -150 200 R 50 50 1 1 I
+X SCL 10 -700 250 200 R 50 50 1 1 I
+X Y0 11 700 250 200 L 50 50 1 1 O
+X Y1 12 700 150 200 L 50 50 1 1 O
+X GND 13 0 -500 200 U 50 50 1 1 P N
+X VCCO1 14 0 500 200 D 50 50 1 1 W
+X Y2 15 700 50 200 L 50 50 1 1 O
+X Y3 16 700 -50 200 L 50 50 1 1 O
+X GND 17 0 -500 200 U 50 50 1 1 P N
+X VCC02 18 100 500 200 D 50 50 1 1 W
+X Y4 19 700 -150 200 L 50 50 1 1 O
+X S1/A1 2 -700 -250 200 R 50 50 1 1 I
+X Y5 20 700 -250 200 L 50 50 1 1 O
+X VCC 3 -100 500 200 D 50 50 1 1 W
+X GND 4 0 -500 200 U 50 50 1 1 W
+X CLK_IN0 5 -700 50 200 R 50 50 1 1 I
+X CLK_IN1 6 -700 -50 200 R 50 50 1 1 B
+X VCC 7 -100 500 200 D 50 50 1 1 P N
+X GND 8 0 -500 200 U 50 50 1 1 P N
+X SDA 9 -700 150 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # CDCI6214
 #
 DEF CDCI6214 U 0 40 Y Y 1 F N
@@ -100,9 +132,9 @@ X STATUS 20 -700 -500 200 R 50 50 1 1 B
 X Y1N 21 700 300 200 L 50 50 1 1 O
 X Y1P 22 700 400 200 L 50 50 1 1 O
 X EEPROMSEL 23 -700 -200 200 R 50 50 1 1 I
-X VDDVCO 24 -150 850 200 D 50 50 1 1 W
+X VDDVCO 24 150 850 200 D 50 50 1 1 W
 X GND 25 0 -850 200 U 50 50 1 1 W
-X VDDREF 3 150 850 200 D 50 50 1 1 W
+X VDDREF 3 -150 850 200 D 50 50 1 1 W
 X REFSEL 4 -700 -300 200 R 50 50 1 1 I
 X REFP 5 -700 300 200 R 50 50 1 1 I
 X REFN 6 -700 200 200 R 50 50 1 1 I
@@ -303,11 +335,11 @@ DEF LM1084 U 0 40 Y Y 1 F N
 F0 "U" -150 200 60 H V C CNN
 F1 "LM1084" 0 -200 60 H V C CNN
 F2 "" -100 -100 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lm1084.pdf" 300 900 60 H I C CNN
+F3 "" 300 900 60 H I C CNN
 F4 "0.00@0" 300 600 60 H I C CNN "Pricing"
 F5 "5A, 3.3V, 5V, Adj Vout" 200 700 60 H I C CNN "Characteristics"
 F6 "DDPAK/TO-263, TO-220" 400 1200 60 H I C CNN "Package ID"
-F7 "LM1084 5A Low Dropout Positive Regulators" 300 1100 60 H I C CNN "Description"
+F7 "5A Low Dropout Positive Regulators" 300 1100 60 H I C CNN "Description"
 F8 "Texas Instruments" 200 1000 60 H I C CNN "Manufacturer"
 DRAW
 S -200 150 200 -150 0 1 0 N
@@ -324,14 +356,14 @@ DEF LM1085 U 0 40 Y Y 1 F N
 F0 "U" -150 200 60 H V C CNN
 F1 "LM1085" 0 -200 60 H V C CNN
 F2 "" -100 -100 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lm1085.pdf" 300 900 60 H I C CNN
+F3 "" 300 900 60 H I C CNN
 F4 "0.00@0" 300 600 60 H I C CNN "Pricing"
 F5 "3A, 3.3V, 5V, 12V, Adj Vout" 200 700 60 H I C CNN "Characteristics"
 F6 "DDPAK/TO-263, TO-220" 400 1200 60 H I C CNN "Package ID"
 F7 "LM1085 3A Low Dropout Positive Regulators" 300 1100 60 H I C CNN "Description"
 F8 "Texas Instruments" 200 1000 60 H I C CNN "Manufacturer"
 DRAW
-S -200 150 200 -150 0 1 0 N
+S -200 150 200 -150 0 1 0 f
 X GND/ADJ 1 -400 -100 200 R 50 50 1 1 W
 X OUT 2 400 100 200 L 50 50 1 1 w
 X IN 3 -400 100 200 R 50 50 1 1 W
@@ -345,13 +377,13 @@ DEF LM13700N U 0 0 Y Y 2 F N
 F0 "U" 0 -300 60 H V C CNN
 F1 "LM13700N" 50 300 60 H V C CNN
 F2 "" -100 -400 60 H V C CNN
-F3 "http://www.mouser.com/ds/2/405/lm13700-452966.pdf" 0 -300 60 H I C CNN
-F4 "Any" 0 0 60 H I C CNN "Source"
-F5 "LM13700N/NOPB" 400 100 60 H I C CNN "MF part number"
-F6 "No" 0 0 60 H I C CNN "Critical"
-F7 "PDIP (16)" 500 200 60 H I C CNN "Package ID"
-F8 "Texas Instruments" 300 0 60 H I C CNN "Manufacturer"
-F9 "Transconductance Amplifiers Dual OP Amp Transconductance" 200 -100 60 H I C CNN "Description"
+F3 "" 0 -300 60 H I C CNN
+F4 "Any" 1400 800 60 H I C CNN "Source"
+F5 "LM13700N/NOPB" 250 850 60 H I C CNN "MF part number"
+F6 "No" 1450 700 60 H I C CNN "Critical"
+F7 "PDIP (16)" 200 1000 60 H I C CNN "Package ID"
+F8 "Texas Instruments" 1050 950 60 H I C CNN "Manufacturer"
+F9 "Dual Transconductance OP Amp" 250 750 60 H I C CNN "Description"
 DRAW
 C 325 0 50 0 1 0 N
 C 400 0 50 0 1 0 N
@@ -391,7 +423,7 @@ $FPLIST
  VSSOP*
 $ENDFPLIST
 DRAW
-S -300 200 300 -200 0 1 0 N
+S -300 200 300 -200 0 1 0 f
 X Vc 1 -500 150 200 R 50 50 1 1 W
 X FB 2 -500 50 200 R 50 50 1 1 P
 X ~SHDN 3 -500 -50 200 R 50 50 1 1 I
@@ -406,24 +438,23 @@ ENDDEF
 # LM2698_DGK_8
 #
 DEF LM2698_DGK_8 U 0 40 Y Y 1 F N
-F0 "U" -50 50 50 H V L BNN
-F1 "LM2698_DGK_8" -250 -50 50 H V L BNN
-F2 "TI-LM2698_MUA08A" 550 450 20 H I C CNN
-F3 "" -850 200 60 H V C CNN
+F0 "U" -50 0 50 H V L BNN
+F1 "LM2698_DGK_8" -250 -100 50 H V L BNN
+F2 "SW-Texas:TI-LM2698-MUA08A" 550 400 20 H I C CNN
+F3 "" -850 150 60 H I C CNN
 $FPLIST
  *MUA08A*
 $ENDFPLIST
 DRAW
-P 2 1 0 0 500 -150 500 250 N
-P 6 0 1 0 500 250 100 250 -550 250 -550 -150 -50 -150 500 -150 N
-X VC 1 -750 200 200 R 40 40 1 1 P
-X FB 2 -750 100 200 R 40 40 1 1 P
-X ~SHDN 3 -750 0 200 R 40 40 1 1 P
-X GND 4 -750 -100 200 R 40 40 1 1 P
+S 500 200 -500 -200 0 1 0 f
+X VC 1 -700 150 200 R 40 40 1 1 P
+X FB 2 -700 50 200 R 40 40 1 1 P
+X ~SHDN 3 -700 -50 200 R 40 40 1 1 P
+X GND 4 -700 -150 200 R 40 40 1 1 P
 X VSW 5 700 -100 200 L 40 40 1 1 O
 X VIN 6 700 0 200 L 40 40 1 1 I
 X FSLCT 7 700 100 200 L 40 40 1 1 P
-X NC 8 700 200 200 L 40 40 1 1 P
+X NC 8 0 100 200 L 40 40 1 1 N N
 ENDDRAW
 ENDDEF
 #
@@ -433,17 +464,17 @@ DEF LM27762 U 0 40 Y Y 1 F N
 F0 "U" -200 -500 60 H V C CNN
 F1 "LM27762" -50 500 60 H V C CNN
 F2 "" -200 650 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lm27762.pdf" 0 850 60 H I C CNN
+F3 "" 0 850 60 H I C CNN
 F4 "Vin 2.7V to 5.5V, Vout ±1.5 to 5V, ±250mA Iout, 2MHz switching frequency, " 100 950 60 H I C CNN "Characteristics"
 F5 "Texas Instruments" 0 1050 60 H I C CNN "Manufacturer"
-F6 "LM27762 Low-Noise Positive and Negative Output Integrated Charge Pump Plus LDO" -100 1150 60 H I C CNN "Description"
+F6 "Low-Noise Positive and Negative Output Integrated Charge Pump Plus LDO" -100 1150 60 H I C CNN "Description"
 F7 "WSON" 0 1250 60 H I C CNN "Package ID"
 F8 "0.00@0" 0 1350 60 H I C CNN "Pricing"
 $FPLIST
  *WSON*
 $ENDFPLIST
 DRAW
-S -250 450 250 -450 0 1 0 N
+S -250 450 250 -450 0 1 0 f
 X PGOOD 1 -450 300 200 R 50 50 1 1 O
 X C1+ 10 -450 200 200 R 50 50 1 1 I
 X OUT+ 11 450 400 200 L 50 50 1 1 w
@@ -466,14 +497,14 @@ DEF LM2937 U 0 40 Y Y 1 F N
 F0 "U" -150 200 60 H V C CNN
 F1 "LM2937" 0 -200 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lm2937.pdf" 150 1050 60 H I C CNN
+F3 "" 150 1050 60 H I C CNN
 F4 "0.00@0" 0 900 60 H I C CNN "Pricing"
 F5 "500mA, Vin=6-26V, Vout=5,8,10,12,15" -50 1200 60 H I C CNN "Characteristics"
-F6 "LM2937 500-mA Low Dropout Regulator" 150 1400 60 H I C CNN "Description"
+F6 "500-mA Low Dropout Regulator" 150 1400 60 H I C CNN "Description"
 F7 "Texas Instruments" 50 1300 60 H I C CNN "Manufacturer"
 F8 "TO-220, SOT-223, TO-263" 250 1500 60 H I C CNN "Package ID"
 DRAW
-S -200 150 200 -150 0 1 0 N
+S -200 150 200 -150 0 1 0 f
 X IN 1 -400 100 200 R 50 50 1 1 W
 X GND 2 -400 -100 200 R 50 50 1 1 W
 X OUT 3 400 100 200 L 50 50 1 1 w
@@ -487,14 +518,14 @@ DEF LM2937-3V3 U 0 40 Y Y 1 F N
 F0 "U" -150 200 60 H V C CNN
 F1 "LM2937-3V3" 0 -200 60 H V C CNN
 F2 "" -250 100 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lm2937-3.3.pdf" 150 1050 60 H I C CNN
+F3 "" 150 1050 60 H I C CNN
 F4 "0.00@0" 0 900 60 H I C CNN "Pricing"
 F5 "500mA 3V3 out, Vin=4.75-26V" -50 1200 60 H I C CNN "Characteristics"
-F6 "LM2937 2.5-V and 3.3-V 400-mA and 500-mA Voltage Regulators" 150 1400 60 H I C CNN "Description"
+F6 "3.3-V 500-mA Voltage Regulator" 150 1400 60 H I C CNN "Description"
 F7 "Texas Instruments" 50 1300 60 H I C CNN "Manufacturer"
 F8 "TO-220, SOT-223, TO-263" 250 1500 60 H I C CNN "Package ID"
 DRAW
-S -200 150 200 -150 0 1 0 N
+S -200 150 200 -150 0 1 0 f
 X IN 1 -400 100 200 R 50 50 1 1 W
 X GND 2 -400 -100 200 R 50 50 1 1 W
 X OUT 3 400 100 200 L 50 50 1 1 w
@@ -510,7 +541,7 @@ F1 "LM3880" -100 200 50 H V C CNN
 F2 "" -50 0 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 DRAW
-S -250 150 250 -150 0 1 0 N
+S -250 150 250 -150 0 1 0 f
 X VCC 1 -450 100 200 R 50 50 1 1 W
 X GND 2 -450 -100 200 R 50 50 1 1 W
 X EN 3 -450 0 200 R 50 50 1 1 I
@@ -520,51 +551,23 @@ X FLAG1 6 450 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# LM833-N
-#
-DEF LM833-N U 0 0 Y Y 2 F N
-F0 "U" -50 -100 60 H V C CNN
-F1 "LM833-N" 50 0 60 H V C CNN
-F2 "" 50 0 60 H V C CNN
-F3 "" 50 0 60 H V C CNN
-$FPLIST
- SO*
- DIP*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -200 -250 400 0 N
-P 2 0 1 0 -200 -150 -200 -250 N
-P 2 0 1 0 -200 -150 -200 150 N
-P 2 0 1 0 -200 150 -200 250 N
-P 2 0 1 0 400 0 -200 250 N
-X VEE 4 50 -350 200 U 50 50 0 1 W N
-X +VCC 8 50 350 200 D 50 50 0 1 W N
-X OUT 1 600 0 200 L 50 50 1 1 I
-X - 2 -400 -150 200 R 50 50 1 1 I
-X + 3 -400 150 200 R 50 50 1 1 I
-X + 5 -400 150 200 R 50 50 2 1 I
-X - 6 -400 -150 200 R 50 50 2 1 I
-X OUT 7 600 0 200 L 50 50 2 1 I
-ENDDRAW
-ENDDEF
-#
 # LMZ34002
 #
 DEF LMZ34002 U 0 40 Y Y 1 F N
 F0 "U" -650 700 60 H V C CNN
 F1 "LMZ34002" 0 -50 60 H V C CNN
 F2 "" -100 550 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lmz34002.pdf" 100 1000 60 H I C CNN
+F3 "" 100 1000 60 H I C CNN
 F4 "15W Vin=4.5 to 40V, Vout = -3 to -17V, 2A out, " -100 1100 60 H I C CNN "Characteristics"
 F5 "Texas Instruments" 0 1200 60 H I C CNN "Manufacturer"
-F6 "LMZ34002 15-W Negative Output, SIMPLE SWITCHER® Power Module With 4.5-V to 40-V Input" -150 1400 60 H I C CNN "Description"
+F6 "15-W Negative Output, SIMPLE SWITCHER® Power Module With 4.5-V to 40-V Input" -150 1400 60 H I C CNN "Description"
 F7 "QFN" -50 1500 60 H I C CNN "Package ID"
 F8 "0.00@0" 0 1300 60 H I C CNN "Pricing"
 $FPLIST
  *QFN*
 $ENDFPLIST
 DRAW
-S -750 650 750 -700 0 1 0 N
+S -750 650 750 -700 0 1 0 f
 X A_VOUT 1 950 -200 200 L 50 50 1 1 I
 X GND 10 -400 -900 200 U 50 50 1 1 W
 X GND 11 -300 -900 200 U 50 50 1 1 W
@@ -624,7 +627,7 @@ $FPLIST
  uSIP
 $ENDFPLIST
 DRAW
-S -350 300 350 -100 0 1 0 N
+S -350 300 350 -100 0 1 0 f
 X GND 1 -550 -50 200 R 50 50 1 1 W
 X DNC 10 50 0 200 L 50 50 1 1 N N
 X PAD 11 550 -50 200 L 50 50 1 1 W
@@ -645,8 +648,8 @@ DEF LP2951-33DRG4 U 0 1 Y Y 1 F N
 F0 "U" 0 -450 60 H V C CNN
 F1 "LP2951-33DRG4" 0 500 60 H V C CNN
 F2 "" -100 -550 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/lp2951.pdf" 250 -1050 60 H I C CNN
-F4 "Texas Instruments" 0 -850 60 H I C CNN "Manufacturer"
+F3 "" 250 -1050 60 H I C CNN
+F4 "Texas Instruments" 0 -850 60 H I C CNN "Manufacturer"
 F5 "0.00@0" 0 700 60 H I C CNN "Pricing"
 F6 "30V max, 100mA out" 150 -950 60 H I C CNN "Characteristics"
 F7 "Adjustable Micropower Voltage Regulators with Shutdown" 250 -750 60 H I C CNN "Description"
@@ -656,7 +659,7 @@ $FPLIST
  *SON*
 $ENDFPLIST
 DRAW
-S -300 300 300 -300 0 1 0 N
+S -300 300 300 -300 0 1 0 f
 X OUTPUT 1 500 250 200 L 50 50 1 1 w
 X SENSE 2 500 150 200 L 50 50 1 1 I
 X SHUTDOWN 3 -500 -250 200 R 50 50 1 1 I
@@ -674,7 +677,7 @@ DEF OPA1602 U 0 40 Y N 3 L N
 F0 "U" -900 -700 60 H V C CNN
 F1 "OPA1602" 1100 -450 60 H V C CNN
 F2 "" 0 1400 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" 600 1900 60 H I C CNN
+F3 "" 600 1900 60 H I C CNN
 F4 "Texas Instruments" 200 1600 60 H I C CNN "Manufacturer"
 F5 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" 300 1700 60 H I C CNN "Description"
 F6 "SO-8, TSSOP8" 400 1800 60 H I C CNN "Package ID"
@@ -712,7 +715,7 @@ DEF OPA1604 U 0 40 Y N 5 L N
 F0 "U" -900 -700 60 H V C CNN
 F1 "OPA1604" 1100 -450 60 H V C CNN
 F2 "" 0 1400 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/opa1602.pdf" 600 1900 60 H I C CNN
+F3 "" 600 1900 60 H I C CNN
 F4 "0.00@0" 200 2100 60 H I C CNN "Pricing"
 F5 "SO-14, TSSOP14" 400 1800 60 H I C CNN "Package ID"
 F6 "Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier" 300 1700 60 H I C CNN "Description"
@@ -792,7 +795,7 @@ DEF PCM1865 U 0 40 Y Y 1 F N
 F0 "U" -250 -800 60 H V C CNN
 F1 "PCM1865" -100 850 60 H V C CNN
 F2 "" -100 -100 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/pcm1863.pdf" 50 1200 60 H I C CNN
+F3 "" 50 1200 60 H I C CNN
 F4 "0.00@0" 0 1100 60 H I C CNN "Pricing"
 F5 "110dB 4ch Audio ADC with Universal Front End" -50 1400 60 H I C CNN "Description"
 F6 "Texas Instruments" -150 1300 60 H I C CNN "Manufacturer"
@@ -801,7 +804,7 @@ $FPLIST
  *SOP*
 $ENDFPLIST
 DRAW
-S -300 800 350 -700 0 1 0 N
+S -300 800 350 -700 0 1 0 f
 X VINL2 1 -500 550 200 R 50 50 1 1 I
 X XI 10 550 -650 200 L 50 50 1 1 B
 X LDO 11 -500 -350 200 R 50 50 1 1 w
@@ -841,7 +844,7 @@ DEF PCM510xA U 0 40 Y Y 1 F N
 F0 "U" -250 550 60 H V C CNN
 F1 "PCM510xA" -50 -550 60 H V C CNN
 F2 "Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm" -600 1450 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/pcm5100a-q1.pdf" -500 1550 60 H I C CNN
+F3 "" -500 1550 60 H I C CNN
 F4 "0.00@0" -50 2050 60 H I C CNN "Pricing"
 F5 "2.1 VRMS, 112/106/100 dB Audio Stereo DAC with PLL and 32-bit, 384 kHz PCM Interface" -200 1850 60 H I C CNN "Description"
 F6 "2.1 VRMS, 112/106/100 dB Dyn Range, 32-bit, 384 kHz PCM" -400 1650 60 H I C CNN "Characteristics"
@@ -851,7 +854,7 @@ $FPLIST
  *SOP*
 $ENDFPLIST
 DRAW
-S -300 500 300 -500 0 1 0 N
+S -300 500 300 -500 0 1 0 f
 X CPVDD 1 500 150 200 L 50 50 1 1 W
 X DEMP 10 -500 50 200 R 50 50 1 1 I
 X FLT 11 -500 -50 200 R 50 50 1 1 I
@@ -881,7 +884,7 @@ DEF RC4560 U 0 0 Y Y 2 F N
 F0 "U" -50 -100 60 H V C CNN
 F1 "RC4560" 50 0 60 H V C CNN
 F2 "" 50 0 60 H V C CNN
-F3 "http://www.ti.com/lit/ds/symlink/rc4560.pdf" 350 2100 60 H I C CNN
+F3 "" 350 2100 60 H I C CNN
 F4 "0.00@0" 0 0 60 H I C CNN "Pricing"
 F5 "Any" 0 0 60 H I C CNN "Source"
 F6 "No" 0 0 60 H I C CNN "Critical"
@@ -928,7 +931,7 @@ DEF TCA9534(A) U 0 40 Y Y 1 F N
 F0 "U" -150 450 60 H V C CNN
 F1 "TCA9534(A)" 0 -450 60 H V C CNN
 F2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" -100 800 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tca9534.pdf" 0 900 60 H I C CNN
+F3 "" 0 900 60 H I C CNN
 F4 "0.00@0" 50 1550 60 H I C CNN "Pricing"
 F5 "Low Voltage 8-Bit I2C and SMBUS Low-Power I/O Expander With Interrupt Output and Configuration Registers" 300 1200 60 H I C CNN "Description"
 F6 "Texas Instruments" 200 1100 60 H I C CNN "Manufacturer"
@@ -939,7 +942,7 @@ $FPLIST
  SOIC*
 $ENDFPLIST
 DRAW
-S 200 400 -200 -400 0 1 0 N
+S 200 400 -200 -400 0 1 0 f
 X A0 1 -400 -50 200 R 50 50 1 1 I
 X P5 10 400 -150 200 L 50 50 1 1 B
 X P6 11 400 -250 200 L 50 50 1 1 B
@@ -965,13 +968,13 @@ DEF TCA9548A U 0 40 Y Y 1 F N
 F0 "U" -200 850 60 H V C CNN
 F1 "TCA9548A" -50 -850 60 H V C CNN
 F2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" 150 1700 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" 100 1800 60 H I C CNN
+F3 "" 100 1800 60 H I C CNN
 F4 "Texas Instruments" 50 1900 60 H I C CNN "Manufacturer"
 F5 "Low-Voltage 8-Channel I2C Switch with Reset" 150 2000 60 H I C CNN "Description"
 F6 "TSSOP24" 250 2100 60 H I C CNN "Package ID"
 F7 "0.00@0" 100 2200 60 H I C CNN "Pricing"
 DRAW
-S -250 800 250 -800 0 1 0 N
+S -250 800 250 -800 0 1 0 f
 X A0 1 -450 300 200 R 50 50 1 1 I
 X SD3 10 450 150 200 L 50 50 1 1 B
 X SC3 11 450 50 200 L 50 50 1 1 B
@@ -1005,14 +1008,14 @@ DEF TCA9555 U 0 40 Y Y 1 F N
 F0 "U" -150 900 60 H V C CNN
 F1 "TCA9555" -50 -950 60 H V C CNN
 F2 "Housings_SSOP:TSSOP-24_4.4x7.8mm_Pitch0.65mm" 200 1200 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tca9555.pdf" 300 1300 60 H I C CNN
+F3 "" 300 1300 60 H I C CNN
 F4 "3.5 μA Maximum, Latch-Up Performance Exceeds 100 mA, 400-kHz Fast I2C Bus" 250 1450 60 H I C CNN "Characteristics"
 F5 "Texas Instruments" 0 1550 60 H I C CNN "Manufacturer"
-F6 "Low-Voltage 16-Bit I 2C and SMBus I/O Expander with Interrupt Output and Configuration Registers" 200 1650 60 H I C CNN "Description"
+F6 "Low-Voltage 16-Bit I2C and SMBus I/O Expander with Interrupt Output and Configuration Registers" 200 1650 60 H I C CNN "Description"
 F7 "TSSOP24" 50 1750 60 H I C CNN "Package ID"
 F8 "0.00@0" 50 1850 60 H I C CNN "Pricing"
 DRAW
-S -250 850 250 -850 0 1 0 N
+S -250 850 250 -850 0 1 0 f
 X ~INT 1 450 400 200 L 50 50 1 1 I
 X P06 10 -450 200 200 R 50 50 1 1 B
 X P07 11 -450 100 200 R 50 50 1 1 B
@@ -1046,14 +1049,14 @@ DEF TL072 U 0 0 Y Y 2 F N
 F0 "U" 0 -150 60 H V C CNN
 F1 "TL072" 0 0 60 H V C CNN
 F2 "" -100 -250 60 H V C CNN
-F3 "http://www.mouser.com/ds/2/405/tl072-557363.pdf" 0 -150 60 H I C CNN
+F3 "" 0 -150 60 H I C CNN
 F4 "1• Low Power Consumption• Wide Common-Mode and Differential VoltageRanges• Low Input Bias and Offset Currents• Output Short-Circuit Protection• Low Total Harmonic Distortion: 0.003% Typical• Low NoiseVn =18nV/√HzTypatf=1kHz• High-Input Impedance: JFET Input Stage• Internal Frequency Compensation• Latch-Up-Free Operation• High Slew Rate: 13 V/μs Typical• Common-Mode Input Voltage Range Includes VCC+" 100 -50 60 H I C CNN "Characteristics"
 F5 "Any" 0 0 60 H I C CNN "Source"
 F6 "DIP8" 500 350 60 H I C CNN "Package ID"
 F7 "No" 0 0 60 H I C CNN "Critical"
 F8 "Texas Instruments" 300 150 60 H I C CNN "Manufacturer"
 F9 "TL072" 400 250 60 H I C CNN "MF part number"
-F10 "TL072 Low-Noise JFET-Input Operational Amplifier" 200 50 60 H I C CNN "Description"
+F10 "Low-Noise JFET-Input Operational Amplifier" 200 50 60 H I C CNN "Description"
 $FPLIST
  *DIP*
  *SOIC*
@@ -1080,8 +1083,8 @@ DEF TL084 U 0 0 Y Y 4 F N
 F0 "U" 0 -150 60 H V C CNN
 F1 "TL084" 0 0 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
-F3 "http://www.mouser.com/ds/2/405/tl084-557199.pdf" 0 -150 60 H I C CNN
-F4 "TL084 JFET-Input Operational Amplifier" 200 50 60 H I C CNN "Description"
+F3 "" 0 -150 60 H I C CNN
+F4 "TL084 JFET-Input Operational Amplifier" 200 50 60 H I C CNN "Description"
 F5 "Any" 0 0 60 H I C CNN "Source"
 F6 "No" 0 0 60 H I C CNN "Critical"
 F7 "Texas Instruments" 300 150 60 H I C CNN "Manufacturer"
@@ -1121,7 +1124,7 @@ F1 "TLV320AIC32" -350 1050 50 H V C CNN
 F2 "Package_DFN_QFN:VQFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias" 0 1150 50 H I C CNN
 F3 "" -100 2000 50 H I C CNN
 DRAW
-S -600 1000 550 -1000 0 1 0 N
+S -600 1000 550 -1000 0 1 0 f
 X MCLK 1 750 -200 200 L 50 50 1 0 I
 X MIC1L/LINE1L 10 -800 300 200 R 50 50 1 0 I
 X MIC1R/LINE1R 11 -800 200 200 R 50 50 1 0 I
@@ -1166,7 +1169,7 @@ F2 "Package_DFN_QFN:UQFN-40-1EP_5x5mm_P0.4mm_EP3.8x3.8mm_ThermalVias" 50 1400 50
 F3 "" 1150 550 50 H I C CNN
 DRAW
 T 900 0 0 50 0 0 0 "I2C Names Only (SPI Available)" Normal 0 C C
-S -550 950 550 -950 0 1 0 N
+S -550 950 550 -950 0 1 0 f
 X DVSS 1 150 -1150 200 U 50 50 1 0 W
 X IOVDD 10 750 800 200 L 50 50 1 0 W
 X IOVSS 11 50 -1150 200 U 50 50 1 0 W
@@ -1181,7 +1184,7 @@ X IN2_L 19 -750 700 200 R 50 50 1 0 I
 X DVSS 2 -50 -1150 200 U 50 50 1 0 W
 X IN2_R 20 -750 600 200 R 50 50 1 0 I
 X AVSS 21 250 -1150 200 U 50 50 1 0 W
-X REF 22 -750 100 200 R 50 50 1 0 O
+X REF 22 -750 -700 200 R 50 50 1 0 O
 X MICBIAS 23 -750 200 200 R 50 50 1 0 O
 X IN3_L 24 -750 500 200 R 50 50 1 0 I
 X IN3_R 25 -750 400 200 R 50 50 1 0 I
@@ -1217,7 +1220,7 @@ DEF TPD1E10B06 D 0 40 Y Y 1 F N
 F0 "D" -100 250 60 H V C CNN
 F1 "TPD1E10B06" 0 -100 60 H V C CNN
 F2 "" -100 -100 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tpd1e10b06.pdf" 150 1600 60 H I C CNN
+F3 "" 150 1600 60 H I C CNN
 F4 "0.00@0" 50 1500 60 H I C CNN "Pricing"
 F5 "0402 (imp)" 200 2000 60 H I C CNN "Package ID"
 F6 "IEC 61000-4-2 level 4 protection, ±30 kV Contact Discharge, ±30 kV Air Gap Discharge" 250 1700 60 H I C CNN "Characteristics"
@@ -1245,7 +1248,7 @@ DEF TPD2E1B06 DN 0 0 Y Y 1 F N
 F0 "DN" -50 -300 60 H V C CNN
 F1 "TPD2E1B06" 0 300 60 H V C CNN
 F2 "" 800 -250 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tpd2e1b06.pdf" -50 1200 60 H I C CNN
+F3 "" -50 1200 60 H I C CNN
 F4 "0.00@0" -100 1350 60 H I C CNN "Pricing"
 F5 "Dual-Channel High-Speed ESD Protection Device" 50 1650 60 H I C CNN "Description"
 F6 "SOT6 (TI Custom)" 150 1750 60 H I C CNN "Package ID"
@@ -1254,7 +1257,7 @@ $FPLIST
  *SOT*
 $ENDFPLIST
 DRAW
-S -100 250 100 -250 0 1 0 N
+S -100 250 100 -250 0 1 0 f
 X IOA1 1 -300 150 200 R 50 50 1 1 P
 X IOB1 2 -300 0 200 R 50 50 1 1 P
 X N/C_GND 3 -300 -150 200 R 50 50 1 1 P
@@ -1276,17 +1279,17 @@ F5 "1, 4, 6 Channel ESD Protection Device for Super-Speed (Up to 6 Gbps) Interfa
 F6 "Texas Instruments" -250 800 60 H I C CNN "Manufacturer"
 F7 "USON10" -50 1000 60 H I C CNN "Package ID"
 DRAW
-S -300 200 350 -200 0 1 0 N
+S -300 200 350 -200 0 1 0 f
 X D1+ 1 -500 150 200 R 50 50 1 1 B
-X NC1+ 10 550 150 200 L 50 50 1 1 N N
+X NC1+ 10 250 150 200 L 50 50 1 1 N N
 X D1- 2 -500 50 200 R 50 50 1 1 B
 X GND 3 -50 -400 200 U 50 50 1 1 W
 X D2+ 4 -500 -50 200 R 50 50 1 1 B
 X D2- 5 -500 -150 200 R 50 50 1 1 B
-X NC2- 6 550 -150 200 L 50 50 1 1 N N
-X NC2+ 7 550 -50 200 L 50 50 1 1 N N
+X NC2- 6 250 -150 200 L 50 50 1 1 N N
+X NC2+ 7 250 -50 200 L 50 50 1 1 N N
 X GND 8 50 -400 200 U 50 50 1 1 W
-X NC1- 9 550 50 200 L 50 50 1 1 N N
+X NC1- 9 250 50 200 L 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
@@ -1296,19 +1299,19 @@ DEF TPD4S012 DN 0 40 Y Y 1 F N
 F0 "DN" -100 200 60 H V C CNN
 F1 "TPD4S012" 0 -200 60 H V C CNN
 F2 "" -100 -100 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tpd4s012.pdf" 200 1300 60 H I C CNN
+F3 "" 200 1300 60 H I C CNN
 F4 "0.00@0" 50 1150 60 H I C CNN "Pricing"
 F5 "0.8pF Capacitance, 480Mbps, IEC 61000-4-2 level 4 protection, ±10-kV IEC 61000-4-2 Contact Discharge, IEC 61000-4-5 - 3 Amps Peak Pulse Current" 0 1400 60 H I C CNN "Characteristics"
 F6 "4-Channel ESD Solution for USB-HS/USB OTG/USB Charger Interface" 200 1600 60 H I C CNN "Description"
 F7 "SON 6" 300 1700 60 H I C CNN "Package ID"
 F8 "Texas Instruments" 100 1500 60 H I C CNN "Manufacturer"
 DRAW
-S -200 150 200 -150 0 1 0 N
+S -200 150 200 -150 0 1 0 f
 X D+ 1 -300 100 100 R 50 50 1 1 P
 X D- 2 -300 0 100 R 50 50 1 1 P
 X ID 3 -300 -100 100 R 50 50 1 1 P
 X GND 4 300 50 100 L 50 50 1 1 W
-X N/C 5 0 -250 100 U 50 50 1 1 N N
+X N/C 5 0 -50 100 U 50 50 1 1 N N
 X VBUS 6 300 -50 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
@@ -1546,7 +1549,7 @@ DEF TPS74801DRC U 0 40 Y Y 1 F N
 F0 "U" -150 350 60 H V C CNN
 F1 "TPS74801DRC" 0 -350 60 H V C CNN
 F2 "" -150 200 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tps74801.pdf" 200 900 60 H I C CNN
+F3 "" 200 900 60 H I C CNN
 F4 "0.00@0" 150 1000 60 H I C CNN "Pricing"
 F5 "Texas Instruments" 150 600 60 H I C CNN "Manufacturer"
 F6 "TPS748 1.5-A Low-Dropout Linear Regulator With Programmable Soft-Start" 250 700 60 H I C CNN "Description"
@@ -1556,7 +1559,7 @@ $FPLIST
  *VSON*
 $ENDFPLIST
 DRAW
-S -200 300 200 -300 0 1 0 N
+S -200 300 200 -300 0 1 0 f
 X IN 1 -400 250 200 R 50 50 1 1 W
 X OUT 10 400 50 200 L 50 50 1 1 w
 X PAD 11 400 -250 200 L 50 50 1 1 W
@@ -1630,7 +1633,7 @@ DEF TUSB4041I U 0 40 Y Y 6 L N
 F0 "U" -650 600 60 H V C CNN
 F1 "TUSB4041I" 450 600 60 H V C CNN
 F2 "Housings_QFP:TQFP-64_1EP_10x10mm_Pitch0.5mm" 0 1600 60 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/tusb4041i.pdf" 0 1700 60 H I C CNN
+F3 "" 0 1700 60 H I C CNN
 F4 "0.00@0" 0 1500 60 H I C CNN "Pricing"
 F5 "Four-Port USB 2.0 Hub" -100 1900 60 H I C CNN "Description"
 F6 "Texas Instruments" -200 1800 60 H I C CNN "Manufacturer"
@@ -1642,12 +1645,12 @@ T 900 -450 0 60 0 3 0 "USB Downstream" Normal 0 C C
 T 0 0 -350 60 0 4 0 "Power Supply" Normal 0 C C
 T 0 -250 -200 60 0 5 0 "I2C and SMBus" Normal 0 C C
 T 0 0 -400 60 0 6 0 "Extra signals/Power Management" Normal 0 C C
-S -100 150 200 -150 1 0 0 N
-S -200 100 300 -100 2 0 0 N
-S 150 400 -400 -400 3 0 0 N
-S -400 300 400 -300 4 0 0 N
-S 100 150 -450 -150 5 0 0 N
-S -750 450 700 -350 6 0 0 N
+S -100 150 200 -150 1 0 0 f
+S -200 100 300 -100 2 0 0 f
+S 150 400 -400 -400 3 0 0 f
+S -400 300 400 -300 4 0 0 f
+S 100 150 -450 -150 5 0 0 f
+S -750 450 700 -350 6 0 0 f
 X GRSTz 18 -300 100 200 R 50 50 1 1 I
 X XO 29 -300 -100 200 R 50 50 1 1 O
 X XI 30 -300 0 200 R 50 50 1 1 I
@@ -1686,30 +1689,30 @@ X AUTOENz/HS_SUSPEND 13 900 300 200 L 50 50 6 1 B
 X OVERCUR1z 14 -950 400 200 R 50 50 6 1 I
 X OVERCUR2z 15 -950 300 200 R 50 50 6 1 I
 X TEST 17 900 -100 200 L 50 50 6 1 I
-X RSVD 23 -50 550 200 L 50 50 6 1 N N
-X RSVD 24 -50 450 200 L 50 50 6 1 N N
-X RSVD 26 -50 350 200 L 50 50 6 1 N N
-X RSVD 27 -50 250 200 L 50 50 6 1 N N
-X NC 28 400 550 200 L 50 50 6 1 N N
+X RSVD 23 -50 400 50 L 50 50 6 1 N N
+X RSVD 24 -50 300 50 L 50 50 6 1 N N
+X RSVD 26 -50 200 50 L 50 50 6 1 N N
+X RSVD 27 -50 100 50 L 50 50 6 1 N N
+X NC 28 -50 -300 50 L 50 50 6 1 N N
 X PWRCTL/BATEN2 3 -950 -100 200 R 50 50 6 1 B
-X RSVD 35 -50 150 200 L 50 50 6 1 N N
-X RSVD 36 -50 50 200 L 50 50 6 1 N N
-X RSVD 38 450 500 200 L 50 50 6 1 N N
-X RSVD 39 450 400 200 L 50 50 6 1 N N
+X RSVD 35 -50 -100 50 L 50 50 6 1 N N
+X RSVD 36 -400 400 50 L 50 50 6 1 N N
+X RSVD 38 -400 300 50 L 50 50 6 1 N N
+X RSVD 39 300 400 50 L 50 50 6 1 N N
 X PWRCTL/BATEN1 4 -950 0 200 R 50 50 6 1 B
-X NC 40 400 450 200 L 50 50 6 1 N N
-X RSVD 43 450 300 200 L 50 50 6 1 N N
-X RSVD 44 450 200 200 L 50 50 6 1 N N
-X RSVD 46 450 100 200 L 50 50 6 1 N N
-X RSVD 47 450 0 200 L 50 50 6 1 N N
-X RSVD 51 450 -100 200 L 50 50 6 1 N N
-X RSVD 52 450 -200 200 L 50 50 6 1 N N
-X RSVD 54 -250 250 200 L 50 50 6 1 N N
-X RSVD 55 -250 150 200 L 50 50 6 1 N N
-X RSVD 58 -250 50 200 L 50 50 6 1 N N
-X RSVD 59 -250 -50 200 L 50 50 6 1 N N
-X RSVD 61 -250 -150 200 L 50 50 6 1 N N
-X RSVD 62 -250 -250 200 L 50 50 6 1 N N
+X NC 40 -50 -200 50 L 50 50 6 1 N N
+X RSVD 43 -400 200 50 L 50 50 6 1 N N
+X RSVD 44 -400 100 50 L 50 50 6 1 N N
+X RSVD 46 -400 0 50 L 50 50 6 1 N N
+X RSVD 47 -400 -100 50 L 50 50 6 1 N N
+X RSVD 51 -400 -200 50 L 50 50 6 1 N N
+X RSVD 52 -400 -300 50 L 50 50 6 1 N N
+X RSVD 54 -50 0 50 L 50 50 6 1 N N
+X RSVD 55 300 300 50 L 50 50 6 1 N N
+X RSVD 58 300 200 50 L 50 50 6 1 N N
+X RSVD 59 300 100 50 L 50 50 6 1 N N
+X RSVD 61 300 0 50 L 50 50 6 1 N N
+X RSVD 62 300 -100 50 L 50 50 6 1 N N
 X PWRCTL/BATEN4 64 -950 -300 200 R 50 50 6 1 B
 X FULLPWRMGMTz/SMBA1 8 900 200 200 L 50 50 6 1 B
 X PWRCTL_POL 9 900 0 200 L 50 50 6 1 B

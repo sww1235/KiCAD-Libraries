@@ -10,6 +10,12 @@ D Programmable Battery Management Unit
 K Programmable Battery Management Unit
 $ENDCMP
 #
+$CMP CDCE706
+D Programmable 3-PLL Clock Synthesizer/Multiplier/Divider
+K Programmable 3-PLL Clock Synthesizer Multiplier Divider
+F https://www.ti.com/lit/ds/symlink/cdce706.pdf
+$ENDCMP
+#
 $CMP CDCI6214
 D Ultra-Low Power Clock Generator With PCIe Support, Four Programmable Outputs and EEPROM
 K Ultra Low Power Clock Generator Programmable Outputs EEPROM
@@ -37,8 +43,50 @@ D 30 V Dual Common Drain N-Channel NexFET Power MOSFET
 K Dual Common Drain N-Channel NexFET Power MOSFET
 $ENDCMP
 #
+$CMP LM1084
+D 5A Low Dropout Positive Regulators
+K 5A Low Dropout Positive Regulators
+F http://www.ti.com/lit/ds/symlink/lm1084.pdf
+$ENDCMP
+#
+$CMP LM1085
+D 3A Low Dropout Positive Regulators
+K 3A Low Dropout Positive Regulators
+F http://www.ti.com/lit/ds/symlink/lm1085.pdf
+$ENDCMP
+#
+$CMP LM13700N
+D Dual Transconductance OP Amp
+K Dual Transconductance OP Amp
+F http://www.mouser.com/ds/2/405/lm13700-452966.pdf
+$ENDCMP
+#
 $CMP LM2698_DGK_8
 F http://www.ti.com/lit/ds/symlink/lm2698.pdf
+$ENDCMP
+#
+$CMP LM27762
+D Low-Noise Positive and Negative Output Integrated Charge Pump Plus LDO
+K Low-Noise Positive and Negative Output Integrated Charge Pump Plus LDO
+F http://www.ti.com/lit/ds/symlink/lm27762.pdf
+$ENDCMP
+#
+$CMP LM2937
+D 500-mA Low Dropout Regulator, Adjustable Voltage
+K 500-mA Low Dropout Regulator, Adjustable Voltage
+F http://www.ti.com/lit/ds/symlink/lm2937.pdf
+$ENDCMP
+#
+$CMP LM2937-3V3
+D 3.3-V 500-mA Voltage Regulator
+K 3.3-V 500-mA Voltage Regulator
+F http://www.ti.com/lit/ds/symlink/lm2937-3.3.pdf
+$ENDCMP
+#
+$CMP LMZ34002
+D 15-W Negative Output, SIMPLE SWITCHER® Power Module With 4.5-V to 40-V Input
+K 15-W Negative Output, SIMPLE SWITCHER® Power Module With 4.5-V to 40-V Input
+F http://www.ti.com/lit/ds/symlink/lmz34002.pdf
 $ENDCMP
 #
 $CMP LMZM23600
@@ -47,10 +95,76 @@ K Step-Down DC/DC Power Module 36V 0.5A
 F www.ti.com/lit/ds/symlink/LMZM23600.pdf
 $ENDCMP
 #
+$CMP LP2951-33DRG4
+D Adjustable Micropower Voltage Regulator with Shutdown
+K Adjustable Micropower Voltage Regulator with Shutdown
+F http://www.ti.com/lit/ds/symlink/lp2951.pdf
+$ENDCMP
+#
+$CMP OPA1602
+D Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
+K Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
+F http://www.ti.com/lit/ds/symlink/opa1602.pdf
+$ENDCMP
+#
+$CMP OPA1604
+D Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
+K Sound Plus  High-Performance, Bipolar-Input Audio Operational Amplifier
+F http://www.ti.com/lit/ds/symlink/opa1602.pdf
+$ENDCMP
+#
 $CMP P82B96
 D I2C Compatible Dual Bidirectional Bus Buffer
 K I2C Compatible Dual Bidirectional Bus Buffer
 F http://www.ti.com/lit/ds/symlink/p82b96.pdf
+$ENDCMP
+#
+$CMP PCM1865
+D 110dB 4ch Audio ADC with Universal Front End
+K 110dB 4ch Audio ADC with Universal Front End
+F http://www.ti.com/lit/ds/symlink/pcm1863.pdf
+$ENDCMP
+#
+$CMP PCM510xA
+D 2.1 VRMS, 112/106/100 dB Audio Stereo DAC with PLL and 32-bit, 384 kHz PCM Interface
+K 2.1 VRMS, 112/106/100 dB Audio Stereo DAC with PLL and 32-bit, 384 kHz PCM Interface
+F http://www.ti.com/lit/ds/symlink/pcm5100a-q1.pdf
+$ENDCMP
+#
+$CMP RC4560
+D High-Gain, Wide-Bandwidth, Dual Operational Amplifier
+K High-Gain, Wide-Bandwidth, Dual Operational Amplifier
+F http://www.ti.com/lit/ds/symlink/rc4560.pdf
+$ENDCMP
+#
+$CMP TCA9534(A)
+D Low Voltage 8-Bit I2C and SMBUS Low-Power I/O Expander With Interrupt Output and Configuration Registers
+K Low Voltage 8-Bit I2C and SMBUS Low-Power I/O Expander With Interrupt Output and Configuration Registers
+F http://www.ti.com/lit/ds/symlink/tca9534.pdf
+$ENDCMP
+#
+$CMP TCA9548A
+D Low-Voltage 8-Channel I2C Switch with Reset
+K Low-Voltage 8-Channel I2C Switch with Reset
+F http://www.ti.com/lit/ds/symlink/tca9548a.pdf
+$ENDCMP
+#
+$CMP TCA9555
+D Low-Voltage 16-Bit I2C and SMBus I/O Expander with Interrupt Output and Configuration Registers
+K Low-Voltage 16-Bit I2C and SMBus I/O Expander with Interrupt Output and Configuration Registers
+F http://www.ti.com/lit/ds/symlink/tca9555.pdf
+$ENDCMP
+#
+$CMP TL072
+D TL072 Low-Noise JFET-Input Operational Amplifier
+K TL072 Low-Noise JFET-Input Operational Amplifier
+F http://www.mouser.com/ds/2/405/tl072-557363.pdf
+$ENDCMP
+#
+$CMP TL084
+D JFET-Input Operational Amplifier
+K JFET-Input Operational Amplifier
+F http://www.mouser.com/ds/2/405/tl084-557199.pdf
 $ENDCMP
 #
 $CMP TLV320AIC32
@@ -62,6 +176,27 @@ $CMP TLV320AIC3206
 D TLV320AIC3206 Ultra Low-Power Stereo Audio Codec
 K Ultra Low Power Stereo Audio Codec I2S
 F https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf
+$ENDCMP
+#
+$CMP TPD1E10B06
+D Single-Channel ESD Protection Diode
+K Single-Channel ESD Protection Diode
+$ENDCMP
+#
+$CMP TPD2E1B06
+D Dual-Channel High-Speed ESD Protection Device
+K Dual-Channel High-Speed ESD Protection Device
+$ENDCMP
+#
+$CMP TPD4E05U06
+D 4 Channel ESD Protection Device for Super-Speed (Up to 6 Gbps) Interface
+K 4 Channel ESD Protection Device for Super-Speed (Up to 6 Gbps) Interface
+$ENDCMP
+#
+$CMP TPD4S012
+D 4-Channel ESD Solution for USB-HS/USB OTG/USB Charger Interface
+K 4-Channel ESD Solution for USB-HS/USB OTG/USB Charger Interface
+F http://www.ti.com/lit/ds/symlink/tpd4s012.pdf
 $ENDCMP
 #
 $CMP TPD8S009
@@ -82,6 +217,23 @@ $ENDCMP
 $CMP TPS65982
 D USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
 K USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
+$ENDCMP
+#
+$CMP TPS74801DRC
+D TPS748 1.5-A Low-Dropout Linear Regulator With Programmable Soft-Start
+K TPS748 1.5-A Low-Dropout Linear Regulator With Programmable Soft-Start
+F http://www.ti.com/lit/ds/symlink/tps74801.pdf
+$ENDCMP
+#
+$CMP TS12A44514
+D Low ON-State Resistance 4-Channel SPST CMOS Analog Switch
+K Low ON-State Resistance 4-Channel SPST CMOS Analog Switch
+$ENDCMP
+#
+$CMP TUSB4041I
+D Four-Port USB 2.0 Hub
+K Four-Port USB 2.0 Hub
+F http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
 $ENDCMP
 #
 #End Doc Library
