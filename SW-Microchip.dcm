@@ -6,6 +6,18 @@ K USB 2.0 Hub and 10/100 Ethernet Controller
 F http://ww1.microchip.com/downloads/en/DeviceDoc/00002306A.pdf
 $ENDCMP
 #
+$CMP MCP1811
+D 150mA Ultra-Low Quiescent Current LDO Regulator for Long-Life Battery-Powered Applications
+K 150mA Ultra-Low Quiescent Current LDO Regulator for Long-Life Battery-Powered Applications
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1811A-11B-12A-12B-Data-Sheet-20006088B.pdf
+$ENDCMP
+#
+$CMP MCP1812
+D 300mA Ultra-Low Quiescent Current LDO Regulator for Long-Life Battery-Powered Applications
+K 300mA Ultra-Low Quiescent Current LDO Regulator for Long-Life Battery-Powered Applications
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MCP1811A-11B-12A-12B-Data-Sheet-20006088B.pdf
+$ENDCMP
+#
 $CMP MCP23017
 D 16-Bit I/O Expander with Serial Interface
 K 16-Bit I/O Expander with Serial Interface
