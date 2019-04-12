@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IP4256CZ5
+D Dual channel passive filter network with ESD protection
+K Dual channel passive filter network with ESD protection
+F https://assets.nexperia.com/documents/data-sheet/IP4256CZ3-M_CZ5-W_CZ6-F.pdf
+$ENDCMP
+#
+#End Doc Library
