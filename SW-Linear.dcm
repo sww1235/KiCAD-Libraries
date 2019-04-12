@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4412
+D Low Loss PowerPath™ Controller in ThinSOT
+K Low Loss PowerPath™ Controller
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4412fb.pdf
+$ENDCMP
+#
+#End Doc Library
