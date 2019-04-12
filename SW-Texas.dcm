@@ -33,6 +33,12 @@ D 30-V N-Channel NexFET Power MOSFET
 K 30-V N-Channel NexFET Power MOSFET
 $ENDCMP
 #
+$CMP CSD22206W
+D 8-V P-Channel NexFET™ Power MOSFET
+K transistor PMOS P-MOS P-MOSFET NexFET™ P-Channel
+F https://www.ti.com/lit/ds/symlink/csd22206w.pdf
+$ENDCMP
+#
 $CMP CSD25404Q3
 D –20 V P-Channel NexFET Power MOSFET
 K Power MOSFET P Channel
