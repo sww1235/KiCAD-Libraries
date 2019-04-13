@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP S25FL128L
+D 128-Mb (16-MB) 3.0 V FL-L Flash Memory 
+K 128-Mb (16-MB) 3.0 V FL-L Flash Memory 
+F https://www.cypress.com/file/316171/download
+$ENDCMP
+#
+#End Doc Library
