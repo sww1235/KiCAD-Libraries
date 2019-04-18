@@ -21,4 +21,10 @@ D USB Type C Female Jack
 K USB Type C Female Jack
 $ENDCMP
 #
+$CMP USB_B
+D USB Type B connector
+K connector USB
+F  ~
+$ENDCMP
+#
 #End Doc Library
