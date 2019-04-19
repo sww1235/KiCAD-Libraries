@@ -6,4 +6,22 @@ K Altera Intel FPGA Cyclone 10 LP
 F https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html
 $ENDCMP
 #
+$CMP EP5358HUI
+D 600mA PowerSoC Step-Down DC-DC Switching Converter with Integrated Inductor
+K 600mA PowerSoC Step-Down DC-DC Switching Converter with Integrated Inductor
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ep5358xui_03541.pdf
+$ENDCMP
+#
+$CMP EP5368QI
+D 600mA PowerSoC Synchronous Buck Regulator With Integrated Inductor
+K 600mA PowerSoC Synchronous Buck Regulator With Integrated Inductor
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ep5368qi_03260.pdf
+$ENDCMP
+#
+$CMP EP53A8HQI
+D 1A PowerSoC Step-Down DC-DC Switching Converter with Integrated Inductor
+K 1A PowerSoC Step-Down DC-DC Switching Converter with Integrated Inductor
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/ep53a8xqi_03651.pdf
+$ENDCMP
+#
 #End Doc Library
