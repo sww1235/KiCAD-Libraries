@@ -1,4 +1,4 @@
-(module ENPIRION_QFN16_3x3x1.1mm-0.5mm (layer F.Cu) (tedit 5CB95B0B)
+(module ENPIRION_QFN16_3x3x1.1mm-0.5mm (layer F.Cu) (tedit 5CBAB65E)
   (descr "3x3x1.1mm QFN16 footprint for Intel ENPIRION Regulators")
   (tags "Intel ENPIRION Regulators QFN16")
   (attr smd)

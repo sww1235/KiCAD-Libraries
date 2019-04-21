@@ -6,6 +6,24 @@ K Altera Intel FPGA Cyclone 10 LP
 F https://www.intel.com/content/www/us/en/programmable/products/fpga/cyclone-series/cyclone-10/cyclone-10-lp/support.html
 $ENDCMP
 #
+$CMP EN5319QI
+D 1.5A PowerSOC Step-Down DC-DC Switching Converter with Integrated Inductor
+K 1.5A PowerSOC Step-Down DC-DC Switching Converter with Integrated Inductor
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/en5319qi_08325.pdf
+$ENDCMP
+#
+$CMP EN5329QI
+D 2A PowerSOC Step-Down DC-DC Switching Converter with Integrated Inductor
+K 2A PowerSOC Step-Down DC-DC Switching Converter with Integrated Inductor
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/en5329qi_08326.pdf
+$ENDCMP
+#
+$CMP EN5339QI
+D 3A PowerSOC Step-Down DC-DC Switching Converter with Integrated Inductor
+K 3A PowerSOC Step-Down DC-DC Switching Converter with Integrated Inductor
+F https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/ds/en5339qi_06903.pdf
+$ENDCMP
+#
 $CMP EP5358HUI
 D 600mA PowerSoC Step-Down DC-DC Switching Converter with Integrated Inductor
 K 600mA PowerSoC Step-Down DC-DC Switching Converter with Integrated Inductor
