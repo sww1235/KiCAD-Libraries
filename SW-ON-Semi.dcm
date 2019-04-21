@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CAT24C16
+D 16Kb I2C Serial EEPROM
+K 16Kb I2C Serial EEPROM
+F https://www.onsemi.com/pub/collateral/CAT24C01-D.pdf
+$ENDCMP
+#
+#End Doc Library
