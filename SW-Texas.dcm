@@ -231,6 +231,12 @@ K TPS748 1.5-A Low-Dropout Linear Regulator With Programmable Soft-Start
 F http://www.ti.com/lit/ds/symlink/tps74801.pdf
 $ENDCMP
 #
+$CMP TPSM84209
+D 4.5V to 28V Input, 1.2V to 6V Output, 2.5A Power Module
+K 4.5V to 28V Input, 1.2V to 6V Output , 2.5A Power Module
+F https://www.ti.com/lit/ds/symlink/tpsm84209.pdf
+$ENDCMP
+#
 $CMP TS12A44514
 D Low ON-State Resistance 4-Channel SPST CMOS Analog Switch
 K Low ON-State Resistance 4-Channel SPST CMOS Analog Switch
