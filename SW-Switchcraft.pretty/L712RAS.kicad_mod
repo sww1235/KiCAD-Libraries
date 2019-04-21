@@ -1,4 +1,6 @@
-(module L712RAS (layer F.Cu) (tedit 581447A3)
+(module L712RAS (layer F.Cu) (tedit 5CBBBCF2)
+  (descr "Sealed Barrel Jack IP68")
+  (tags "Sealed Barrel Jack IP68")
   (fp_text reference REF** (at 3.8 7.1) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
