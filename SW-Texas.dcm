@@ -89,6 +89,12 @@ K 3.3-V 500-mA Voltage Regulator
 F http://www.ti.com/lit/ds/symlink/lm2937-3.3.pdf
 $ENDCMP
 #
+$CMP LM74610-Q1
+D Zero IQ Reverse Polarity Protection Smart Diode Controller
+K Zero IQ Reverse Polarity Protection Smart Diode Controller
+F https://www.ti.com/lit/ds/symlink/lm74610-q1.pdf
+$ENDCMP
+#
 $CMP LMZ34002
 D 15-W Negative Output, SIMPLE SWITCHER® Power Module With 4.5-V to 40-V Input
 K 15-W Negative Output, SIMPLE SWITCHER® Power Module With 4.5-V to 40-V Input
