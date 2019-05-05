@@ -1,4 +1,4 @@
-(module Q6-pins-epoxy (layer F.Cu) (tedit 5CB796B2)
+(module Q6-pins-epoxy (layer F.Cu) (tedit 5CCF325C)
   (descr "Q6 panelmount LED indicator - Epoxy backed")
   (tags "Q6 panelmount LED indicator - Epoxy backed")
   (fp_text reference REF** (at 5.75 0) (layer F.SilkS)
@@ -15,4 +15,9 @@
   )
   (pad 1 thru_hole circle (at -1.25 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 1.25 0) (size 1.3 1.3) (drill 0.7) (layers *.Cu *.Mask))
+  (model "${KISWGITHUB}/SW-IPEM-ADEC.3dshapes/Q6F2C-std 2 pins.stp"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
