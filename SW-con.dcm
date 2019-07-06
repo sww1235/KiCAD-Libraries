@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DD-78F
+D DD-78 High Density D Subminiature Connector Female
+K D Sub DSUB DD-78 High Density HD
+$ENDCMP
+#
+$CMP DD-78M
+D DD-78 High Density D Subminiature Connector Male
+K D Sub DSUB DD-78 High Density HD
+$ENDCMP
+#
 $CMP HDMI-A-connector
 D Generic HDMI Connector pinout
 K Generic HDMI Connector pinout
