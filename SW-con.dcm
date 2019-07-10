@@ -26,6 +26,11 @@ K TRS Stereo Jack
 F http://www.switchcraft.com/Drawings/35rapc__hn2_cd.pdf
 $ENDCMP
 #
+$CMP RJ45_Magnetics_100BaseTX_No_LEDS
+D RJ45 Jack with Integrated Magnetics for 10/100 Base TX No LEDs 5 cores
+K Magjack RJ45
+$ENDCMP
+#
 $CMP USB-Type-C-female
 D USB Type C Female Jack
 K USB Type C Female Jack
