@@ -1,4 +1,4 @@
-(module JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical (layer F.Cu) (tedit 5D364E89)
+(module JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical (layer F.Cu) (tedit 5D598611)
   (descr "JST PHD series connector, B12B-PHDSS (http://www.jst-mfg.com/product/pdf/eng/ePHD.pdf), generated with kicad-footprint-generator")
   (tags "connector JST PHD vertical")
   (fp_text reference REF** (at 5 -2.7) (layer F.SilkS)
@@ -55,11 +55,6 @@
   (pad 5 thru_hole circle (at 4 0) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 2 0) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask))
   (pad 1 thru_hole roundrect (at 0 0) (size 1.2 1.2) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.208333))
-  (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_PHD_B12B-PHDSS_2x06_P2.00mm_Vertical.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
   (model ${KISWGITHUB}/SW-JST.3dshapes/B12B-PHDSS.STEP
     (offset (xyz 5 -1 0))
     (scale (xyz 1 1 1))
