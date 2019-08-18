@@ -1,4 +1,4 @@
-(module ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm (layer F.Cu) (tedit 5CB95CEB)
+(module ENPIRION_QFN16_2.5x2.25x1.1mm-0.4mm (layer F.Cu) (tedit 5D59AF48)
   (descr "2.5x2.25x1.1mm QFN16 footprint for Intel ENPIRION Regulators")
   (tags "Intel ENPIRION Regulators QFN16")
   (attr smd)
@@ -33,4 +33,14 @@
   (pad 3 smd rect (at -1.175 -0.2 90) (size 0.2 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.175 -0.6 90) (size 0.2 0.55) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -1.175 -1 90) (size 0.2 0.55) (layers F.Cu F.Paste F.Mask))
+  (model ${KISWGITHUB}/SW-Intel.3dshapes/EP5358HUI.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISWGITHUB}/SW-Intel.3dshapes/EP5358HUI.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
