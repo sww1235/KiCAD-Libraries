@@ -1,4 +1,4 @@
-(module WSON-8-PAD (layer F.Cu) (tedit 58239AF2)
+(module WSON-8-PAD-2.0x2.0 (layer F.Cu) (tedit 58239AF2)
   (solder_mask_margin 0.1)
   (attr smd)
   (fp_text reference WSON-8-PAD (at 0 2.54) (layer F.SilkS)

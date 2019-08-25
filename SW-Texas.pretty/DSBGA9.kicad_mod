@@ -1,4 +1,4 @@
-(module DSBGA9 (layer F.Cu) (tedit 5CAEDA20)
+(module DSBGA9 (layer F.Cu) (tedit 5D62D993)
   (descr "9 Ball BGA 1.5mm x 1.5mm 0.5mm ball spacing (https://www.ti.com/lit/ml/mxbg027n/mxbg027n.pdf)")
   (tags "BGA FET MOSFET DSBGA YZF")
   (attr smd)
@@ -38,4 +38,9 @@
     (solder_mask_margin 0.05) (solder_paste_margin 0.05))
   (pad C3 smd circle (at 0.5 0.5) (size 0.245 0.245) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.05) (solder_paste_margin 0.05))
+  (model ${KISWGITHUB}/SW-Texas.3dshapes/DSBGA9-YZR9AHAK.step
+    (offset (xyz 0 0 -0.02))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
