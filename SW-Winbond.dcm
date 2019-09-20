@@ -1,6 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP W25Q80DVS
+$CMP W25Q80DVBYIG
+D 3V 8MBit Serial Flash Memory - Dual and Quad SPI chip scale
+K 3V 8MBit Serial Flash Memory - Dual and Quad SPI
+F https://www.winbond.com/resource-files/w25q80dv_revf_02112015.pdf
+$ENDCMP
+#
+$CMP W25Q80DVUXIE
 D 3V 8MBit Serial Flash Memory - Dual and Quad SPI
 K 3V 8MBit Serial Flash Memory - Dual and Quad SPI
 F https://www.winbond.com/resource-files/w25q80dv_revf_02112015.pdf
