@@ -49,6 +49,18 @@ D 30 V Dual Common Drain N-Channel NexFET Power MOSFET
 K Dual Common Drain N-Channel NexFET Power MOSFET
 $ENDCMP
 #
+$CMP HD3SS3212
+D USB 3.1 Two Channel Differential 2:1/1:2 10Gbps Mux/Demux Switch
+K USB 3.1 Two Channel Differential 2:1/1:2 10Gbps Mux/Demux Switch
+F http://www.ti.com/lit/ds/symlink/hd3ss3212.pdf
+$ENDCMP
+#
+$CMP HD3SS3212I
+D USB 3.1 Two Channel Differential 2:1/1:2 10Gbps Mux/Demux Switch Industrial
+K USB 3.1 Two Channel Differential 2:1/1:2 10Gbps Mux/Demux Switch Industrial
+F http://www.ti.com/lit/ds/symlink/hd3ss3212.pdf
+$ENDCMP
+#
 $CMP LM1084
 D 5A Low Dropout Positive Regulators
 K 5A Low Dropout Positive Regulators
@@ -185,7 +197,7 @@ K Stereo Audio CODEC I2S
 $ENDCMP
 #
 $CMP TLV320AIC3206
-D TLV320AIC3206 Ultra Low-Power Stereo Audio Codec
+D Ultra Low-Power Stereo Audio Codec
 K Ultra Low Power Stereo Audio Codec I2S
 F https://www.ti.com/lit/ds/symlink/tlv320aic3206.pdf
 $ENDCMP
@@ -198,6 +210,18 @@ $ENDCMP
 $CMP TPD2E1B06
 D Dual-Channel High-Speed ESD Protection Device
 K Dual-Channel High-Speed ESD Protection Device
+$ENDCMP
+#
+$CMP TPD4E02B04
+D 4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0
+K 4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0
+F http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
+$ENDCMP
+#
+$CMP TPD4E02B04_feedthrough
+D 4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0
+K 4-Channel ESD Protection Diode for USB Type-C and HDMI 2.0
+F http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf
 $ENDCMP
 #
 $CMP TPD4E05U06
@@ -221,6 +245,12 @@ D SBType-CTMPort Protector: Short-to-VBUS Overvoltage and IEC ESD Protection
 K SBType-CTMPort Protector: Short-to-VBUS Overvoltage and IEC ESD Protection
 $ENDCMP
 #
+$CMP TPS25211DRV
+D Precision Adjustable Current-Limited Power-Distribution Switches WSON
+K USB 1 Channel 
+F http://www.ti.com/lit/ds/symlink/tps25221.pdf
+$ENDCMP
+#
 $CMP TPS61090
 D SYNCHRONOUS BOOST CONVERTER WITH 2A SWITCH
 K SYNCHRONOUS BOOST CONVERTER WITH 2A SWITCH
@@ -229,6 +259,12 @@ $ENDCMP
 $CMP TPS65982
 D USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
 K USB Type-C and USB PD Controller, Power Switch, and High-Speed Multiplexer
+$ENDCMP
+#
+$CMP TPS65987DDJ
+D TPS65987DDJ USB Type-C and USB PD Controller with Integrated Power Switches
+K Power Delivery USB Type C Controller PD
+F http://www.ti.com/lit/ds/symlink/tps65987ddj.pdf
 $ENDCMP
 #
 $CMP TPS74801DRC
@@ -248,10 +284,22 @@ D Low ON-State Resistance 4-Channel SPST CMOS Analog Switch
 K Low ON-State Resistance 4-Channel SPST CMOS Analog Switch
 $ENDCMP
 #
+$CMP TS5USBC402
+D Dual 2:1 USB 2.0 Mux/DeMux or Single Ended Cross Switch with 20-V OVP
+K USB switch OVP
+F http://www.ti.com/lit/ds/symlink/ts5usbc402.pdf
+$ENDCMP
+#
 $CMP TUSB4041I
 D Four-Port USB 2.0 Hub
 K Four-Port USB 2.0 Hub
 F http://www.ti.com/lit/ds/symlink/tusb4041i.pdf
+$ENDCMP
+#
+$CMP TUSB8041
+D four port USB 3.0 Hub
+K USB3.0 hub
+F http://www.ti.com/lit/ds/symlink/tusb8041.pdf
 $ENDCMP
 #
 #End Doc Library
