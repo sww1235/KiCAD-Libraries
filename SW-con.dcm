@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Barrel_Jack_Switch_Shield
+D Shielded DC Barrel Jack with an internal switch
+K DC power barrel jack connector shield
+F ~
+$ENDCMP
+#
 $CMP DC-62F
 D DC-62 High Density D Subminiature Connector Female
 K D Sub DSUB DC-62 High Density HD
