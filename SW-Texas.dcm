@@ -61,6 +61,11 @@ K USB 3.1 Two Channel Differential 2:1/1:2 10Gbps Mux/Demux Switch Industrial
 F http://www.ti.com/lit/ds/symlink/hd3ss3212.pdf
 $ENDCMP
 #
+$CMP LM1036
+D Dual DC Operated Tone/Volume/Balance Circuit
+K Audio Control
+$ENDCMP
+#
 $CMP LM1084
 D 5A Low Dropout Positive Regulators
 K 5A Low Dropout Positive Regulators
@@ -247,7 +252,7 @@ $ENDCMP
 #
 $CMP TPS25211DRV
 D Precision Adjustable Current-Limited Power-Distribution Switches WSON
-K USB 1 Channel 
+K USB 1 Channel
 F http://www.ti.com/lit/ds/symlink/tps25221.pdf
 $ENDCMP
 #
