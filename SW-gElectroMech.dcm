@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP R_POT_US_Shielded
+D Potentiometer, US symbol
+K resistor variable
+F ~
+$ENDCMP
+#
 $CMP SPDT
 D SPST switch
 $ENDCMP
@@ -25,7 +31,7 @@ K Generic SPST Relay
 $ENDCMP
 #
 $CMP SW_SPST_RGB_LED_CC
-D Single Pole Single Throw (SPST) switch with Common Cathode RGB LED 
+D Single Pole Single Throw (SPST) switch with Common Cathode RGB LED
 K switch SPST LED OFF-ON CC RGB
 F ~
 $ENDCMP
