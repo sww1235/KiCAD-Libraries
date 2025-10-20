@@ -404,7 +404,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "26"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -422,7 +422,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "25"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -441,7 +441,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -459,7 +459,7 @@
 						)
 					)
 				)
-				(number "17"
+				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -477,7 +477,7 @@
 						)
 					)
 				)
-				(number "18"
+				(number "22"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -495,7 +495,7 @@
 						)
 					)
 				)
-				(number "19"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -551,7 +551,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -579,7 +579,7 @@
 						)
 					)
 				)
-				(number "22"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -607,7 +607,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -634,7 +634,7 @@
 						)
 					)
 				)
-				(number "24"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -661,7 +661,7 @@
 						)
 					)
 				)
-				(number "25"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -688,7 +688,7 @@
 						)
 					)
 				)
-				(number "26"
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
